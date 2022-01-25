@@ -6,10 +6,8 @@ state = {
 	state_category = three
 
 	history = {
-		owner = SRD
-		add_core_of = SRD
-		add_claim_by = SRI
-		add_claim_by = ITA
+		owner = ITA
+		add_core_of = ITA
 		victory_points = { 11773 5 } #Cagliari
 		buildings = {
 			infrastructure = 2

@@ -3,14 +3,6 @@
 oob = "QIE"
 set_naval_oob= "QIE_naval"
 
-create_faction = Qing_faction
-add_to_faction = XSM
-add_to_faction = SHX
-add_to_faction = SZC
-add_to_faction = YUN
-add_to_faction = SQI
-add_to_faction = SIK
-add_to_faction = LEP
 
 set_technology = {
 	### Infantry ###

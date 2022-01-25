@@ -184,17 +184,6 @@ set_popularities = {
 	national_populist = 2
 }
 
-create_faction = Mittelmacht
-add_to_faction = GER
-add_to_faction = BEL
-add_to_faction = LIT
-add_to_faction = BAT
-add_to_faction = WHR
-add_to_faction = UKR
-add_to_faction = MOR
-add_to_faction = MAF
-add_to_faction = GEA
-
 # Mitteleuropa
 every_country = {
 	limit = {

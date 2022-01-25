@@ -6,9 +6,10 @@ state = {
 	local_supplies = 4.0
 
 	history = {
-		owner = HUN
-		add_core_of = HUN
+		owner = ROM
+		add_core_of = ROM
 		add_core_of = TRS
+		add_core_of = HUN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -22,7 +23,7 @@ state = {
 		victory_points = {
 			9670 1
 		}
-		add_claim_by = ROM
+
 	}
 
 	provinces = {

@@ -9,9 +9,6 @@ state = {
 		owner = TUR
 		buildings = {
 			infrastructure = 2
-			3401 = {
-				naval_base = 1
-			}
 			6550 = {
 				naval_base = 1
 			}
@@ -25,7 +22,7 @@ state = {
 	}
 
 	provinces = {
-		3401 6550 8435
+		6550 8435
 	}
 }
 

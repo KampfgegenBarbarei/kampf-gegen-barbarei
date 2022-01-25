@@ -9,9 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = SRI
-		add_core_of = SRI
-		add_claim_by = ITA
+		owner = ITA
+		add_core_of = ITA
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

@@ -156,8 +156,6 @@ set_autonomy = {
 }
 
 ### Diplomacy
-create_faction = austrian_empire_faction
-remove_from_faction = ITA
 diplomatic_relation = { country = GER relation = non_aggression_pact }
 
 add_ideas = {

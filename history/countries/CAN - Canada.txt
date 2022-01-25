@@ -128,12 +128,6 @@ if = {
 
 set_research_slots = 4
 
-create_faction = Entente
-add_to_faction = NFA
-add_to_faction = RAJ
-add_to_faction = AST
-add_to_faction = SRD
-add_to_faction = SAF
 
 set_country_flag = cannot_have_conscription
 set_country_flag = KR_british_king_base

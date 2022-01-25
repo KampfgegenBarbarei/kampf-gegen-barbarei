@@ -6,7 +6,7 @@ state = {
 	local_supplies = 4.0
 
 	history = {
-		owner = CRO
+		owner = SER
 		victory_points = {
 			11564 2
 		}
@@ -20,7 +20,7 @@ state = {
 		}
 
 		add_core_of = CRO
-		add_claim_by = HUN
+		add_core_of = SER
 	}
 
 	provinces = {

@@ -6,8 +6,7 @@ state = {
 	local_supplies = 8.0
 
 	history = {
-		owner = DKB
-		add_core_of = DKB
+		owner = RUS
 		add_core_of = RUS
 		add_claim_by = TRM
 		victory_points = {
