@@ -25,7 +25,6 @@ state = {
 				naval_base = 1
 			}
 		}
-		add_core_of = ARG
 		add_core_of = FOP
 		victory_points = {
 			12351 1
