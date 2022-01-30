@@ -6,7 +6,7 @@ state = {
 	local_supplies = 6.0
 
 	history = {
-		owner = RUS
+		owner = TRM
 		buildings = {
 			infrastructure = 1
 			air_base = 1

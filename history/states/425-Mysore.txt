@@ -10,10 +10,8 @@ state = {
 	}
 
 	history = {
-		owner = PRF
-		add_core_of = PRF
-		add_claim_by = HND
-		add_claim_by = RAJ
+		owner = HND
+		add_core_of = HND
 		victory_points = { 8011 3 } #Bengalore
 		victory_points = { 4344 5 } #Mysore
 		buildings = {

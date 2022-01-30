@@ -6,6 +6,7 @@ NDefines.NWiki.BASE_URL = "https://kaiserreich.fandom.com/wiki/The_Kaiserreich_W
 -- Vanilla is "http://www.hoi4wiki.com/"
 
 -- Game
+NDefines.NGame.START_DATE = "1945.1.1.1"
 NDefines.NGame.END_DATE = "1959.1.1.1"										-- Vanilla is 1949.1.1.1
 NDefines.NGame.HANDS_OFF_START_TAG = "BHU"									-- Vanilla is URG
 NDefines.NGame.DECISION_ALERT_TIMEOUT_DAYS = 60								-- Vanilla is 30

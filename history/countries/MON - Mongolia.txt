@@ -1,4 +1,4 @@
-﻿capital = 330
+﻿capital = 1084
 OOB = "MON"
 set_research_slots = 2
 

@@ -4,8 +4,7 @@ state = {
 	name = "STATE_956"
 
 	history = {
-		owner = MAF
-		add_claim_by = MAF
+		owner = ZAM
 		add_core_of = ZAM
 		buildings = {
 			infrastructure = 1

@@ -4,9 +4,8 @@ state = {
 	manpower = 1143516
 	state_category = five
 	history = {
-		owner = LEC
-		add_claim_by = QIE
-		add_core_of = LEC
+		owner = LEP
+		add_core_of = LEP
 		add_claim_by = FNG
 		victory_points = {
 			10062 10

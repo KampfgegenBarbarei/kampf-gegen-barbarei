@@ -123,21 +123,21 @@ if = {
 
 ### Politics ###
 set_politics = {
-	ruling_party = syndicalist
+	ruling_party = paternal_autocrat
 	last_election = "1932.5.1"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	totalist = 12
 	radical_socialist = 28
-	syndicalist = 52
+	syndicalist = 22
 	social_democrat = 6
 	social_liberal = 2
 	market_liberal = 0
 	social_conservative = 0
 	authoritarian_democrat = 0
-	paternal_autocrat = 0
+	paternal_autocrat = 30
 	national_populist = 0
 }
 add_ideas = {

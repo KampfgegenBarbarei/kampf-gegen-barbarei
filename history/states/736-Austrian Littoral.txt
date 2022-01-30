@@ -8,6 +8,7 @@ state = {
 		owner = GER
 		add_core_of = AUS
 		add_core_of = GER
+		add_claim_by = SER
 		victory_points = {
 			11735 5
 		}

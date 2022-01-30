@@ -5,10 +5,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = ARG
-		set_demilitarized_zone = yes
-		add_core_of = ARG
-		add_claim_by = FOP
+		owner = FOP
+		add_core_of = FOP
 		buildings = {
 			infrastructure = 1
 		}

@@ -8,7 +8,6 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = FOP
-		add_claim_by = ARG
 		victory_points = {
 			13219 3
 		}

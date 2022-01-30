@@ -3,10 +3,11 @@ state = {
 	name = "STATE_278" # Pampas
 	manpower = 6255600
 
-	state_category = eight
+	state_category = nine
 
 	history = {
-		owner = ARG
+		owner = FOP	
+		add_core_of = FOP
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
@@ -25,7 +26,6 @@ state = {
 				naval_base = 1
 			}
 		}
-		add_core_of = FOP
 		victory_points = {
 			12351 1
 		}

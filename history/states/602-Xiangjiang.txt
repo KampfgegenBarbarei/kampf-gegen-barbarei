@@ -11,10 +11,10 @@ state = { #Xiangjiang
 	}
 
 	history = {
-		owner = LEP
+		owner = SZC
 		add_core_of = HNN
+		add_core_of = SZC
 		add_claim_by = LEP
-		add_claim_by = QIE
 		add_claim_by = FNG
 		buildings = {
 			infrastructure = 1

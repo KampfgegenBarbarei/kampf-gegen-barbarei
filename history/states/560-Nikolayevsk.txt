@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = RUS
+		owner = TRM
 		buildings = {
 			infrastructure = 1
 			12559 = {

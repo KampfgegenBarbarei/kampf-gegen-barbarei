@@ -3,8 +3,7 @@ state = {
 	name = "STATE_665"
 
 	history = {
-		owner = NFA
-		add_claim_by = NFA
+		owner = TUN
 		add_core_of = TUN
 		buildings = {
 			infrastructure = 2

@@ -9,9 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = QIE
-		add_core_of = QIE
-		add_claim_by = FNG
+		owner = FNG
+		add_core_of = FNG
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

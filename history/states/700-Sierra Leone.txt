@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = NFA
+		owner = SIE
 		add_core_of = SIE
 		victory_points = {
 			2038 1 #Freistadt/Freetown

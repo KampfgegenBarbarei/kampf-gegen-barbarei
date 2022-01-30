@@ -1,0 +1,29 @@
+
+state={
+	id=330
+	name="STATE_330"
+
+	history={
+		owner = FNG
+		
+		victory_points = {
+			10578 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = MON
+		add_claim_by = QIE
+		add_core_of = FNG
+
+	}
+
+	provinces={
+		1743 1868 4792 4862 4873 7823 7885 10575 10578 10647 10708 12533 12557 12629 12665 
+	}
+	manpower=285760
+	buildings_max_level_factor=1.000
+	state_category=three
+	local_supplies=0.000
+}

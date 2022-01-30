@@ -1,0 +1,43 @@
+
+state={
+	id=1084
+	name="STATE_1084"
+	
+	resources={
+		steel=2.000
+		chromium=3.000
+	}
+
+	history={
+		owner = MON
+		add_core_of = MON
+		add_claim_by = QIE
+		add_claim_by = FNG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		victory_points = {
+			7799 1 
+		}
+		victory_points = {
+			12520 1 
+		}
+		victory_points = {
+			1834 1 
+		}
+		victory_points = {
+			4801 5 
+		}
+	}
+
+	provinces={
+		1689 1723 1725 1728 1774 1781 1787 1791 1798 1834 1853 1855 1859 4655 4697 4729 4732 4751 4777 4786 4801 4856 4858 4882 7676 7717 7749 7752 7773 7799 7806 7808 7843 7864 7870 7881 10539 10554 10558 10560 10563 10623 10632 10634 10669 10689 10695 10704 12520 12539 12541 12544 12579 12605 12612 12614 12649 12669 12675 12686 12695 
+	}
+	manpower=492870
+	state_category=four
+	local_supplies=0.000
+}

@@ -6,8 +6,7 @@ state = {
 	local_supplies = 0.5
 
 	history = {
-		owner = NFA
-		add_claim_by = NFA
+		owner = IVO
 		add_core_of = IVO
 		victory_points = {
 			10762 1 #Sassandra

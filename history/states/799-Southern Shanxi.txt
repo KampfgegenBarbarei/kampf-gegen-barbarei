@@ -6,8 +6,7 @@ state = {
 	state_category = two
 
 	history = {
-		owner = QIE
-		add_core_of = QIE
+		owner = SHX
 		add_claim_by = FNG
 		add_claim_by = SHX
 

@@ -5,8 +5,8 @@ state = {
 	manpower = 20900
 
 	history = {
-		owner = USA
-		add_core_of = USA
+		owner = JAP
+		add_claim_by = CSA
 		add_claim_by = JAP
 		victory_points = {
 			12140 1

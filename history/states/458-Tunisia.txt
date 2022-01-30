@@ -8,8 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = NFA
-		add_claim_by = NFA
+		owner = TUN
 		add_core_of = TUN
 		victory_points = {	#Tunis
 			11969 20

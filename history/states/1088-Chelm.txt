@@ -1,24 +1,28 @@
-state = {
-	id = 1088
-	name = "STATE_1088"
-	manpower = 798988
-	state_category = three
 
-	history = {
+state={
+	id=1088
+	name="STATE_1088"
+
+	history={
 		owner = POL
 		add_core_of = POL
 		add_claim_by = UKR
 		victory_points = {
-			9452 2
+			9452 2 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
+
 	}
 
-	provinces = {
-		6580 9452 11399 11466
+	provinces={
+		6580 9452 9494 11399 11466 
 	}
+	manpower=798988
+	buildings_max_level_factor=1.000
+	state_category=three
+	local_supplies=0.000
 }
-

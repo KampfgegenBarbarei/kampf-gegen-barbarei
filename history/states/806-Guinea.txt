@@ -6,8 +6,7 @@ state = {
 	local_supplies = 1.0
 
 	history = {
-		owner = NFA
-		add_claim_by = NFA
+		owner = GNA
 		add_core_of = GNA
 		victory_points = {
 			1909 1 #Conakry
