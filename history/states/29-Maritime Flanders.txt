@@ -7,7 +7,6 @@ state = {
 	history = {
 		owner = BEL
 		add_core_of = BEL
-		add_core_of = FRA
 		victory_points = {
 			575 1 #Dunkirk
 		}

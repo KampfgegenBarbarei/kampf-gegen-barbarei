@@ -1,4 +1,4 @@
-﻿capital = 219
+﻿capital = 195
 set_convoys = 60
 set_stability = 0
 set_war_support = 0

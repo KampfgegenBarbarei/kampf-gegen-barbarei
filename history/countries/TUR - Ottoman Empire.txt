@@ -234,16 +234,8 @@ set_autonomy = {
 	autonomy_state = kr_ottoman_emirate
 }
 set_autonomy = {
-	target = LBA
-	autonomy_state = kr_ottoman_emirate
-}
-set_autonomy = {
 	target = JBS
 	autonomy_state = kr_ottoman_emirate
-}
-set_autonomy = {
-	target = PAL
-	autonomy_state = kr_ottoman_international_zone
 }
 
 add_ai_strategy = {

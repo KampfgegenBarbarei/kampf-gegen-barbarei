@@ -29,15 +29,6 @@ if = {
 }
 
 set_war_support = 0.15
-set_cosmetic_tag = ALO_autonomy
-
-RUS = {
-	set_autonomy = {
-		target = ALO
-		autonomy_state = kr_autonomous_puppet
-		freedom_level = 0.75
-	}
-}
 
 set_politics = {
 	ruling_party = social_conservative

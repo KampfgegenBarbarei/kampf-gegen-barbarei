@@ -14,6 +14,7 @@ state = {
 		owner = TRM
 		add_core_of = RUS
 		add_core_of = TRM
+		add_core_of = SOV
 		victory_points = {
 			10583 1 #Bodaybo
 		}

@@ -6,7 +6,7 @@ state = {
 	state_category = seven
 
 	history = {
-		owner = CAN
+		owner = CSA
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2

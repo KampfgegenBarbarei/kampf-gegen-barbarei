@@ -5,14 +5,14 @@ state = {
 	state_category = five
 
 	history = {
-		owner = CAN
+		owner = CSA
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
+			industrial_complex = 1
 			4285 = {
 				naval_base = 2
 			}
-			arms_factory = 2
+			arms_factory = 1
 		}
 		victory_points = {
 			12289 2

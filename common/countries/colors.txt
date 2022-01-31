@@ -11,8 +11,8 @@ ALB = {
 	color_ui = rgb { 194 59 133 }
 }
 ALG = {
-	color = rgb { 230 225 110 }
-	color_ui = rgb { 230 225 110 }
+	color = rgb { 230 25 10 }
+	color_ui = rgb { 230 25 10 }
 }
 ALO = {
 	color = rgb { 2 132 178 }
@@ -263,8 +263,8 @@ ECU = {
 	color_ui = rgb { 255 255 158 }
 }
 EGY = {
-	color = rgb { 188 190 42 }
-	color_ui = rgb { 188 190 42 }
+	color = rgb { 140 0 0 }
+	color_ui = rgb { 140 0 0 }
 }
 ELS = {
 	color = rgb { 96 154 151 }
@@ -455,8 +455,8 @@ IRQ = {
 	color_ui = rgb { 21 28 97 }
 }
 ITA = {
-	color = rgb { 59 148 65 }
-	color_ui = rgb { 74 186 82 }
+	color = rgb { 12 174 7 }
+	color_ui = rgb { 12 174 7 }
 }
 JBS = {
 	color = rgb { 255 204 45 }
@@ -911,8 +911,8 @@ TRI = {
 	color_ui = rgb { 218 26 15 }
 }
 TRM = {
-	color = rgb { 235 246 247 }
-	color_ui = rgb { 235 246 247 }
+	color = rgb { 38 146 90 }
+	color_ui = rgb { 38 146 90 }
 }
 TRP = {
 	color = rgb { 0 153 0 }

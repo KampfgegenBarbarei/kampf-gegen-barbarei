@@ -6,7 +6,6 @@ state = {
 	history = {
 		owner = NIC
 		add_core_of = NIC
-		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

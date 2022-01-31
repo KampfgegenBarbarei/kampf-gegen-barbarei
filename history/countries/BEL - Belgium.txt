@@ -5,7 +5,6 @@ set_research_slots = 3
 set_stability = 0.40
 set_war_support = 0.20
 set_convoys = 30
-set_cosmetic_tag = BEL_flanders_wallonia
 starting_train_buffer = 1
 
 set_technology = {

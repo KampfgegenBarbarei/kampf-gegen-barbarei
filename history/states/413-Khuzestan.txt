@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = TUR
+		owner = XXA
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

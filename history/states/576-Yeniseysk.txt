@@ -6,12 +6,13 @@ state = {
 	local_supplies = 5.0
 
 	history = {
-		owner = RUS
+		owner = SIB
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = RUS
-		add_claim_by = TRM
+		add_core_of = SIB
+		add_core_of = SOV
 		victory_points = {
 			12595 1
 		}
