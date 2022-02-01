@@ -5,9 +5,8 @@ state = { #Chongqing
 	state_category = four
 
 	history = {
-		owner = SZC
-		add_core_of = SZC
-		add_claim_by = QIE
+		owner = CHI
+		add_core_of = CHI
 		add_claim_by = FNG
 		buildings = {
 			infrastructure = 1

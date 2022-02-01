@@ -93,9 +93,12 @@ if = {
 
 set_research_slots = 3
 
-country_event = { id = ukraine.1 days = 2 }
-country_event = { id = ukraine.76 days = 40 }
-country_event = { id = ukraine.77 days = 190 }
+GER = {
+	set_autonomy = {
+		target = UKR
+		autonomy_state = kr_oststaat
+	}
+}
 
 set_politics = {
 	ruling_party = authoritarian_democrat
@@ -117,55 +120,9 @@ set_popularities = {
 	national_populist = 15
 }
 
-add_ideas = {
-	Hetman_army
-	language_issue
-	UKR_Pavlo_Skoropadsky_hog_pau
-	UKR_Dmitri_Doroshenko_for_npo
-	UKR_Andrey_Livytskyi_eco_ade
-	UKR_Igor_Kistyakovsky_sec_ade
-}
+
 
 ### Country Leaders ###
-recruit_character = UKR_wilhelm_franz_von_habsburg
-recruit_character = UKR_leo_stefan_von_habsburg
-recruit_character = UKR_danylo_skoropadskyi
-
-recruit_character = UKR_yurii_lapchynsky
-recruit_character = UKR_oleksander_shumsky
-recruit_character = UKR_volodymyr_vynnychenko
-recruit_character = UKR_symon_petliura
-recruit_character = UKR_dmitri_doroshenko
-recruit_character = UKR_boris_martos
-recruit_character = UKR_mikhail_bulgakov
 recruit_character = UKR_pavlo_skoropadskyi
-recruit_character = UKR_dmytro_dontsov
 
-### Field Marshals ###
-recruit_character = UKR_konstantin_prisovsky
 
-### Generals ###
-recruit_character = UKR_yevhen_konovalets
-recruit_character = UKR_hnat_stefaniv
-recruit_character = UKR_andriy_melnyk
-recruit_character = UKR_mykhailo_omelianovych_pavlenko
-recruit_character = UKR_mykola_kapustyanskyi
-recruit_character = UKR_ivan_poltavets_ostrianytsia
-
-### Admirals ###
-recruit_character = UKR_andriy_pokrovsky
-recruit_character = UKR_sviatoslav_shramchenko
-
-### Event Targets ###
-random_character = {
-	limit = { is_character = UKR_wilhelm_franz_von_habsburg }
-	save_global_event_target_as = UKR_wilhelm_franz_von_habsburg_target
-}
-random_character = {
-	limit = { is_character = UKR_leo_stefan_von_habsburg }
-	save_global_event_target_as = UKR_leo_stefan_von_habsburg_target
-}
-random_character = {
-	limit = { is_character = UKR_danylo_skoropadskyi }
-	save_global_event_target_as = UKR_danylo_skoropadskyi_target
-}

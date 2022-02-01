@@ -9,6 +9,7 @@ state = {
 		owner = LEP
 		add_core_of = LEP
 		add_claim_by = FNG
+		add_claim_by = CHI
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

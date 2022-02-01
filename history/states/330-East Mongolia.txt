@@ -4,7 +4,7 @@ state={
 	name="STATE_330"
 
 	history={
-		owner = FNG
+		owner = TAN
 		
 		victory_points = {
 			10578 1 
@@ -14,8 +14,9 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = MON
-		add_claim_by = QIE
-		add_core_of = FNG
+		add_core_of = TAN
+		add_claim_by = CHI
+		add_claim_by = FNG
 
 	}
 

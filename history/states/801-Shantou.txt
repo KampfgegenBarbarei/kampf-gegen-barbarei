@@ -12,6 +12,7 @@ state = { # Shantou
 		owner = LEP
 		add_core_of = LEP
 		add_claim_by = FNG
+		add_claim_by = CHI
 		victory_points = {
 			9938 1
 		}

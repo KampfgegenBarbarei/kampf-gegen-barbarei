@@ -8,6 +8,7 @@ state = { #Tianjin
 	history = {
 		owner = FNG
 		add_core_of = FNG
+		add_claim_by = CHI
 		victory_points = {
 			10068 20
 		}

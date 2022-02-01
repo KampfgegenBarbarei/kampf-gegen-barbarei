@@ -8,9 +8,9 @@ state = { #Guilin
 	}
 
 	history = {
-		owner = SZC
+		owner = CHI
 		add_core_of = GXC
-		add_core_of = SZC
+		add_core_of = CHI
 		add_claim_by = LEP
 		add_core_of = GXC
 		add_claim_by = FNG

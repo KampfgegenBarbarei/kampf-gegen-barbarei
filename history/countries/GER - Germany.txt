@@ -6,22 +6,6 @@ set_convoys = 400
 set_stability = 0.6
 starting_train_buffer = 2
 
-add_ideas = {
-	GER_victors_of_wwi
-	GER_quenched_militarism
-	GER_imperial_pride
-
-	limited_conscription
-
-	GER_Franz_von_Papen_hog_sco
-	GER_Friedrich_Werner_von_der_Schulenburg_for_ade
-	GER_Hjalmar_Schacht_eco_mli
-	GER_Johann_von_Bernstorff_sec_ade
-
-	GER_August_Von_Mackensen_carm_pau
-	GER_Hans_von_Seeckt_cos_pau
-}
-
 ### Starting Technologies ###
 
 set_technology = {
@@ -146,7 +130,6 @@ if = {
 	}
 }
 
-POL = { give_military_access = GER }
 GEO = { give_military_access = GER }
 AZR = { give_military_access = GER }
 TUR = { give_military_access = GER }
@@ -212,125 +195,8 @@ every_country = {
 	GER_add_to_mitteleuropa = yes
 }
 
-country_event = { id = gerdom.1 hours = 2 } #Introduction Event
-country_event = { id = mittel.43 days = 90 } #The Kenyatta-Solf Affair
-news_event = { id = gerfla.1 days = 238 } #Sedanday
-country_event = { id = gerdom.2 days = 360 } #Hans von Seeckt dies
-news_event = { id = gerfla.2 days = 400 } #Trans-pacific flight
-country_event = { id = gerfla.6 days = 525 } # Ludendorff dies
-country_event = { id = gerfla.7 days = 540 }  # Michaelis dies
-country_event = { id = sprc.256 days = 720 random_hours = 3840 } #Peace with Andorra
-country_event = { id = gerdom.106 days = 731 random_days = 75 } #Further increasing our internal security
-country_event = { id = gerdom.43 days = 896 } #Relations with Italy
-country_event = { id = literature.15 days = 952 } #Tintin and the Blue Lotus
-news_event = { id = gerfla.3 days = 1218 } #Wilhelm Groener dies
-country_event = { id = gerdom.62 days = 1255 } #Hoffmann vs Richthofen
-country_event = { id = gerdom.40 days = 1354 } #The first SPD Reichskanzler is dead!
-country_event = { id = gerdom.41 days = 1354 } #Otto Wels dies
-country_event = { id = gerdom.63 days = 1374 } #Johann von Bernstorff dies
-country_event = { id = gerdom.4700 days = 1981 } #Death of Wilhelm II
-country_event = { id = gerdom.64 days = 2908 } #Ludwig von Reuter dies
-country_event = { id = gerdom.49 days = 3566 } #Reichskanzler Vogel dies
-country_event = { id = gerdom.65 days = 3665 } #Wilhelm Souchon dies
-country_event = { id = gerdom.66 days = 4408 } #Georg Bruchmüller dies
-MAF = {
-	country_event = { id = gerdom.4700 days = 1981 } #Death of Wilhelm II
-	country_event = { id = gerdom.64 days = 2908 } #Ludwig von Reuter dies
-}
 
-# End WK2 AI boosts
-country_event = { id = ai_events.302 days = 2558 }
-FRA = { country_event = { id = ai_events.302 days = 2558 } }
-ENG = { country_event = { id = ai_events.302 days = 2558 } }
-RUS = { country_event = { id = ai_events.302 days = 2558 } }
-SOV = { country_event = { id = ai_events.302 days = 2558 } }
-AUS = { country_event = { id = ai_events.302 days = 2558 } }
 
-### Country Leaders ###
-recruit_character = GER_wilhelm_ii #order matters - first one takes precedence
-recruit_character = GER_wilhelm_iii
-
-recruit_character = GER_ernst_thalmann
-recruit_character = GER_rudolf_rocker
-recruit_character = GER_wilhelm_pieck
-recruit_character = GER_kurt_schumacher
-recruit_character = GER_erich_kochweser
-recruit_character = GER_gustav_krupp
-recruit_character = GER_heinrich_bruning
-recruit_character = GER_franz_von_papen
-recruit_character = GER_erwin_von_witzleben
-recruit_character = GER_heinrich_class
-
-### Field Marshals ###
-recruit_character = GER_gerd_von_rundstedt
-recruit_character = GER_rupprecht_von_bayern
-recruit_character = GER_august_von_mackensen
-
-### Generals ###
-recruit_character = GER_erich_von_manstein
-recruit_character = GER_heinz_guderian
-recruit_character = GER_walter_model
-recruit_character = GER_werner_von_blomberg
-recruit_character = GER_gunther_von_kluge
-recruit_character = GER_wilhelm_ritter_von_leeb
-recruit_character = GER_albert_kesselring
-recruit_character = GER_eberhard_von_mackensen
-recruit_character = GER_eduard_dietl
-recruit_character = GER_erich_hoepner
-recruit_character = GER_ewald_von_kleist
-recruit_character = GER_fedor_von_bock
-recruit_character = GER_friedrich_paulus
-recruit_character = GER_georg_von_kuchler
-recruit_character = GER_franz_halder
-recruit_character = GER_gotthard_heinrici
-recruit_character = GER_hermann_hoth
-recruit_character = GER_franz_von_bayern
-recruit_character = GER_curt_haase
-recruit_character = GER_walther_von_reichenau
-
-### Admirals ###
-recruit_character = GER_karl_donitz
-recruit_character = GER_erich_raeder
-recruit_character = GER_lothar_von_arnauld_de_la_periere
-recruit_character = GER_alfred_saalwachter
-recruit_character = GER_hermann_boehm
-recruit_character = GER_wilhelm_marschall
-recruit_character = GER_ludwig_von_reuter
-recruit_character = GER_wilhelm_souchon
-recruit_character = GER_max_valentiner
-recruit_character = GER_rolf_carls
-recruit_character = GER_gunther_lutjens
-recruit_character = GER_bernhard_rogge
-
-### Character Flags ###
-every_character = {
-	limit = {
-		can_be_country_leader = yes
-		NOT = {
-			is_character = GER_wilhelm_ii
-			is_character = GER_wilhelm_iii
-		}
-	}
-	set_character_flag = GER_republican_leader
-}
-
-### Event Targets ###
-random_character = {
-	limit = { is_character = GER_wilhelm_ii }
-	save_global_event_target_as = GER_wilhelm_ii_target
-}
-random_character = {
-	limit = { is_character = GER_wilhelm_iii }
-	save_global_event_target_as = GER_wilhelm_iii_target
-}
-random_character = {
-	limit = { is_character = GER_rupprecht_von_bayern }
-	save_global_event_target_as = GER_rupprecht_von_bayern_target
-}
-random_character = {
-	limit = { is_character = GER_franz_von_bayern }
-	save_global_event_target_as = GER_franz_von_bayern_target
-}
 
 if = {
 	limit = { has_dlc = "La Resistance" }
@@ -366,3 +232,6 @@ if = {
 		nationalities = { GER }
 	}
 }
+
+### Country Leaders ###
+recruit_character = GER_wilhelm_iii

@@ -6,7 +6,7 @@ state = { # Wenzhou
 
 	history = {
 		owner = LEP
-		add_claim_by = QIE
+		add_claim_by = CHI
 		add_claim_by = FNG
 
 		victory_points = {

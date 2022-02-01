@@ -12,6 +12,7 @@ state = { #Jindong/Eastern Shanxi
 		owner = SHX
 		add_core_of = SHX
 		add_claim_by = FNG
+		add_claim_by = CHI
 		buildings = {
 			infrastructure = 1
 		}

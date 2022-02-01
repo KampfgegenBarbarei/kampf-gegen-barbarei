@@ -6,6 +6,7 @@ state={
 	history={
 		owner = FNG
 		add_core_of = FNG
+		add_claim_by = CHI
 		buildings = {
 			infrastructure = 1
 			952 = {

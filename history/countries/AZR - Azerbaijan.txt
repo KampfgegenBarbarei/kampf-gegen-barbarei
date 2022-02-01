@@ -11,13 +11,6 @@ set_technology = {
 	tech_engineers = 1
 }
 
-add_ideas = {
-	AZR_Nasib_Yusifbeyli_hog_sco
-	AZR_Mammad_Yusif_Jafarov_for_sco
-	AZR_Abdulali_bey_Amirjanov_eco_sco
-	AZR_Behbud_Khan_Javanshir_sec_sco
-}
-
 set_politics = {
 	ruling_party = social_conservative
 	last_election = "1933.11.16"
@@ -37,19 +30,5 @@ set_popularities = {
 	national_populist = 0
 }
 
-### Country Leaders ###
-recruit_character = AZR_mir_jafar_baghirov
-recruit_character = AZR_aliheydar_garayev
-recruit_character = AZR_alsan_bey_sefikurdski
-recruit_character = AZR_javad_bey_malikyaganov
-recruit_character = AZR_yevsey_gindes
-recruit_character = AZR_behbud_khan_javanshir
-recruit_character = AZR_mammad_yusif_jafarov
-recruit_character = AZR_aliagha_shikhlinski
-recruit_character = AZR_eldar_salmanov
 
-### Generals ###
-recruit_character = AZR_qara_qarabeyov
-recruit_character = AZR_habib_bey_salimov
-recruit_character = AZR_jamshid_nakhchivanski
 

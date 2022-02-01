@@ -9,9 +9,9 @@ state = {
 	}
 
 	history = {
-		owner = SZC
+		owner = CHI
 		add_core_of = YUN
-		add_core_of = SZC
+		add_core_of = CHI
 		add_claim_by = FNG
 		buildings = {
 			infrastructure = 1

@@ -3,10 +3,10 @@ state = { #Chenyuan
 	name = "STATE_1013"
 
 	history = {
-		owner = SZC
+		owner = CHI
 		add_claim_by = LEP
 		add_core_of = HNN
-		add_core_of = SZC
+		add_core_of = CHI
 		add_claim_by = FNG
 		buildings = {
 			infrastructure = 1

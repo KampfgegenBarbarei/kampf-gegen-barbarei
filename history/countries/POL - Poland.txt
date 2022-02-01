@@ -48,6 +48,13 @@ if = {
 }
 
 ### Government ###
+GER = {
+	set_autonomy = {
+		target = POL
+		autonomy_state = kr_oststaat
+	}
+}
+
 set_politics = {
 	ruling_party = authoritarian_democrat
 	last_election = "1933.1.18"
@@ -66,6 +73,7 @@ set_popularities = {
 	paternal_autocrat = 13
 	national_populist = 10
 }
+
 
 ### Ideas ###
 add_ideas = {
@@ -118,8 +126,6 @@ set_country_flag = Kazys_Musteikis_dead
 set_country_flag = Jurgis_Terleckas_dead
 
 ### Country Leaders ###
-recruit_character = POL_regency_council
-recruit_character = POL_augustyn_jozef_czartoryski
 recruit_character = POL_august_wilhelm_von_hohenzollern
 
 recruit_character = POL_feliks_dzierzynski

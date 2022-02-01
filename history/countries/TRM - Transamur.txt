@@ -126,27 +126,3 @@ set_popularities = {
 	paternal_autocrat = 47
 	national_populist = 2
 }
-
-### Country Leaders ###
-recruit_character = TRM_aleksandr_krasnoshchyokov
-recruit_character = TRM_boris_shumyatsky
-recruit_character = TRM_victor_pepelyaev
-recruit_character = TRM_spiridon_merkulov
-recruit_character = TRM_oi_shigemoto
-recruit_character = TRM_grigory_semyonov
-recruit_character = TRM_aleksandr_kolchak
-recruit_character = TRM_sergey_wojciechowski
-
-### Field Marshals ###
-recruit_character = TRM_anatoly_pepelyaev
-
-### Corps Commanders ###
-recruit_character = TRM_sergey_baranovsky
-recruit_character = TRM_mikhail_khanzhin
-recruit_character = TRM_dmitry_semyonov
-recruit_character = TRM_vladimir_tolstov
-recruit_character = TRM_leonid_skipetrov
-recruit_character = TRM_vasily_boldyrev
-
-### Admirals ###
-recruit_character = TRM_georgiy_stark
