@@ -1,0 +1,33 @@
+state={
+	id=1094
+	name="STATE_1094"
+	resources={
+		rubber=200.000
+	}
+
+	history={
+		owner = GEA
+		add_core_of = GEA
+		add_core_of = MAL
+		victory_points = {
+			7427 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+			7427 = {
+				naval_base = 2
+
+			}
+		}
+	}
+
+	provinces={
+		4412 7427 
+	}
+	manpower=275010
+	buildings_max_level_factor=1.000
+	state_category=two
+	local_supplies=0.000
+}

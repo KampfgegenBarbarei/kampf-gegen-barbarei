@@ -8,8 +8,8 @@ state = { #Gansu
 	history = {
 		owner = XSM
 		add_core_of = XSM
-		add_claim_by = FNG
 		add_claim_by = CHI
+		add_claim_by = FNG
 		victory_points = {
 			1630 5
 		}
@@ -20,9 +20,6 @@ state = { #Gansu
 			infrastructure = 1
 			arms_factory = 1
 			air_base = 1
-		}
-		1938.10.25 = {
-			owner = CHI
 		}
 	}
 

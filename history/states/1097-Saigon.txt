@@ -1,0 +1,33 @@
+state={
+	id=1097
+	name="STATE_1097"
+	provinces={
+		4401 
+	}
+
+	history={
+		owner = GEA
+		add_core_of = GEA
+		add_core_of = VIN
+		victory_points = {
+			4401 15 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			4401 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+	manpower=1130000
+	buildings_max_level_factor=1.000
+	state_category=five
+	local_supplies=1.000
+}

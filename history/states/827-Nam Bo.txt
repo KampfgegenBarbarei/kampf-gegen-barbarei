@@ -1,0 +1,41 @@
+
+state={
+	id=827
+	name="STATE_827"
+	resources={
+		chromium=13.000
+		rubber=5.000
+	}
+
+	history={
+		owner = GEA
+		add_core_of = GEA
+		add_core_of = VIN
+		victory_points = {
+			4379 3 
+		}
+		victory_points = {
+			4405 1 
+		}
+		victory_points = {
+			1605 1 
+		}
+		buildings = {
+			infrastructure = 1
+			10162 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1248 1285 1300 1328 1400 1605 4255 4334 4363 4379 4405 7229 7271 7380 10137 10162 10180 10309 12109 12204 
+	}
+	manpower=2100000
+	buildings_max_level_factor=1.000
+	state_category=two
+	local_supplies=0.000
+}

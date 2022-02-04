@@ -1,0 +1,29 @@
+state={
+	id=1095
+	name="STATE_1095"
+	resources={
+		rubber=115.000
+		steel=3.000
+		tungsten=35.000
+	}
+	history={
+		owner = GEA
+		add_core_of = GEA
+		add_core_of = MAL
+		victory_points = {
+			12255 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		1392 4384 8155 12255 
+	}
+	manpower=538274
+	buildings_max_level_factor=1.000
+	state_category=two
+	local_supplies=0.000
+}

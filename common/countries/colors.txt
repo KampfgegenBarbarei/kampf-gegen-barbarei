@@ -130,6 +130,10 @@ BRT = {
 	color = rgb { 254 72 25 }
 	color_ui = rgb { 254 72 25 }
 }
+BRU = {
+	color = rgb { 179 239 112 }
+	color_ui = rgb { 179 239 112 }
+}
 BRM = {
 	color = rgb { 71 100 10 }
 	color_ui = rgb { 71 100 10 }
@@ -147,8 +151,8 @@ PSA = {
 	color_ui = rgb { 255 255 122 }
 }
 CAM = {
-	color = rgb { 0 0 255 }
-	color_ui = rgb { 0 0 255 }
+	color = rgb { 136 126 201 }
+	color_ui = rgb { 136 126 201 }
 }
 CAN = {
 	color = rgb { 119 48 39 }
@@ -511,8 +515,8 @@ TRK = {
 	color_ui = rgb { 240 240 0 }
 }
 LAO = {
-	color = rgb { 255 0 0 }
-	color_ui = rgb { 255 0 0 }
+	color = rgb { 196 74 74 }
+	color_ui = rgb { 196 74 74 }
 }
 LAT = {
 	color = rgb { 75 77 186 }
@@ -579,8 +583,8 @@ MLW = {
 	color_ui = rgb { 255 204 0 }
 }
 MAL = {
-	color = rgb { 255 40 95 }
-	color_ui = rgb { 255 40 95 }
+	color = rgb { 67 33 91 }
+	color_ui = rgb { 67 33 91 }
 }
 KEN = {
 	color = rgb { 169 54 54 }
@@ -822,6 +826,10 @@ SIK = {
 	color = rgb { 110 138 201 }
 	color_ui = rgb { 110 138 201 }
 }
+SIN = {
+	color = rgb { 255 200 255 }
+	color_ui = rgb { 255 200 255 }
+}
 SLV = {
 	color = rgb { 15 102 252 }
 	color_ui = rgb { 15 102 252 }
@@ -971,8 +979,8 @@ VEN = {
 	color_ui = rgb { 249 146 98 }
 }
 VIN = {
-	color = rgb { 149 99 11 }
-	color_ui = rgb { 149 99 1 }
+	color = rgb { 235 233 162 }
+	color_ui = rgb { 235 233 162 }
 }
 VNC = {
 	color = rgb { 179 11 0 }

@@ -6,6 +6,7 @@ state = {
 		owner = GEA
 		add_core_of = GEA
 		add_core_of = MAL
+		add_core_of = SIN
 		victory_points = {
 			12299 25 # Singapore
 		}

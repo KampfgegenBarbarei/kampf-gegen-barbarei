@@ -1,0 +1,165 @@
+###########################
+# Deutsch-Ostasien Events
+###########################
+
+add_namespace = Ostasien
+
+country_event = { #Debug decolonisation event
+	id = Ostasien.999
+	immediate = { log = "[GetDateText]: [Root.GetName]: event Ostasien.999 FROM = [From.GetName]" }
+	title = Ostasien.999.t
+	desc = Ostasien.999.d
+	picture = GFX_report_event_SIA_German_Economical_Dominance
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = GEA_decolonise
+	}
+
+	option = { #socialist indochina
+		name = Ostasien.999.a
+		INC = { 
+			transfer_state = 286
+			transfer_state = 671
+			transfer_state = 827 
+			transfer_state = 856
+			transfer_state = 857
+			transfer_state = 1097
+			transfer_state = 1098
+			transfer_state = 1099
+			transfer_state = 670
+			transfer_state = 1100
+			transfer_state = 826
+			every_state = {
+				limit = {
+					is_owned_by = INC
+				}
+				add_core_of = INC
+			}
+		}
+	}
+
+	option = { #puppet indochina kingdoms
+		name = Ostasien.999.b
+		VIN = { 
+			transfer_state = 286
+			transfer_state = 671
+			transfer_state = 827 
+			transfer_state = 856
+			transfer_state = 857
+			transfer_state = 1097
+			transfer_state = 1098
+			transfer_state = 1099
+		}
+		LAO = { 
+			transfer_state = 670
+			transfer_state = 1100
+		}
+		CAM = { 
+			transfer_state = 826
+		}
+	}
+
+	option = { #malayan revolution
+		name = Ostasien.999.c
+		SIN = { 
+			transfer_state = 336
+		}
+		MAL = { 
+			transfer_state = 846
+			transfer_state = 1092 
+			transfer_state = 1093
+			transfer_state = 1094
+			transfer_state = 1095
+			transfer_state = 1096
+			set_cosmetic_tag = MAL_socialist
+		}
+		BRU = { 
+			transfer_state = 1091
+		}
+		SAR = { 
+			transfer_state = 333
+			transfer_state = 828
+		}
+	}
+
+	option = { #malaysia
+		name = Ostasien.999.d
+		MAL = { 
+			transfer_state = 336
+			transfer_state = 846
+			transfer_state = 1092 
+			transfer_state = 1093
+			transfer_state = 1094
+			transfer_state = 1095
+			transfer_state = 1096
+			transfer_state = 333
+			transfer_state = 828
+			every_state = {
+				limit = {
+					is_owned_by = MAL
+				}
+				add_core_of = MAL
+			}
+			set_cosmetic_tag = MAL_malaysia
+		}
+		BRU = { 
+			transfer_state = 1091
+		}
+	}
+
+	option = { #reset
+		name = Ostasien.999.e
+		GEA = {
+			transfer_state = 336
+			transfer_state = 846
+			transfer_state = 1092 
+			transfer_state = 1093
+			transfer_state = 1094
+			transfer_state = 1095
+			transfer_state = 1096
+			transfer_state = 1091
+			transfer_state = 333
+			transfer_state = 828
+			transfer_state = 286
+			transfer_state = 671
+			transfer_state = 827 
+			transfer_state = 856
+			transfer_state = 857
+			transfer_state = 1097
+			transfer_state = 1098
+			transfer_state = 1099
+			transfer_state = 670
+			transfer_state = 1100
+			transfer_state = 826
+			transfer_state = 757
+			transfer_state = 737
+			transfer_state = 634
+			transfer_state = 734
+			transfer_state = 635
+			transfer_state = 641
+			transfer_state = 941
+			transfer_state = 744
+			transfer_state = 996
+			transfer_state = 728
+		}
+
+		MAL = {
+			set_cosmetic_tag = MAL_malaya
+			333 = {
+				remove_core_of = MAL
+			}
+			828 = {
+				remove_core_of = MAL
+			}
+		}
+
+		INC = {
+			every_state = {
+				limit = { is_core_of = INC }
+				remove_core_of = INC
+			}
+		}
+	}
+}

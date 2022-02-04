@@ -11,7 +11,7 @@ state = {
 	history = {
 		owner = SIA
 		add_core_of = SIA
-		add_core_of = MAL
+		add_claim_by = MAL
 		#victory_points = {
 		#	12131 1 # Pattani - 3
 		#}

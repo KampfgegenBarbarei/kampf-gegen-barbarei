@@ -1,10 +1,10 @@
 bookmarks = {
 	bookmark = {
-		name = "KR_SCENARIO_NAME"
-		desc = "KR_SCENARIO_DESC"
-		date = 1936.1.1.1
+		name = "SCENARIO_NAME"
+		desc = "SCENARIO_DESC"
+		date = 1945.1.1.1
 		picture = "GFX_select_date_1936"
-		default_country = "USA"
+		default_country = "CSA"
 		default = yes
 
 	### MAJORS
@@ -35,9 +35,9 @@ bookmarks = {
 			ideology = authoritarian_democrat
 		}
 
-		"FNG" = {
-			history = "FNG"
-			ideology = authoritarian_democrat
+		"CHI" = {
+			history = "CHI"
+			ideology = radical_socialist
 		}
 
 		"RUS" = {

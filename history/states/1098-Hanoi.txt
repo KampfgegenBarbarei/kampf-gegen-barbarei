@@ -1,0 +1,28 @@
+state={
+	id=1098
+	name="STATE_1098"
+	history={
+		owner = GEA
+		add_core_of = GEA
+		add_core_of = VIN
+		victory_points = {
+			4075 15 
+		}
+		buildings = {
+			industrial_complex = 1
+			arms_factory = 1
+			infrastructure = 3
+			air_base = 1
+			}
+
+		}
+
+
+	provinces={
+		4075 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=four
+	local_supplies=1.000
+}

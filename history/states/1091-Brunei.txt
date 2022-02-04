@@ -1,0 +1,32 @@
+state={
+	id=1091
+	name="STATE_1091"	
+	manpower = 40650
+	state_category = one
+
+	resources = {
+		rubber = 10
+		oil = 5
+	}
+
+	history = {
+		owner = GEA
+		add_core_of = GEA
+		add_core_of = BRU
+		victory_points = {
+			7371 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			7371 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		7371 7387 
+	}
+	local_supplies=0.000
+}

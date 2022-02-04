@@ -1,0 +1,25 @@
+state={
+	id=1100
+	name="STATE_1100"
+
+	history={
+		owner = GEA
+		add_core_of = GEA
+		add_core_of = LAO
+		victory_points = {
+			1563 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		1362 1374 1390 1520 1563 1577 4260 4539 4554 7426 10195 10238 10326 10453 12210 
+	}
+	manpower=342000
+	buildings_max_level_factor=1.000
+	state_category=one
+	local_supplies=0.000
+}
