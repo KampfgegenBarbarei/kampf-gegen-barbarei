@@ -1,5 +1,4 @@
 ﻿capital = 91
-oob = "GAL"
 set_research_slots = 3
 set_stability = 0.60
 set_war_support = 0.1
@@ -61,26 +60,3 @@ set_popularities = {
 	national_populist = 1
 }
 
-add_ideas = {
-	GAL_Alfred_Potocki_hog_ade
-	GAL_Jerzy_Potocki_for_ade
-	GAL_Eugeniusz_Kwiatkowski_eco_ade
-	GAL_Kazimierz_Kumaniecki_sec_sco
-}
-
-### Country Leaders ###
-recruit_character = AUS_karl_albrecht_von_habsburg
-
-### Generals ###
-recruit_character = GAL_stanislaw_szeptycki
-recruit_character = GAL_franciszek_kleeberg
-recruit_character = GAL_tadeusz_kutrzeba
-recruit_character = GAL_wladyslaw_sikorski
-recruit_character = GAL_dmytro_vitovsky
-
-### Event Targets ###
-random_character = {
-	limit = { is_character = AUS_karl_albrecht_von_habsburg }
-	set_character_flag = AUS_habsburg
-	save_global_event_target_as = AUS_karl_albrecht_von_habsburg_target
-}

@@ -5,7 +5,7 @@ set_research_slots = 3
 set_war_support = 0.3
 set_convoys = 60
 starting_train_buffer = 1
-set_country_flag = cannot_have_conscription
+set_cosmetic_tag = AST_australia
 
 set_technology = {
 	### General ###
@@ -111,30 +111,6 @@ if = {
 	}
 }
 
-add_ideas = {
-	AST_William_M_Hughes_hog_ade
-	AST_Vernon_AH_Sturdee_for_ade
-	AST_James_Mitchell_eco_ade
-	AST_Thomas_W_White_sec_ade
-
-	#starting modifiers
-	AST_oversized_fleet
-	AST_depression_1
-	AST_bled_dry
-	AST_anzac_spirit_1
-}
-
-country_event = { id = austral.1 days = 1 } # Intro event
-country_event = { id = austral.9 days = 12 } # Australasia Day
-country_event = { id = austral.6 days = 15 } # Victoria forest fires
-country_event = { id = austral.4 days = 45 } # Jack Lang readmitted to the Labour Party
-country_event = { id = austral.5 days = 53 } # New Guard intro
-country_event = { id = austral.8 days = 100 } # Ion Idriess' 'The Cattle King'
-country_event = { id = austral.40 days = 270 } # VFM Finals
-country_event = { id = austral.307 days = 631 random_days = 360 } #Death of David Murray Anderson
-country_event = { id = austral.254 days = 755 } # Day of Mourning
-country_event = { id = austral.255 days = 884 } # Farmers request emu culling
-country_event = { id = austral.39 days = 1821 } # 40k Horsemen
 
 set_politics = {
 	ruling_party = authoritarian_democrat
@@ -156,90 +132,6 @@ set_popularities = {
 	national_populist = 6
 }
 
-### Country Leaders ###
-recruit_character = AST_william_birdwood
-recruit_character = AST_alexander_hore_ruthven
 
-recruit_character = AST_john_bramwell_miles
-recruit_character = AST_lance_sharkey
-recruit_character = AST_fred_paterson
-recruit_character = AST_elsie_farrely
-recruit_character = AST_john_anderson
-recruit_character = AST_john_garden
-recruit_character = AST_john_curtin
-recruit_character = AST_joseph_chifley
-recruit_character = NZL_peter_fraser
-recruit_character = AST_jack_lang
-recruit_character = AST_earle_page
-recruit_character = AST_arthur_fadden
-recruit_character = AST_stanley_bruce
-recruit_character = NZL_sidney_holland
-recruit_character = AST_robert_menzies
-recruit_character = AST_billy_hughes
-recruit_character = AST_percy_stephensen
-recruit_character = AST_eric_campbell
-recruit_character = AST_charles_vyner_brooke
 
-### Field Marshals ###
-recruit_character = AST_thomas_blamey
-recruit_character = AST_brudenell_white
-
-### Generals ###
-recruit_character = AST_john_lavarack
-recruit_character = AST_george_alan_vasey
-recruit_character = AST_horace_robertson
-recruit_character = AST_iven_mackay
-recruit_character = AST_john_northcott
-recruit_character = AST_leslie_morshead
-recruit_character = AST_frank_berryman
-recruit_character = AST_john_clarebrough
-recruit_character = AST_thomas_fannell
-
-recruit_character = NZL_bernard_freyberg
-recruit_character = NZL_william_george_stevens
-
-### Admirals ###
-recruit_character = AST_ragnar_colvin
-recruit_character = AST_john_collins
-recruit_character = AST_guy_royle
-recruit_character = AST_john_gregory_crace
-
-### Characters Recruited by Effect ###
-AST_john_clarebrough = { set_nationality = XXA }
-AST_thomas_fannell = { set_nationality = XXA }
-
-### Event Targets ###
-random_character = {
-	limit = { is_character = AST_thomas_blamey }
-	save_global_event_target_as = AST_thomas_blamey_target
-}
-random_character = {
-	limit = { is_character = NZL_bernard_freyberg }
-	save_global_event_target_as = NZL_bernard_freyberg_target
-}
-
-if = {
-	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = "Nancy Wake"
-		GFX = GFX_portrait_kr_nancy_wake
-		traits = {
-			operative_escape_artist
-		}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { NZL AST }
-	}
-	create_operative_leader = {
-		name = "Dick Ellis"
-		GFX = GFX_portrait_kr_dick_ellis
-		traits = {
-			operative_linguist
-		}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { AST }
-	}
-}
 

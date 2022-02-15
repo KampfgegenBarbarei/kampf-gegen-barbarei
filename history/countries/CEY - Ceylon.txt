@@ -26,19 +26,3 @@ set_popularities = {
 	national_populist = 8
 }
 
-### Country Leaders ###
-recruit_character = CEY_sugiswara_abeywardena_wickramasinghe
-recruit_character = CEY_nanayakkarapathirage_martin_perera
-recruit_character = CEY_philip_gunawardena
-recruit_character = CEY_alexander_ekanayake_gunasinha
-recruit_character = CEY_solomon_west_ridgeway_dias_bandaranaike
-recruit_character = CEY_edward_walter_perera
-recruit_character = CEY_don_stephen_senanayake
-recruit_character = CEY_tikiri_banda_nugawela
-
-### Generals ###
-recruit_character = CEY_robert_burton_leslie
-recruit_character = CEY_john_lionel_kotelawala
-
-### Admirals ###
-recruit_character = CEY_willoughby_greaves_beauchamp

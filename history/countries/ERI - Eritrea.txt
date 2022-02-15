@@ -66,11 +66,4 @@ set_popularities = {
 	national_populist = 3
 }
 
-add_ideas = {
-	ERI_Negga_Haile_Selassie_hog_pau
-	ERI_Knzmaa_Berhzanu_Hmdyn_for_sco
-	ERI_Andom_Tesfazion_eco_sco
-	ERI_Abdulkader_Kebire_sec_sco
-}
 
-recruit_character = ERI_wolde_mondelli_selassie

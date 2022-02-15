@@ -29,6 +29,3 @@ set_popularities = {
 	paternal_autocrat = 47
 	national_populist = 12
 }
-
-recruit_character = CVG_sergio_frusoni
-recruit_character = CVG_martinho_nobre_de_melo

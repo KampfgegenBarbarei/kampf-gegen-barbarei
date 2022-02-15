@@ -232,6 +232,3 @@ if = {
 		nationalities = { GER }
 	}
 }
-
-### Country Leaders ###
-recruit_character = GER_wilhelm_iii

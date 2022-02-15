@@ -5,7 +5,6 @@
 # It doesn't play normally at all, for example it doesn't get annexation events
 ###############
 
-capital = 413
 set_research_slots = 1
 
 set_popularities = {

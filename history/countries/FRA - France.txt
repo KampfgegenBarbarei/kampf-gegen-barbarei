@@ -140,81 +140,10 @@ set_popularities = {
 	paternal_autocrat = 30
 	national_populist = 0
 }
-add_ideas = {
-	#Ideas
-	FRA_communard_spirit
-
-	#Cabinet
-	FRA_Marceau_Pivert_hog_syn
-	FRA_Pierre_Brossolette_for_syn
-	FRA_Pierre_Monatte_eco_syn
-	FRA_Charles_Rappoport_sec_syn
-}
-
-### Events ###
-country_event = { id = comfrance.1 days = 1 }
-country_event = { id = comfrance.5 days = 14 }
-country_event = { id = comfrance.28 days = 77 }
-country_event = { id = iwo.23 days = 90 }
-country_event = { id = comfrance.163 days = 121 }
-country_event = { id = comfrance.161 days = 194 }
-country_event = { id = comfrance.164 days = 963 }
-#country_event = { id = uob.363 days = 345 }
-country_event = { id = literature.10 days = 3468 random = 2160 }
-country_event = { id = comfrance.155 days = 3712 random = 192 }
-country_event = { id = comfrance.156 days = 5538 random = 192 }
-
-### Diplomacy ###
 
 
-### Country Leaders ###
-recruit_character = FRA_marcel_deat
-recruit_character = FRA_marcel_cachin
-recruit_character = FRA_georges_valois
-recruit_character = FRA_sebastien_faure
-recruit_character = FRA_leon_jouhaux
-recruit_character = FRA_benoit_frachon
-recruit_character = FRA_jacques_doriot
-recruit_character = FRA_vincent_auriol
-recruit_character = FRA_conseil_de_defense_federal
 
-### Field Marshals ###
-recruit_character = FRA_maurice_gamelin
-recruit_character = FRA_georges_catroux
 
-### Generals ###
-recruit_character = FRA_gaston_billotte
-recruit_character = FRA_charles_delestraint
-recruit_character = FRA_marie_pierre_koenig
-recruit_character = FRA_ernest_petit
-recruit_character = FRA_henri_tanguy
-recruit_character = FRA_rene_olry
-recruit_character = FRA_diego_brosset
-recruit_character = FRA_raoul_magrin_vernerey
-recruit_character = FRA_joseph_putz
-recruit_character = FRA_andre_marty
-recruit_character = FRA_georges_blanchard
-recruit_character = FRA_clement_blanc
-recruit_character = FRA_paul_legentilhomme
-recruit_character = FRA_henri_frenay
-recruit_character = FRA_louis_buisson
-recruit_character = FRA_jacques_sadoul
-recruit_character = FRA_nestor_makhno
-
-random_character = {
-	limit = { is_character = FRA_nestor_makhno }
-	save_global_event_target_as = FRA_nestor_makhno_target
-	set_nationality = FOP
-}
-
-### Admirals ###
-recruit_character = FRA_francois_darlan
-recruit_character = FRA_raoul_castex
-recruit_character = FRA_andre_georges_lemmonier
-recruit_character = FRA_gabriel_auphan
-recruit_character = FRA_philippe_auboyneau
-recruit_character = FRA_marcel_gensoul
-recruit_character = FRA_edouard_peisson
 
 if = {
 	limit = { has_dlc = "La Resistance" }

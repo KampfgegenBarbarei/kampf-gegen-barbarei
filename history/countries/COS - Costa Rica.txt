@@ -68,66 +68,7 @@ set_popularities = {
 	national_populist = 0
 }
 
-country_event = { #Intro to CS
-	id = cos.1
-	hours = 2
-}
-country_event = {
-	id = cos.2 #Nomination of the Republican Candidate
-	days = 17
-}
-country_event = {
-	id = cos.5 #Black Monday hits the ZKG
-	days = 52
-}
-country_event = {
-	id = cos.16 #German Cruiser Schleswig docks in Costa Rica
-	days = 283
-}
-country_event = {
-	id = cos.123 #"Mamita Yunai"
-	days = 1159
-}
-country_event = {
-	id = cafla.18 days = 258
-}
 
-add_ideas = {
-	disarmed_nation
-	free_trade
-	CEN_monroe_doctrine
-	COS_beacon_democracy
-	COS_labour_conflicts
-	COS_Leon_Cortes_Castro_hog_sco
-	COS_Juan_Rafael_Arias_Borilla_for_sco
-	COS_Julio_Acosta_Garcia_eco_sco
-	COS_Edgar_Cardona_sec_sco
-}
 
-activate_targeted_decision = { decision = CEN_unite_central_america target = THIS }
 
-### Country Leaders ###
-recruit_character = COS_manuel_mora_valverde
-recruit_character = COS_rafael_angel_calderon_guardia
-recruit_character = COS_teodoro_picado_michalski
-recruit_character = COS_ricardo_jimenez_oreamuno
-recruit_character = COS_leon_cortes_castro
-recruit_character = COS_consejo_de_seguridad_nacional
 
-### Generals ###
-recruit_character = COS_jose_figueres_ferrer
-recruit_character = COS_fernando_figuls_quiros
-
-### Event Targets ###
-random_character = {
-	limit = { is_character = COS_rafael_angel_calderon_guardia }
-	save_global_event_target_as = COS_rafael_angel_calderon_guardia_target
-}
-random_character = {
-	limit = { is_character = COS_jose_figueres_ferrer }
-	save_global_event_target_as = COS_jose_figueres_ferrer_target
-}
-random_character = {
-	limit = { is_character = COS_fernando_figuls_quiros }
-	save_global_event_target_as = COS_fernando_figuls_quiros_target
-}

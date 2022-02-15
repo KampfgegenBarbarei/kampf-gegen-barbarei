@@ -1,28 +1,31 @@
-state = {
-	id = 83
-	name = "STATE_83"
-	manpower = 632900
 
-	state_category = three
+state={
+	id=83
+	name="STATE_83"
 
-	history = {
+	history={
 		owner = ROM
 		add_core_of = ROM
 		add_core_of = TRS
 		buildings = {
 			infrastructure = 2
+
 		}
 		victory_points = {
-			3696 5
+			3696 5 
 		}
 		victory_points = {
-			6682 2
+			6682 2 
 		}
 		add_claim_by = HUN
+
 	}
 
-	provinces = {
-		696 713 746 3696 3709 6682 6697 9640 9687 9704 10104
+	provinces={
+		696 746 3709 9640 9687 9704 
 	}
+	manpower=632900
+	buildings_max_level_factor=1.000
+	state_category=three
+	local_supplies=0.000
 }
-

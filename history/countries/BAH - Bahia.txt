@@ -89,9 +89,3 @@ set_popularities = {
 	paternal_autocrat = 5
 	national_populist = 12
 }
-
-recruit_character = BAH_carlos_marighella
-recruit_character = BAH_aliomar_baleeiro
-recruit_character = BAH_luis_viana_filho
-recruit_character = BAH_jurandir_bizarria_mamede
-recruit_character = BAH_artur_neiva

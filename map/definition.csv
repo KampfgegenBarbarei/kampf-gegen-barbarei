@@ -10267,7 +10267,7 @@
 10266;132;144;19;land;false;jungle;6
 10267;132;144;169;land;true;marsh;6
 10268;132;144;224;land;false;desert;6
-10269;132;147;84;land;false;mountain;6
+10269;132;147;84;land;true;mountain;6
 10270;132;147;134;land;false;hills;8
 10271;132;147;189;land;true;forest;2
 10272;132;150;49;land;true;jungle;6

@@ -29,38 +29,4 @@ set_popularities = {
 set_stability = 0.25
 set_war_support = 0.5
 
-add_ideas = {
-	extensive_conscription
-	isolation
-	ETS_amateur_bureaucrats
-	ETS_Sabit_Damulla_Abdulbaki_hog_pau
-	ETS_Tawfiq_Bay_for_pau
-	ETS_Yunus_Hajji_eco_pau
-	ETS_Ismail_Khan_Khoja_sec_pau
-}
 
-set_variable = { ETS_fledgling_military_army_morale_factor = -0.2 }
-set_variable = { ETS_fledgling_military_army_org_factor = -0.1 }
-set_variable = { ETS_fledgling_military_planning_speed = -0.2 }
-set_variable = { ETS_fledgling_military_max_planning = -0.5 }
-set_variable = { ETS_fledgling_military_army_attack_factor = -0.2 }
-set_variable = { ETS_fledgling_military_army_defence_factor = -0.2 }
-set_variable = { ETS_fledgling_military_recon_factor = -0.2 }
-
-# Country Leaders #
-recruit_character = ETS_ishaq_bey
-recruit_character = ETS_isa_alptekin
-recruit_character = ETS_timur_beg
-recruit_character = ETS_sabit_damulla_abdulbaki
-recruit_character = ETS_muhammad_amin_bughra
-recruit_character = ETS_masud_sabri
-# Corps Commanders #
-recruit_character = ETS_abdullah_bughra
-recruit_character = ETS_nur_ahmadjan_bughra
-
-country_event = { id = ets.0 days = 1 }
-
-random_character = {
-	limit = { is_character = ETS_abdullah_bughra }
-	save_global_event_target_as = ETS_abdullah_bughra_target
-}

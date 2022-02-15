@@ -1,25 +1,28 @@
-state = {
-	id = 769
-	name = "STATE_769"
-	manpower = 182500
 
-	state_category = two
+state={
+	id=769
+	name="STATE_769"
 
-	history = {
+	history={
 		owner = BUL
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
+
 		}
 		add_core_of = BUL
 		add_claim_by = GRE
 		victory_points = {
-			9930 1
+			9930 1 
 		}
+
 	}
 
-	provinces = {
-		9930 9791 6990
+	provinces={
+		3526 6990 9791 9930 
 	}
+	manpower=182500
+	buildings_max_level_factor=1.000
+	state_category=two
+	local_supplies=0.000
 }
-

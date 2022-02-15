@@ -41,18 +41,8 @@ if = {
 	}
 }
 
-add_ideas = {
-	ALB_polarised_nation_idea
-	ALB_illiteracy
-	ALB_Ahmet_Zogu_hog_sco
-	ALB_Pandeli_Evangjeli_for_sco
-	ALB_Myfid_Libohova_eco_sco
-	ALB_Muharrem_Bajraktari_sec_sco
-}
 
 set_war_support = 0.1
-
-country_event = { id = albania.1 days = 1 } #Intro event
 
 set_politics = {
 	ruling_party = social_conservative
@@ -73,25 +63,3 @@ set_popularities = {
 	paternal_autocrat = 2
 	national_populist = 3
 }
-
-### Country Leaders ###
-recruit_character = ALB_enver_hoxha
-recruit_character = ALB_ali_kelmendi
-recruit_character = ALB_avni_rrustemi
-recruit_character = ALB_fan_noli
-recruit_character = ALB_xhafer_ypi
-recruit_character = ALB_shefqet_verlaci
-recruit_character = ALB_ahmet_zogu
-recruit_character = ALB_luigj_bumci
-recruit_character = ALB_eshref_frasheri
-recruit_character = ALB_midhat_frasheri
-
-recruit_character = ALB_wilhelm_zu_wied
-
-### Field Marshals ###
-recruit_character = ALB_prenk_pervizi
-
-### Generals ###
-recruit_character = ALB_muharrem_bajraktari
-recruit_character = ALB_elez_isufi
-recruit_character = ALB_azem_galica

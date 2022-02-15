@@ -129,8 +129,6 @@ set_convoys = 150
 set_stability = 0.45
 set_war_support = 0.3
 
-country_event = { id = Ostasien.0 days = 1 }
-
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1930.11.9"
@@ -151,37 +149,3 @@ set_popularities = {
 	national_populist = 5
 }
 
-add_ideas = {
-	GEA_colonial_question
-	GEA_admirality
-	free_trade
-	GEA_Paul_Koenig_hog_pau
-	GEA_Rudolph_Firle_for_pau
-	GEA_Wilhelm_Heinrich_Solf_eco_pau
-	GEA_Charles_August_Polack_sec_pau
-	GEA_AOG_bonus_idea
-	GEA_Protecting_GER_interest
-}
-
-add_dynamic_modifier = { modifier = GEA_AOG_BONUS }
-set_variable = { GEA_AOG_CITIES = -0.12 }
-set_variable = { GEA_AOG_CITIES_NUMBER = 4 }
-
-### Country Leader
-recruit_character = GEA_hellmuth_von_muecke
-recruit_character = GEA_felix_von_luckner
-
-### Field Marshals ###
-### Corps Commanders ### -
-recruit_character = GEA_prinz_josias_zu_waldeck_und_pyrmont
-recruit_character = GEA_friedrich_von_kessinger
-recruit_character = GEA_hermann_voigt_ruscheweyh
-recruit_character = GEA_erwin_rommel
-recruit_character = GEA_dietrich_von_saucken
-recruit_character = GEA_fritz_sachsse
-recruit_character = GEA_fritz_bayerlein
-
-### Admirals ###
-recruit_character = GEA_otto_ciliax
-recruit_character = GEA_rudolph_firle
-recruit_character = GEA_gunther_plueschow

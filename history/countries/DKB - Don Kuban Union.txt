@@ -53,15 +53,7 @@ if = {
 set_research_slots = 3
 set_war_support = 0.4
 
-GER = { give_guarantee = DKB }
-add_offsite_building = { type = arms_factory level = 2 }
-add_offsite_building = { type = industrial_complex level = 4 }
 
-country_event = { id = dkb.1 days = 1 }
-country_event = { id = dkb.2 days = 36 }
-country_event = { id = dkb.7 days = 105 random_days = 10 }
-country_event = { id = dkb.6 days = 150 random_days = 10 }
-country_event = { id = dkb.8 days = 288 random_days = 10 }
 
 set_politics = {
 	ruling_party = authoritarian_democrat
@@ -85,12 +77,3 @@ set_popularities = {
 
 set_convoys = 20
 
-add_ideas = {
-	DKB_Mikhail_N_Grabbe_hog_ade
-	DKB_Alexander_P_Filimonov_for_ade
-	DKB_Vasiliyy_N_Ivanis_eco_ade
-	DKB_Grigoriy_Y_Kislov_sec_ade
-}
-
-recruit_character = DKB_pyotr_krasnov
-recruit_character = DKB_andrey_shkuro

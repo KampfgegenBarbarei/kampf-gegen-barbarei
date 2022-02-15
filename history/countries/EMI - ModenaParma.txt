@@ -25,20 +25,3 @@ set_popularities = {
 	national_populist = 10
 }
 
-add_ideas = {
-	EMI_Carlo_Pignatti_Morano_di_Custoza_hog_ade
-	EMI_Mario_Roatta_for_ade
-	EMI_Carlo_Pezzati_eco_ade
-	EMI_Giuseppe_Boriani_sec_ade
-}
-
-# Country Leaders
-recruit_character = EMI_giuseppe_castagnetti
-recruit_character = EMI_odoardo_focherini
-recruit_character = EMI_enzo_ferrari
-recruit_character = EMI_roberto_este
-recruit_character = EMI_mario_roatta
-recruit_character = EMI_elia_borbone
-# Army Officers
-recruit_character = EMI_giuseppe_boriani
-recruit_character = EMI_bruno_malaguti

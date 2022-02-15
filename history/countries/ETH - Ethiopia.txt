@@ -16,9 +16,6 @@ set_technology = {
 	early_fighter = 1
 }
 
-country_event = { id = ethiopia.1 days = 1 }
-country_event = { id = ethiopia.8 days = 585 }
-
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1888.6.15"
@@ -39,23 +36,5 @@ set_popularities = {
 	national_populist = 1
 }
 
-add_ideas = {
-	ETH_Bedjironde_Tekle_Hawariate_hog_ade
-	ETH_Hailu_Tekle_Haymanot_for_pau
-	ETH_Kassa_Haile_Darge_eco_pau
-	ETH_Akalework_Habte_Wold_sec_ade
 
-	ETH_Debt_idea_1
-	ETH_Aristocratic_Army
-	ETH_Slavery_idea
-	ETH_Levy_Army
-}
 
-### Country Leaders ###
-recruit_character = ETH_haile_selassie
-
-### Generals ###
-recruit_character = ETH_mulugeta_yeggazu
-recruit_character = ETH_abebe_aregai
-recruit_character = ETH_kassa_haile_darge
-recruit_character = ETH_hailu_tekle_haymanot

@@ -279,8 +279,8 @@ GEO_TCU = {
 }
 
 EGY_khedivate = {
-	color = rgb { 140 0 0 }
-	color_ui = rgb { 140 0 0 }
+	color = rgb { 140 30 30 }
+	color_ui = rgb { 140 30 30 }
 }
 
 IRQ_federation = {

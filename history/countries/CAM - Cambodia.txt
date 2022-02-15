@@ -57,30 +57,3 @@ set_popularities = {
 	national_populist = 2
 }
 
-add_ideas = {
-	CAM_Sisowath_Sirik_Matak_hog_ade
-	CAM_Phan_Sina_for_sco
-	CAM_Sisowath_Monireth_eco_sli
-	CAM_Sakiwat_Phirun_sec_ade
-}
-
-### Country events
-country_event = { id = khmer_dom.1011 days = 1940 } # Death of Sisowath Monivong - 1941.4.23
-country_event = { id = khmer_dom.1012 days = 8860 } # Death of Norodom Suramarit - 1960.4.3
-
-### Leaders Choice ###
-
-#create_country_leader = { # Siamese Puppet
-#	name = "Chau Ponhea Khuang Apheithipess"
-#	desc = "POLITICS_KHUANG_APHAIWONG_DESC"
-#	picture = "gfx/leaders/SIA/Portrait_Siam_Khuang_Aphaiwong.png"
-#	expire = "1968.3.15"
-#	ideology = authoritarian_democrat_subtype
-#}
-
-recruit_character = CAM_norodom_sihanouk
-recruit_character = CAM_norodom_suramarit
-recruit_character = CAM_sisowath_monireth
-recruit_character = CAM_sisowath_monivong
-
-recruit_character = CAM_tou_samouth

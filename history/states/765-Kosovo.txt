@@ -1,29 +1,27 @@
-state = {
-	id = 765
-	name = "STATE_765"
-	manpower = 570000
-	state_category = four
 
-	resources = {
-		chromium = 7
+state={
+	id=765
+	name="STATE_765"
+	resources={
+		chromium=7.000
 	}
 
-	history = {
+	history={
 		owner = SER
-
 		buildings = {
-			infrastructure = 2
-		}
+			infrastructure = 1
 
+		}
 		add_core_of = SER
 		add_core_of = ALB
-		victory_points = {
-			9874 3
-		}
+
 	}
 
-	provinces = {
-		9849 6940 9874
+	provinces={
+		6940 
 	}
+	manpower=260000
+	buildings_max_level_factor=1.000
+	state_category=two
+	local_supplies=0.000
 }
-

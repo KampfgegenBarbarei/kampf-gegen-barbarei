@@ -1,16 +1,13 @@
-state = {
-	id = 772
-	name = "STATE_772" # Dobrudzha
-	manpower = 559910
 
+state={
+	id=772
+	name="STATE_772"
 
-	state_category = four
-
-	history = {
+	history={
 		owner = BUL
-
-		victory_points = { 9635 5 }
-
+		victory_points = {
+			9635 5 
+		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -18,18 +15,23 @@ state = {
 			air_base = 3
 			9635 = {
 				naval_base = 1
-			}
-		}
 
+			}
+
+		}
 		add_claim_by = BUL
 		add_core_of = ROM
 		start_resistance = yes
 		set_resistance = 7
 		set_compliance = 45
+
 	}
 
-	provinces = {
-		657 687 3076 9635
+	provinces={
+		687 3076 9635 
 	}
+	manpower=559910
+	buildings_max_level_factor=1.000
+	state_category=four
+	local_supplies=0.000
 }
-

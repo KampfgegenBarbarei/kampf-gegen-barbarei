@@ -9,8 +9,6 @@ state = {
 	history = {
 		owner = ITA
 		add_core_of = ITA
-		add_claim_by = SRI
-		add_claim_by = ITA
 		victory_points = {
 			6831 1
 		}

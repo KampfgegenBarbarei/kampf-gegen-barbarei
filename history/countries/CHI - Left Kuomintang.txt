@@ -64,9 +64,7 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-#add_dynamic_modifier = {
-#	modifier = CHI_EAC
-#}
+
 
 set_politics = {
 	ruling_party = radical_socialist
@@ -88,14 +86,4 @@ set_popularities = {
 	national_populist = 0
 }
 
-### CHI Generals ###
-
-### Country Leaders ###
-recruit_character = CHI_dai_chunfeng
-recruit_character = CHI_chen_duxiu
-recruit_character = CHI_wang_jingwei
-recruit_character = CHI_song_qingling
-recruit_character = CHI_sun_fo
-recruit_character = CHI_lin_sen
-recruit_character = CHI_chen_guofu
 

@@ -51,13 +51,6 @@ if = {
 set_research_slots = 2
 set_convoys = 20
 
-add_ideas = {
-	# Ministers + ideas
-	BRM_U_Chit_Hlaing_hog_ade
-	BRM_Maung_Gyi_for_ade
-	BRM_U_May_Aung_eco_sco
-	BRM_Saw_Durmay_sec_ade
-}
 
 set_stability = 45
 set_war_support = 0.40
@@ -81,28 +74,3 @@ set_popularities = {
 	paternal_autocrat = 12
 	national_populist = 8
 }
-
-country_event = { id = burma.0 days = 1 } # Introduction
-country_event = { id = burma.1 days = 300 random = 240 } # Riots and Protests at Rangoon University
-country_event = { id = burma.3 days = 450 random = 360 } # Labour unrest at Yenangyaung Oil Fields
-
-### Country Leaders ###
-recruit_character = BRM_than_thun
-recruit_character = BRM_aung_san # Also a General
-recruit_character = BRM_po_hla_gyi
-recruit_character = BRM_ba_maw
-recruit_character = BRM_chit_hlaing
-recruit_character = BRM_joseph_augustus_maung_gyi
-recruit_character = BRM_kodaw_hmaing
-recruit_character = BRM_u_ba_pe
-recruit_character = BRM_u_saw
-recruit_character = BRM_tharrawaddy_u_pu
-
-recruit_character = BRM_myat_paya_lat
-recruit_character = BRM_provisional_government
-
-### Field Marshals ###
-recruit_character = BRM_smith_dun
-
-### Generals ###
-recruit_character = BRM_ne_win

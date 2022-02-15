@@ -51,25 +51,6 @@ if = {
 	}
 }
 
-country_event = { id = els.1 days = 1 }
-country_event = { id = els.17 days = 84 }
-country_event = { id = els.19 days = 132 }
-country_event = { id = els.21 days = 357 }
-country_event = { id = els.22 days = 173 }
-country_event = { id = els.23 days = 74 }
-country_event = { id = els.24 days = 333 }
-country_event = { id = els.25 days = 403 }
-country_event = { id = els.26 days = 310 }
-country_event = { id = els.27 days = 69 }
-country_event = { id = els.28 days = 1617 }
-country_event = { id = els.200 days = 162 }
-country_event = { id = els.202 days = 281 }
-country_event = { id = els.210 days = 370 }
-country_event = { id = els.213 days = 156 }
-country_event = { id = els.215 days = 127 }
-country_event = { id = cafla.18 days = 258 }
-
-activate_targeted_decision = { decision = CEN_unite_central_america target = THIS }
 
 set_politics = {
 	ruling_party = national_populist
@@ -94,38 +75,5 @@ set_popularities = {
 set_stability = 0.51
 set_war_support = 0.47
 
-add_ideas = {
-	CEN_monroe_doctrine
-	ELS_memories_32
-	ELS_depression_leftovers
-	limited_conscription
-	ELS_Maximiliano_Hernandez_Martinez_hog_npo
-	ELS_Salvador_Pena_Trejo_for_pau
-	ELS_Joaquin_Valdez_eco_npo
-	ELS_Fidel_Cristino_Garay_sec_pau
-}
 
-set_country_flag = Agustin_Farabundo_Marti_Rodriguez_dead
-set_country_flag = Feliciano_Ama_dead
 
-recruit_character = ELS_agustin_farabundo_marti
-recruit_character = ELS_feliciano_ama
-recruit_character = ELS_arturo_araujo
-recruit_character = ELS_alfonso_quinonez_molina
-recruit_character = ELS_osmin_aguirre_y_salinas
-recruit_character = ELS_salvador_castaneda_castro
-recruit_character = ELS_maximiliano_hernandez_martinez
-recruit_character = ELS_andres_ignacio_menendez
-
-ELS_agustin_farabundo_marti = { set_character_flag = ELS_leader }
-ELS_feliciano_ama = { set_character_flag = ELS_leader }
-ELS_arturo_araujo = { set_character_flag = ELS_leader }
-ELS_alfonso_quinonez_molina = { set_character_flag = ELS_leader }
-ELS_osmin_aguirre_y_salinas = { set_character_flag = ELS_leader }
-ELS_salvador_castaneda_castro = { set_character_flag = ELS_leader }
-ELS_maximiliano_hernandez_martinez = { set_character_flag = ELS_leader }
-
-random_character = {
-	limit = { is_character = ELS_andres_ignacio_menendez }
-	save_global_event_target_as = ELS_andres_ignacio_menendez_target
-}

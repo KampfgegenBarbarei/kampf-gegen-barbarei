@@ -1,0 +1,29 @@
+state={
+	id=1101
+	name="STATE_1101"
+
+	history={
+		owner = BUL
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SER
+		add_core_of = ALB
+		add_claim_by = BUL
+		victory_points = {
+			9874 3 
+		}
+		victory_points = {
+			9849 1
+		}
+	}
+
+	provinces={
+		9849 9874 
+	}
+	manpower=311000
+	buildings_max_level_factor=1.000
+	state_category=two
+	local_supplies=0.000
+}

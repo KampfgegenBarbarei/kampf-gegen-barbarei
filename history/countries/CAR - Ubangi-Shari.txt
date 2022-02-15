@@ -26,7 +26,4 @@ set_popularities = {
 	national_populist = 24
 }
 
-recruit_character = CAR_Ben_Aissa
-recruit_character = CAR_Barthelemy_Boganda
-recruit_character = CAR_Binyamin_I
 
