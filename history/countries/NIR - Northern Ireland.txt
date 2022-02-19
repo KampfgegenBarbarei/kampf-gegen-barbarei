@@ -1,13 +1,6 @@
 ﻿capital = 119
 set_research_slots = 3
 
-add_ideas = {
-	NIR_John_Miller_Andrews_hog_sco
-	NIR_Hugh_O'Neill_for_pau
-	NIR_William_J_Twaddell_eco_pau
-	NIR_Joseph_Davison_sec_ade
-}
-
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1888.6.15"
@@ -27,14 +20,3 @@ set_popularities = {
 	paternal_autocrat = 30
 	national_populist = 0
 }
-
-recruit_character = NIR_irish_workers_committee
-recruit_character = NIR_harry_midgley
-recruit_character = NIR_denis_england
-recruit_character = NIR_wilfred_spender
-recruit_character = NIR_basil_brooke
-recruit_character = NIR_dorothy_harnett
-
-### Commanders ###
-#Brooke is recruited above
-#Spender is recruited above

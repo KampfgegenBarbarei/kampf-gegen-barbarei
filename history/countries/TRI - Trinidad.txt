@@ -22,10 +22,3 @@ set_popularities = {
 	national_populist = 2
 }
 
-recruit_character = WIF_arthur_andrew_cipriani
-
-### Event Targets ###
-random_character = {
-	limit = { is_character = WIF_arthur_andrew_cipriani }
-	save_global_event_target_as = WIF_arthur_andrew_cipriani_target
-}

@@ -76,44 +76,6 @@ set_popularities = {
 	national_populist = 11
 }
 
-add_opinion_modifier = { target = NIC modifier = NIC_revolutionary_threat }
 
-add_ideas = {
-	limited_conscription
-	CEN_monroe_doctrine
-	HON_peasant_republic
-	HON_december_revolution
-	HON_great_purge
-	HON_Jose_Leon_Castro_hog_pau
-	HON_Jose_Ramon_Adolfo_Villeda_Morales_for_sde
-	HON_Juan_Manuel_Galvez_eco_sco
-	HON_Arturo_Martinez_Galindo_sec_tot
-}
 
-country_event = { id = cafla.18 days = 258 }
-country_event = { id = honduras.1 days = 1 }
-country_event = { id = honduras.2 days = 90 }
 
-activate_targeted_decision = { decision = CEN_unite_central_america target = THIS }
-
-recruit_character = HON_venancio_callejas
-recruit_character = HON_ramon_villeda_morales
-recruit_character = HON_jose_maria_moncada
-recruit_character = HON_jose_angel_zuniga_huete
-recruit_character = HON_juan_manuel_galvez
-recruit_character = HON_honduran_council
-recruit_character = HON_jose_leon_castro
-recruit_character = HON_carl_ericsson_von_rosen
-recruit_character = HON_frederic_lord
-
-### Characters Recruited by Effect ###
-HON_carl_ericsson_von_rosen = { retire = yes }
-HON_frederic_lord = { retire = yes }
-
-### Character Flags ###
-HON_venancio_callejas = { set_character_flag = HON_leader }
-HON_ramon_villeda_morales = { set_character_flag = HON_leader }
-HON_jose_maria_moncada = { set_character_flag = HON_leader }
-HON_jose_angel_zuniga_huete = { set_character_flag = HON_leader }
-HON_juan_manuel_galvez = { set_character_flag = HON_leader }
-HON_jose_leon_castro = { set_character_flag = HON_leader }

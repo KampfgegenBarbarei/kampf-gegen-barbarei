@@ -22,4 +22,4 @@ set_popularities = {
 	national_populist = 2
 }
 
-recruit_character = WIF_hubert_nathaniel_critchlow
+

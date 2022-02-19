@@ -11,11 +11,6 @@ set_research_slots = 2
 set_stability = 0.5
 set_war_support = 0.2
 
-add_ideas = {
-	KAC_disorg_army
-	limited_conscription
-	low_economic_mobilisation
-}
 
 set_politics = {
 	ruling_party = authoritarian_democrat
@@ -37,9 +32,4 @@ set_popularities = {
 	national_populist = 0
 }
 
-### Leaders ###
-recruit_character = KAC_sama_duwa_sinwa_naw
-recruit_character = KAC_duwa_zau_lawn
 
-### Corps Commanders ###
-recruit_character = KAC_sabaw_tu

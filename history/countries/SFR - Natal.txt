@@ -7,14 +7,6 @@ set_convoys = 0
 set_war_support = 0.60
 set_stability = 0.40
 
-country_event = { id = saf.99 days = 2754 } #Duncan dies
-
-set_country_flag = {
-	flag = SFR_segregation_reform
-	value = 1
-}
-set_country_flag = SAF_flag_tree_sync
-
 set_politics = {
 	ruling_party = market_liberal
 	elections_allowed = no
@@ -33,12 +25,3 @@ set_popularities = {
 	national_populist = 0
 }
 
-add_ideas = {
-	volunteer_only
-	partial_economic_mobilisation
-	SFR_segregation_3
-}
-
-activate_targeted_decision = { target = ENT decision = SFR_join_entente }
-
-### SFR's leaders are set via effect

@@ -22,4 +22,3 @@ set_popularities = {
 	national_populist = 2
 }
 
-recruit_character = WIF_alexander_bustamante

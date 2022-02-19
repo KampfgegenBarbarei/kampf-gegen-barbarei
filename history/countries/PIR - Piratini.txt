@@ -20,6 +20,3 @@ set_popularities = {
 	paternal_autocrat = 29
 	national_populist = 12
 }
-
-recruit_character = PIR_jose_antonio_matos_netto
-recruit_character = PIR_jose_antonio_flores_da_cunha

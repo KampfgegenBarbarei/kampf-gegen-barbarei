@@ -27,4 +27,4 @@ set_popularities = {
 	national_populist = 2
 }
 
-recruit_character = TRS_albert_wass
+

@@ -32,10 +32,4 @@ set_popularities = {
 	national_populist = 50
 }
 
-recruit_character = MAC_ivan_mihajlov
-recruit_character = MAC_imro_joint_command
 
-random_army_leader = {
-	limit = { is_character = MAC_ivan_mihajlov }
-	save_global_event_target_as = MAC_ivan_mihajlov_target
-}

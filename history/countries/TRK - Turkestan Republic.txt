@@ -30,11 +30,4 @@ set_popularities = {
 	national_populist = 8
 }
 
-recruit_character = TRK_turar_ryskulov
-recruit_character = TRK_mustafa_shokay
-recruit_character = TRK_madamin_bek
 
-### Generals ###
-recruit_character = TRK_kurshirmat
-recruit_character = TRK_muetdin_bek
-recruit_character = TRK_katta_ergash

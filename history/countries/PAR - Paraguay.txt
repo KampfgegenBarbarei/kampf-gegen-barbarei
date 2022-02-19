@@ -28,17 +28,6 @@ if = {
 	}
 }
 
-add_ideas = {
-	extensive_conscription
-	low_economic_mobilisation
-	PAR_pensions
-	PAR_prussia
-	PAR_Luis_Alberto_Riart_hog_pau
-	PAR_Horacio_Chiriani_Cotor_for_pau
-	PAR_Dr_Federico_Chaves_Careaga_eco_pau
-	PAR_Felipe_Benigno_Molas_Lopez_sec_pau
-}
-
 set_war_support = 0.3
 
 set_politics = {
@@ -61,52 +50,4 @@ set_popularities = {
 	national_populist = 4
 }
 
-country_event = {
-	days = 2
-	id = par.1
-}
 
-### HoS ###
-
-recruit_character = PAR_higinio_morinigo_martinez
-
-recruit_character = PAR_jose_felix_estigarribia
-
-recruit_character = PAR_juan_manuel_frutos
-
-recruit_character = PAR_eduardo_schaerer
-
-recruit_character = PAR_eligio_ayala
-
-recruit_character = PAR_jose_patricio_guggiari
-
-recruit_character = PAR_odulio_barthe
-
-recruit_character = PAR_luiz_ibarrola
-
-recruit_character = PAR_rafael_franco
-
-### Corps Commanders ###
-recruit_character = PAR_raimundo_rolon
-
-recruit_character = PAR_eugenio_garay
-
-recruit_character = PAR_federico_smith
-
-recruit_character = PAR_luis_irrazabal
-
-recruit_character = PAR_vicente_machuca
-
-### Those three become generals only for the totalist route
-
-recruit_character = PAR_carlos_pastore
-
-recruit_character = PAR_aristides_ortellado
-
-recruit_character = PAR_camilo_recalde
-
-### Only from the elections
-
-recruit_character = PAR_eusebio_ayala
-
-recruit_character = PAR_luis_alberto_riart

@@ -20,5 +20,4 @@ set_popularities = {
 	national_populist = 5
 }
 
-recruit_character = SLV_josip_vidmar
-recruit_character = SLV_albert_kramer
+

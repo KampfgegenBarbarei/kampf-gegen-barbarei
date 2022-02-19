@@ -50,8 +50,6 @@ if = {
 	}
 }
 
-set_war_support = 0.1
-
 set_politics = {
 	ruling_party = social_democrat
 	last_election = "1934.4.4"
@@ -72,65 +70,6 @@ set_popularities = {
 	national_populist = 2
 }
 
-country_event = {
-	id = urg.1
-	days = 2
-}
-country_event = {
-	id = urg.20
-	days = 855
-}
-country_event = {
-	id = urg.30
-	days = 855
-}
 
-add_ideas = {
-	URG_neutrality_idea
-	URG_Gabriel_Terra_hog_sde
-	URG_Hector_Alberto_Gerona_Sapello_for_sli
-	URG_Leopoldo_Carlos_Artucio_eco_sli
-	URG_Alberto_Dominguez_Campora_sec_sde
-}
 
-recruit_character = URG_fractured_leadership
 
-recruit_character = URG_alfredo_baldomir_ferrari
-
-recruit_character = URG_joaquin_secco_illa
-
-recruit_character = URG_council
-
-recruit_character = URG_emilio_frugoni
-
-recruit_character = URG_paulina_luisi
-
-recruit_character = URG_hugo_fernandes
-
-##########################
-### Army and Navy guys ###
-##########################
-
-recruit_character = URG_alfredo_campos
-
-# alfredo baldomir ferrari is now created in the paternal autocrat slot
-
-recruit_character = URG_oscar_diego_gestido
-
-recruit_character = URG_tydeo_larre_borges
-
-recruit_character = URG_atilio_frigerio
-
-### To become active once elected in events
-
-recruit_character = URG_gabriel_terra
-
-recruit_character = URG_luis_alberto_de_herrera
-
-recruit_character = URG_luiz_conrado
-
-recruit_character = URG_juan_de_amezaga
-
-recruit_character = URG_martin_echegoyen
-
-recruit_character = URG_cesar_battle_pacheco

@@ -25,4 +25,3 @@ set_popularities = {
 	national_populist = 8
 }
 
-recruit_character = PJB_tara_singh

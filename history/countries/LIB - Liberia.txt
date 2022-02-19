@@ -10,15 +10,6 @@ set_technology = {
 	gw_artillery = 1
 }
 
-country_event = { id = lib.1 days = 1 } #Intro event
-country_event = { id = lib.2 days = 516 }
-
-set_country_flag = SIE_CONQ
-set_country_flag = IVO_CONQ
-set_country_flag = GNA_CONQ
-set_country_flag = GHA_CONQ
-set_country_flag = TOG_CONQ
-
 set_politics = {
 	ruling_party = social_conservative
 	last_election = "1935.4.4"
@@ -39,27 +30,5 @@ set_popularities = {
 	national_populist = 4
 }
 
-add_ideas = {
-	LIB_Edwin_James_Barclay_hog_sco
-	LIB_George_S_Padmore_for_sco
-	LIB_J_A_Railey_eco_sco
-	LIB_Frank_Emmanuel_Tolbert_sec_sco
-	LIB_massive_debt
-}
 
-### Country Leaders ###
-recruit_character = LIB_george_padmore
-recruit_character = LIB_james_jenkins_dossen
-recruit_character = LIB_marcus_garvey
-recruit_character = LIB_clarence_simpson
-recruit_character = LIB_william_tubman
-recruit_character = LIB_edwin_barclay
-recruit_character = LIB_momolu_massaquoi
-recruit_character = LIB_frank_emmanuel_tolbert
 
-### Generals ###
-recruit_character = LIB_jenkins_yancey
-
-### Admirals ###
-recruit_character = LIB_james_cooper
-recruit_character = LIB_william_h_carter

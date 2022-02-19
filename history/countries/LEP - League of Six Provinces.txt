@@ -20,7 +20,6 @@ set_technology = {
 }
 
 set_cosmetic_tag = LEP_LEP
-country_lock_all_division_template = yes
 
 ### Offsite Factories ###
 
@@ -79,8 +78,6 @@ if = {
 	}
 }
 
-diplomatic_relation = { country = GEA relation = non_aggression_pact }
-
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1888.6.15"
@@ -101,77 +98,12 @@ set_popularities = {
 	national_populist = 0
 }
 
-add_opinion_modifier = { target = FNG modifier = embargo }
-add_opinion_modifier = { target = JAP modifier = embargo }
 
-add_ideas = {
-	LEP_Conspicuous_Kleptocracy
-	LEP_Nanking_Kommission
-	LEP_Tsingtau_Collaboration2
 
-	LEP_Yang_Wenkai_hog_pau
-	LEP_Ma_Yuren_for_pau
-	LEP_Ding_Wenjiang_eco_sco
-	LEP_Zhang_Taiyan_sec_ade
-	LEP_Xie_Hongxun_cos_ade
 
-	LEP_units_bonus
-}
 
-# Only available after ANQ was defeated
-set_country_flag = Wang_Geng_dead
-set_country_flag = Lin_Wei_dead
-set_country_flag = Xu_Peigen_dead
-set_country_flag = Qian_Zongze_dead
-set_country_flag = Li_Erkang_dead
-set_country_flag = Zhang_Pei_dead
-set_country_flag = Ma_Baohang_dead
-set_country_flag = Wang_Shouting_dead
-set_country_flag = Wu_Zhennan_dead
-set_country_flag = Zeng_Yijing_dead
-set_country_flag = Ge_Jingen_dead
-set_country_flag = Xu_Huansheng_dead
-set_country_flag = Chen_Qixia_dead
 
-# Added via event
-set_country_flag = Alexander_von_Falkenhausen_dead
 
-set_country_flag = cannot_have_extensive_conscription
 
-#tsingtau collab level
-set_variable = {
-	var = LEP_tsingtau_level
-	value = 2
-}
 
-country_event = { id = lepcollapse.1 days = 3 } # Sun Chuanfang meets with the governors
-country_event = { id = lep.1 days = 1 }
 
-recruit_character = LEP_board_of_directors
-recruit_character = LEP_chen_tiaoyuan
-recruit_character = LEP_sun_chuanfang
-
-### Corps Commanders
-recruit_character = LEP_qi_xieyuan
-recruit_character = LEP_chen_yi
-recruit_character = LEP_zheng_junyan
-recruit_character = LEP_deng_ruzhou
-recruit_character = LEP_zhou_yinren
-recruit_character = LEP_shangguan_yunxiang
-recruit_character = LEP_zhou_fengqi
-recruit_character = LEP_tang_enbo
-recruit_character = LEP_shi_yousan
-recruit_character = LEP_yang_shuzhuang
-recruit_character = LEP_alexander_von_falkenhausen
-
-# FLAVOR LEP
-country_event = { id = lep.206 days = 1521 } #Chen Xuezhao
-country_event = { id = lep.207 days = 762 } #Ju Peon event
-country_event = { id = lep.208 days = 81 } #Tsen's Theorem
-country_event = { id = lep.209 days = 285 } #Zhou Xuan
-country_event = { id = lep.210 days = 285 } #Dummy Zhou Xuan event
-
-random_character = {
-	limit = { is_character = LEP_alexander_von_falkenhausen }
-	save_global_event_target_as = LEP_alexander_von_falkenhausen_target
-}

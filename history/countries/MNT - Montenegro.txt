@@ -31,16 +31,4 @@ set_popularities = {
 	national_populist = 2
 }
 
-add_ideas = {
-	MNT_independent_montenegro
-}
-
-### Leaders
-recruit_character = MNT_blazo_jovanovic
-recruit_character = MNT_sekula_drljevic
-recruit_character = MNT_krsto_popovic
-### Commanders
-recruit_character = MNT_pavle_durisic
-recruit_character = MNT_mitar_martinovic
-recruit_character = MNT_mihailo_petrovic_njegos
 

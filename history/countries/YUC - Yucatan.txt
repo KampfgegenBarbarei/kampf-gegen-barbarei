@@ -24,20 +24,5 @@ set_popularities = {
 	national_populist = 0
 }
 
-add_ideas = {
-	# Laws
-	limited_exports
 
-	# National Spirits
-	YUC_defense_of_yucatan
-}
 
-### Country Leaders ###
-recruit_character = YUC_felipe_carrillo_puerto
-recruit_character = YUC_alvaro_torre_diaz
-recruit_character = YUC_manuel_gomez_morin
-recruit_character = YUC_gustavo_arce_correa
-
-### Generals ###
-recruit_character = YUC_salvador_alvarado
-recruit_character = YUC_manuel_castilla_brito

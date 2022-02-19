@@ -7,13 +7,6 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-add_ideas = {
-	NMB_CJ_Langenhooven_hog_ade
-	NMB_Bettie_Conradie_for_ade
-	NMB_Christiaan_van_den_Heever_eco_ade
-	NMB_Hendrijk_de_Tottenberg_sec_ade # Placeholder
-}
-
 set_stability = 0.55
 set_war_support = 0.67
 
@@ -37,15 +30,4 @@ set_popularities = {
 	national_populist = 0
 }
 
-### Heads of State ###
-recruit_character = NMB_Theophilus_Hamutumbangela		#actually Anthony Wilson from LIB but used for Theophilus Hamutumbangela as he has no workable pictures
-recruit_character = NMB_Otto_Schimming
-recruit_character = NMB_Leonard_Auala
-recruit_character = NMB_Hosea_Kutako
-recruit_character = NMB_Gustav_Adolf_Schatz
-recruit_character = NMB_Friedrich_Maharero
-recruit_character = NMB_Heinrich_Kirchheim
 
-### Corps Commanders ###
-recruit_character = NMB_Hans_Hollander
-recruit_character = NMB_Theodor_von_Hippel

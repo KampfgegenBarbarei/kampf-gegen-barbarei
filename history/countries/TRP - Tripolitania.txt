@@ -44,14 +44,6 @@ if = {
 set_research_slots = 1
 set_convoys = 20
 
-add_ideas = {
-	civilian_economy
-	limited_exports
-	extensive_conscription
-	TRP_Decentralised_Disorder
-
-}
-
 set_politics = {
 	ruling_party = authoritarian_democrat
 	last_election = "1935.12.9"
@@ -73,15 +65,4 @@ set_popularities = {
 }
 
 
-recruit_character = TRP_bashir_bin_hamza
-recruit_character = TRP_ahmad_faqih_hasan
-recruit_character = TRP_bashir_saadawi
-recruit_character = TRP_sadiq_bin_zarra
-recruit_character = TRP_salim_bey_al_muntasir
-recruit_character = TRP_ramadan_al_suwayhili
-recruit_character = TRP_ali_rajab
 
-recruit_character = TRP_salim_b_abd_al_nabi
-
-### Characters Recruited by Effect ###
-TRP_salim_b_abd_al_nabi = { retire = yes }

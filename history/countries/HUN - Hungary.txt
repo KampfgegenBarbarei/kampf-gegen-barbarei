@@ -125,42 +125,5 @@ set_popularities = {
 	national_populist = 9
 }
 
-add_ideas = {
-	HUN_Kalman_Daranyi_de_Pusztaszentgyoergyi_hog_pau
-	HUN_Endre_Bajcsy_Zsilinszky_for_pau
-	HUN_Lajos_Remenyi_Schneller_eco_pau
-	HUN_Kalman_Szell_sec_pau
 
-	HUN_financial_ties_broken
-}
 
-### Country Leaders ###
-recruit_character = AUS_joseph_august_von_habsburg
-
-recruit_character = HUN_bela_kun
-recruit_character = HUN_arpad_szakasits
-recruit_character = HUN_oszkar_jaszi
-recruit_character = HUN_istvan_bethlen
-recruit_character = HUN_laszlo_bardossy
-
-### Field Marshals ###
-recruit_character = HUN_kocsard_janky_de_bulcs
-
-### Generals ###
-recruit_character = HUN_hugo_sonyi
-recruit_character = HUN_vilmos_nagy_de_nagybaczon
-recruit_character = HUN_bela_miklos_de_dalnok
-recruit_character = HUN_dezso_laszlo
-recruit_character = HUN_gusztav_jany
-recruit_character = HUN_lajos_veress_de_dalnok
-recruit_character = HUN_gusztav_denk_de_kistorony
-recruit_character = HUN_dome_sztojay
-recruit_character = HUN_szilard_bakay
-recruit_character = HUN_karoly_bartha_de_dalnokfalva
-
-### Event Targets ###
-random_character = {
-	limit = { is_character = AUS_joseph_august_von_habsburg }
-	set_character_flag = AUS_habsburg
-	save_global_event_target_as = AUS_joseph_august_von_habsburg_target
-}

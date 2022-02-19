@@ -1,7 +1,7 @@
 ﻿capital = 689
 oob = "WIF"
 set_naval_oob = "WIF_naval"
-set_cosmetic_tag = WIF_entente
+set_cosmetic_tag = WIF_syndicalist
 
 set_technology = {
 	### Infantry ###
@@ -84,31 +84,6 @@ if = {
 	}
 }
 
-set_stability = 0.53
-set_war_support = 0.35
-
-set_research_slots = 3
-set_convoys = 50
-
-set_variable = { var = WIF_socialist_anger value = 34 }
-set_variable = { var = WIF_british_anger value = 21 }
-
-country_event = { id = wifpol.1 days = 1 }
-country_event = { id = wifpol.20 days = 167 }
-country_event = { id = wifpol.21 days = 202 }
-country_event = { id = wifpol.24 days = 380 }
-country_event = { id = wifpol.514 days = 861 }
-country_event = { id = wifpol.101 days = 1199 }
-country_event = { id = wifpol.41 days = 1155 random_days = 300 }
-country_event = { id = wifarmy.5 days = 70 random_days = 300 }
-
-CAN = {
-	set_autonomy = {
-		target = WIF
-		autonomy_state = kr_initial_wif_puppet
-	}
-}
-
 set_politics = {
 	ruling_party = market_liberal
 	last_election = "1933.8.9"
@@ -129,81 +104,3 @@ set_popularities = {
 	national_populist = 0
 }
 
-add_dynamic_modifier = {
-	modifier = WIF_angereffects_modifier
-}
-
-add_ideas = {
-	volunteer_only
-
-	WIF_cayenne_agreement
-	WIF_young_army
-	WIF_economic_downfall
-	WIF_angereffect_idea
-
-	WIF_Gordon_James_Lethem_hog_mli
-	WIF_Bede_Clifford_for_mli
-	WIF_Charles_Dundas_eco_mli
-	WIF_Abraham_Elias_Issa_sec_mli
-}
-
-WIF_evaluate_anger = yes
-set_country_flag = WIF_can_revolt
-
-### Country Leaders ###
-recruit_character = WIF_eustace_fiennes
-recruit_character = WIF_gordon_james_lethem
-
-recruit_character = WIF_cyril_lionel_robert_james
-recruit_character = WIF_tubal_uriah_butler
-recruit_character = WIF_aime_cesaire
-recruit_character = WIF_joseph_lagrosilliere
-recruit_character = WIF_grantley_herbert_adams
-recruit_character = WIF_norman_manley
-recruit_character = WIF_victor_severe
-recruit_character = WIF_joseph_trounsell_gilbert
-recruit_character = WIF_solomon_hochoy
-recruit_character = WIF_georges_robert
-recruit_character = WIF_joel_augustus_rogers
-
-### Field Marshals ###
-recruit_character = WIF_thomas_cubitt
-recruit_character = WIF_reginald_hildyard
-
-### Characters Recruited by Effect ###
-WIF_reginald_hildyard = { set_nationality = XXA }
-
-### Corps Commanders ###
-recruit_character = WIF_geoffrey_archer
-recruit_character = WIF_bede_clifford
-recruit_character = WIF_felix_eboue
-
-### Admirals ###
-recruit_character = WIF_ralph_leatham
-recruit_character = WIF_reginald_drax
-
-### Event Targets ###
-random_character = {
-	limit = { is_character = WIF_thomas_cubitt }
-	save_global_event_target_as = WIF_thomas_cubitt_target
-}
-random_character = {
-	limit = { is_character = WIF_reginald_hildyard }
-	save_global_event_target_as = WIF_reginald_hildyard_target
-}
-random_character = {
-	limit = { is_character = WIF_geoffrey_archer }
-	save_global_event_target_as = WIF_geoffrey_archer_target
-}
-random_character = {
-	limit = { is_character = WIF_bede_clifford }
-	save_global_event_target_as = WIF_bede_clifford_target
-}
-random_character = {
-	limit = { is_character = WIF_ralph_leatham }
-	save_global_event_target_as = WIF_ralph_leatham_target
-}
-random_character = {
-	limit = { is_character = WIF_reginald_drax }
-	save_global_event_target_as = WIF_reginald_drax_target
-}

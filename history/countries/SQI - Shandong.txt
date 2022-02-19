@@ -1,7 +1,5 @@
 ﻿capital = 597
 set_research_slots = 2
-OOB = "SQI"
-set_naval_oob = "SQI_naval"
 
 set_technology = {
 	### Infantry ###
@@ -78,87 +76,4 @@ set_popularities = {
 	national_populist = 28
 }
 
-set_stability = 0.50
-set_war_support = 0.40
 
-add_offsite_building = {
-	type = arms_factory
-	level = 1
-}
-
-add_offsite_building = {
-	type = industrial_complex
-	level = 1
-}
-
-
-add_ideas = {
-	SQI_Rampant_drug_trade
-	SQI_dogmeat_general
-	SQI_honored_master
-	SQI_flight_north
-
-	partial_economic_mobilisation
-
-	SQI_Chu_Yupu_hog_pau
-	SQI_Zhang_Fuyun_for_pau
-	SQI_Zhu_Panzao_eco_pau
-	SQI_Wang_Xugao_sec_pau
-}
-
-country_event = {
-	id = shandong.1
-	days = 1
-}
-
-country_event = {
-	id = shandong.435 #Zonchang's death
-	days = 4018
-	random = 4320
-}
-
-country_event = {
-	id = shandong.436 #Tianran's death
-	days = 4018
-	random = 4320
-}
-
-country_event = {
-	id = shandong.437 #Zheyuan's death
-	days = 4018
-	random = 4320
-}
-
-### Country Leaders ###
-recruit_character = SQI_fu_sinian
-recruit_character = SQI_zhang_shulin
-recruit_character = SQI_ma_shiwei
-recruit_character = SQI_song_zheyuan
-recruit_character = SQI_zhang_zongchang
-recruit_character = SQI_zhang_tianran
-recruit_character = SQI_sun_suzhen
-
-### Field Marshals ###
-recruit_character = SQI_li_jinglin
-# recruit_character = SQI_zhao_hong_wenguo		#NatPop event
-
-### Corps Commanders ###
-recruit_character = SQI_feng_angbang
-recruit_character = SQI_zhang_huaizhi
-recruit_character = SQI_xu_yuanquan
-recruit_character = SQI_hakuro_kohinata
-recruit_character = SQI_junnosuke_date
-recruit_character = SQI_sun_dianying
-recruit_character = SQI_zhang_jingyao
-recruit_character = SQI_li_lijiu
-recruit_character = SQI_xue_dian
-recruit_character = SQI_lu_yongxiang
-recruit_character = SQI_boris_annenkov
-recruit_character = SQI_zhao_hong_wenguo
-
-### Characters Recruited by Effect ###
-SQI_zhao_hong_wenguo = { retire = yes }
-
-### Admirals ###
-recruit_character = SQI_qu_tongfeng
-recruit_character = SQI_lin_jianzhang

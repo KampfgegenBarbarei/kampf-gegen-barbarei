@@ -25,5 +25,3 @@ set_popularities = {
 	national_populist = 8
 }
 
-recruit_character = RJS_sawai_man_singh_ii
-

@@ -1,19 +1,8 @@
 ﻿capital = 2
-oob = "PAP"
-set_naval_oob= "PAP_naval"
 set_research_slots = 3
 set_convoys = 50
 set_stability = 0.6
 set_war_support = 0.1
-
-add_ideas = {
-	PAP_Ludovico_Chigi_Albani_della_Rovere_hog_pau
-	PAP_Luigi_Vannutelli_Rey_for_pau
-	PAP_Pietro_Campilli_eco_ade
-	PAP_Alfredo_Ottaviani_sec_ade
-
-	PAP_holy_see
-}
 
 ### Starting Technologies ###
 set_technology = {
@@ -105,21 +94,7 @@ if = {
 	}
 }
 
-country_event = { id = papalstate.40 days = 1 }
-country_event = { id = papalstate.3 days = 32 }
-country_event = { id = papalstate.2 days = 65 }
-country_event = { id = papalstate.7 days = 70 }
 
-give_military_access = SIC
-give_guarantee = SIC
-add_to_array = { SIC.guarantor_array = PAP }
-
-SIC = {
-	set_autonomy = {
-		target = PAP
-		autonomy_state = kr_autonomous_puppet
-	}
-}
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1930.11.9"
@@ -140,17 +115,4 @@ set_popularities = {
 	national_populist = 10
 }
 
-#Leaders
-recruit_character = PAP_pius_xi
-recruit_character = PAP_college_of_cardinals
-recruit_character = PAP_pius_xii
-recruit_character = PAP_stephen_x
-recruit_character = PAP_john_xxiii
-recruit_character = PAP_julius_iv
-#Army Officers
-recruit_character = PAP_angelo_cerica
-recruit_character = PAP_reginaldo_giuliani
-recruit_character = PAP_georg_von_sury_d_aspremont
-#Navy Officers
-recruit_character = PAP_junio_valerio_borghese
-recruit_character = PAP_luigi_sansonetti
+

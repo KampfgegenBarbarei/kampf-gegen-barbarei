@@ -33,17 +33,4 @@ set_popularities = {
 	national_populist = 5
 }
 
-add_ideas = {
-	limited_conscription
-	isolation
-}
 
-recruit_character = TRU_hamad_bin_isa_al_khalifa
-recruit_character = TRU_shakhbut_bin_sultan_al_nahyan
-recruit_character = TRU_zayed_bin_sultan_al_nahyan
-
-#event target for TRU_shakhbut_bin_sultan_al_nahyan so he could be moved as JBS unit leader and back
-random_character = {
-	limit = { is_character = TRU_shakhbut_bin_sultan_al_nahyan }
-	save_global_event_target_as = TRU_shakhbut_bin_sultan_al_nahyan_target
-}

@@ -4,14 +4,6 @@ set_convoys = 20
 set_stability = 0.5
 set_war_support = 0.20
 
-add_ideas = {
-	limited_conscription
-	MLT_Paul_Boffa_hog_sde
-	MLT_Enrico_Mizzi_for_ade
-	MLT_Dom_Mintoff_eco_ade
-	MLT_Censu_Tabone_sec_ade
-}
-
 set_popularities = {
 	totalist = 0
 	radical_socialist = 0
@@ -32,6 +24,3 @@ set_politics = {
 	elections_allowed = no
 }
 
-recruit_character = MLT_paul_boffa
-recruit_character = MLT_gerald_strickland
-recruit_character = MLT_enrico_mizzi

@@ -60,31 +60,6 @@ set_popularities = {
 	paternal_autocrat = 1
 	national_populist = 6
 }
-add_ideas = {
-	LEB_Bechara_El_Khoury_hog_sco
-	LEB_Emile_Edde_for_mli
-	LEB_Saeb_Salam_eco_sli
-	LEB_Pierre_Gemayel_sec_npo
-	LEB_economic_upheaval
-	LEB_legacy_of_the_mutasarrifate
-	LEB_ethnic_and_sectarian_divides
-}
-set_country_flag = Pierre_Gemayel_dead
 
-### Party Leaders
-recruit_character = LEB_farajallah_el_helou
-recruit_character = LEB_kamal_jumblatt
-recruit_character = LEB_saeb_salam
-recruit_character = LEB_emile_edde
-recruit_character = LEB_bechara_el_khoury
-recruit_character = LEB_fuad_chehab
-recruit_character = LEB_charles_helou
-recruit_character = LEB_provisional_parliament_of_lebanon
-recruit_character = LEB_patriarch_antoine_peter_arida
-recruit_character = LEB_pierre_gemayel
 
-### Corps Commanders ###
-recruit_character = LEB_emile_boustany
 
-### Admirals ###
-recruit_character = LEB_youssef_chmeit

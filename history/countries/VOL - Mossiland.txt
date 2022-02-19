@@ -25,8 +25,3 @@ set_popularities = {
 	paternal_autocrat = 47
 	national_populist = 12
 }
-
-recruit_character = VOL_nazi_boni
-recruit_character = VOL_henri_guissou
-recruit_character = VOL_joseph_ouedraogo
-recruit_character = VOL_joseph_conombo

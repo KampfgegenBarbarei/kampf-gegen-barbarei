@@ -23,14 +23,4 @@ set_popularities = {
 	national_populist = 8
 }
 
-recruit_character = PAK_aga_khan_iii
-recruit_character = PAK_liaquat_ali_khan
-recruit_character = PAK_allama_mashriqi
-recruit_character = PAK_abul_ala_maududi
-
-### Field Marshals ###
-# Transferred in on_actions_India
-
-### Corps Commanders ###
-# Transferred in on_actions_India
 

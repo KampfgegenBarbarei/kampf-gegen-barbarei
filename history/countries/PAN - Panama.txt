@@ -52,12 +52,6 @@ if = {
 	}
 }
 
-country_event = {
-	id = panama.1 days = 1
-}
-country_event = {
-	id = panama.17 days = 500
-}
 set_stability = 0.55
 set_war_support = 0.15
 
@@ -81,23 +75,5 @@ set_popularities = {
 	national_populist = 3
 }
 
-add_ideas = {
-	CEN_monroe_doctrine
-	PNM_national_police
-	PAN_economic_depression
-	PAN_Harmodio_Arias_de_la_Madrid_hog_ade
-	PAN_Jose_Pezet_Arosemena_eco_ade
-	PAN_Raul_de_Roux_Garcia_for_ade
-	PAN_Samuel_Lewis_Aranga_sec_ade
-}
 
-### Country Leaders ###
-recruit_character = PAN_ricardo_alfaro_jovane
-recruit_character = PAN_juan_demostenes_arosemena
-recruit_character = PAN_harmodio_arias_madrid
-recruit_character = PAN_manuel_pino
-recruit_character = PAN_arnulfo_arias_madrid
 
-### Generals ###
-recruit_character = PAN_boris_nestor_martinez_salazar
-recruit_character = PAN_jose_antonio_remon_cantera

@@ -21,20 +21,4 @@ set_popularities = {
 	national_populist = 1
 }
 
-### Leaders ###
-recruit_character = SCO_tom_bell
-recruit_character = SCO_james_maxton
-recruit_character = SCO_hugh_macdiarmid
-recruit_character = SCO_john_maccormick
-recruit_character = SCO_compton_mackenzie
-recruit_character = SCO_isaac_wolfson
-recruit_character = SCO_walter_elliot
-recruit_character = SCO_arthur_donaldson
-recruit_character = SCO_council
-recruit_character = SCO_unknown
 
-### Commanders ###
-
-recruit_character = SCO_edmund_hakewell_smith
-recruit_character = SCO_roy_urquhart
-recruit_character = SCO_alexander_biggam

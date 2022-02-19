@@ -24,5 +24,3 @@ set_popularities = {
 	paternal_autocrat = 47
 	national_populist = 12
 }
-
-recruit_character = KBR_shehu_sanda_kyarimi

@@ -23,6 +23,3 @@ set_popularities = {
 	national_populist = 2
 }
 
-recruit_character = SIB_vadim_podbelsky
-recruit_character = SIB_nikolay_avksentyev
-recruit_character = SIB_aleksey_grishin_almazov

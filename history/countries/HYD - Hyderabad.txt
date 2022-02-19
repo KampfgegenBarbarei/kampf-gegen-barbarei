@@ -22,4 +22,4 @@ set_popularities = {
 	national_populist = 8
 }
 
-# All characters are transferred into HYD from PRF in the on_annex action in the India file
+

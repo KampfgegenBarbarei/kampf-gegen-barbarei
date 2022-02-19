@@ -26,17 +26,3 @@ set_popularities = {
 	national_populist = 0
 }
 
-set_stability = 0.60
-
-recruit_character = SLO_milan_hodza
-
-### Field Marshals ###
-recruit_character = SLO_ferdinand_catlos
-
-### Corps Commanders ###
-recruit_character = SLO_jan_golian
-recruit_character = SLO_stefan_jurech
-recruit_character = SLO_augustin_malar
-recruit_character = SLO_josef_snejdarek
-recruit_character = SLO_mikulas_ferjencik
-recruit_character = SLO_viliam_zingor

@@ -29,29 +29,6 @@ set_popularities = {
 	national_populist = 8
 }
 
-add_ideas = {
-	NEP_Dhammalok_Mahasthavir_hog_ade
-	NEP_Dharmaditya_Dharmacharya_for_ade
-	NEP_Triratna_Man_Tuladhar_eco_ade
-	NEP_Jagat_Sundar_Malla_sec_ade
 
-	isolation
-	limited_exports
-}
 
-country_event = { id = delhi.200 days = 639 random_days = 30 } # Long Night of the Festival of Lights
-
-# Country Leader #
-recruit_character = NEP_dhammalok_mahasthavir
-recruit_character = NEP_tribhuvan
-recruit_character = NEP_subarna_shamsher_rana
-recruit_character = NEP_matrika_prasad_koirala
-recruit_character = NEP_tanka_prasad_acharya
-recruit_character = NEP_bishweshwar_prasad_koirala
-recruit_character = NEP_kunwar_inderjit_singh
-# Field Marshal #
-recruit_character = NEP_juddha_shumsher_jang_bahadur_rana
-# Corp Commander #
-recruit_character = NEP_kaiser_shumsher_jang_bahadur_rana
-recruit_character = NEP_mutilal_gurung
 

@@ -1,6 +1,4 @@
 ﻿capital = 427
-oob = "PRF"
-set_naval_oob = "PRF_naval"
 set_research_slots = 3
 set_convoys = 50
 set_war_support = 0.20
@@ -70,9 +68,6 @@ if = {
 	}
 }
 
-country_event = { id = prf.0 days = 1 }
-country_event = { id = prf.1 days = 41 }
-
 set_politics = {
 	ruling_party = authoritarian_democrat
 	last_election = "1930.11.9"
@@ -93,71 +88,4 @@ set_popularities = {
 	national_populist = 8
 }
 
-set_autonomy = {
-	target = MDR
-	autonomy_state = kr_default_puppet
-}
 
-MDR = {
-	set_politics = {
-		ruling_party = social_liberal
-		last_election = "1930.11.9"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	set_popularities = {
-		totalist = 2
-		radical_socialist = 3
-		syndicalist = 5
-		social_democrat = 13
-		social_liberal = 41
-		market_liberal = 21
-		social_conservative = 10
-		authoritarian_democrat = 3
-		paternal_autocrat = 2
-		national_populist = 0
-	}
-}
-
-recruit_character = PRF_Krishnaraja_Wadiyar_IV
-recruit_character = PRF_osman_ali_khan
-recruit_character = PRF_madapati_hanumantha_rao
-
-add_ideas = {
-	PRF_Council_of_Princes_hog_ade
-	PRF_Maharaja_Kishen_Pershad_for_ade
-	PRF_Mokshagundam_Visveswaraiah_eco_ade
-	PRF_Albion_Rajkumar_Banerjee_sec_ade
-	PRF_rule_of_princes_1
-	PRF_backwards_economy_1
-}
-
-### Field Marshals ###
-recruit_character = PRF_syed_ahmed_eledroos
-
-### Corps Commanders ###
-recruit_character = PRF_azam_jah
-recruit_character = PRF_khan_chhatari
-recruit_character = PRF_kasim_razvi
-recruit_character = PRF_ali_haidar
-recruit_character = PRF_mahmood_khan_durrani
-recruit_character = PRF_kodandera_madappa_cariappa
-recruit_character = PRF_jayachamarajendra_wadiyar
-recruit_character = PRF_balarama_varma_of_travancore
-recruit_character = PRF_jayanto_nath_chaudhuri
-recruit_character = PRF_chandrasekharan_nair
-recruit_character = PRF_shah_nawaz_khan
-
-### Admirals ###
-recruit_character = PRF_mukerji
-
-# Event targets
-# random_character = {
-# 	limit = { is_character = PRF_osman_ali_khan }
-# 	save_global_event_target_as = PRF_osman_ali_khan_target
-# }
-# random_character = {
-# 	limit = { is_character = PRF_madapati_hanumantha_rao }
-# 	save_global_event_target_as = PRF_madapati_hanumantha_rao_target
-# }

@@ -21,4 +21,3 @@ set_popularities = {
 	national_populist = 0
 }
 
-recruit_character = GER_paul_frolich

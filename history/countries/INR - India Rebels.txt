@@ -23,8 +23,4 @@ set_popularities = {
 	national_populist = 0
 }
 
-add_ideas = {
-	extensive_conscription
-	war_economy
-}
 

@@ -45,13 +45,6 @@ if = {
 	}
 }
 
-add_ideas = {
-	MAL_Ibrahim_I_of_Johor_hog_ade
-	MAL_Lee_Kuan_Yew_for_ade
-	MAL_Hassan_Yunus_eco_pau
-	MAL_Ibrahim_bin_Haji_Yaacob_sec_npo
-}
-
 set_politics = {
 	ruling_party = authoritarian_democrat
 	last_election = "1888.6.15"
@@ -72,7 +65,4 @@ set_popularities = {
 	national_populist = 12
 }
 
-# Country Leaders #
-recruit_character = MAL_ibrahim_i_of_johor
-recruit_character = MAL_yusof_bin_ishak
-recruit_character = MAL_chin_peng
+

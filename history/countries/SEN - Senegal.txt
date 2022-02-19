@@ -27,9 +27,4 @@ set_popularities = {
 	national_populist = 12
 }
 
-recruit_character = SEN_lamine_gueye
-recruit_character = SEN_blaise_diagne
-recruit_character = SEN_leopold_sendar_senghor
-recruit_character = SEN_ngalandou_diouf
 
-recruit_character = SEN_abdoulaye_ndiaye

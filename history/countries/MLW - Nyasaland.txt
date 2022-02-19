@@ -26,8 +26,3 @@ set_popularities = {
 	national_populist = 12
 }
 
-recruit_character = MLW_James_Frederick_Sangala
-recruit_character = MLW_Hastings_Banda
-recruit_character = MLW_Elliott_Kenan_Kamwana_Achirwa
-recruit_character = MLW_George_Simeon_Mwase
-

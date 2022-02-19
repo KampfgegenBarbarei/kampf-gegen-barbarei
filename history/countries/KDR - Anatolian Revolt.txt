@@ -34,8 +34,4 @@ set_popularities = {
 	national_populist = 38
 }
 
-recruit_character = KDR_selahaddin_efendi
-recruit_character = KDR_xalid_bege_cibiri
-recruit_character = KDR_xalis_bege_sipki
-recruit_character = KDR_mehmed_vehip_pasha
 

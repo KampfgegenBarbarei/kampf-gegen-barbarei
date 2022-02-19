@@ -19,13 +19,3 @@ set_popularities = {
 	paternal_autocrat = 19
 	national_populist = 8
 }
-
-add_ideas = {
-	MYS_Mirza_Muhammad_Ismail_hog_sco
-	MYS_Albion_Rajkumar_Banerjee_for_sco
-	MYS_Mokshagundam_Visveswaraiah_eco_sco
-	MYS_Albion_Rajkumar_Banerjee_sec_sco
-}
-
-### Corps Commanders ###
-recruit_character = MYS_narasimharaja_wadiyar

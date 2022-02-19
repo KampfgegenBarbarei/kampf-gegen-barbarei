@@ -1,6 +1,5 @@
 ﻿capital = 408
 oob = "TRM"
-set_naval_oob = "TRM_naval"
 set_stability = 0.5
 set_war_support = 0.55
 set_research_slots = 3
@@ -81,21 +80,6 @@ if = {
 		basic_heavy_cruiser = 1
 		early_battleship = 1
 	}
-}
-
-country_event = { id = tram.intro days = 1 }
-country_event = { id = tram.80 days = 365 random_days = 180 }
-
-add_ideas = {
-	TRM_Grigoriy_M_Semyenov_hog_pau
-	TRM_Boris_Bakhmetev_for_ade
-	TRM_Dmitriy_Lebedev_eco_pau
-	TRM_Arkady_Udintsev_sec_pau
-
-	extensive_conscription
-
-	TRM_dream_1
-	TRM_economic_ties_to_japan_0
 }
 
 ### Diplomacy

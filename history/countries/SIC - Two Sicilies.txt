@@ -1,6 +1,4 @@
 ﻿capital = 117
-oob = "SIC"
-set_naval_oob = "SIC_naval"
 set_research_slots = 3
 set_convoys = 50
 set_stability = 0.55
@@ -98,18 +96,6 @@ if = {
 	}
 }
 
-country_event = { id = sic.1 days = 1 }
-country_event = { id = sic.61 days = 720 }
-
-add_ideas = {
-	SIC_shipyard_profits
-	SIC_pretty_much_feudalism
-	SIC_Luigi_Sturzo_hog_sco
-	SIC_Gaetano_Martino_for_sco
-	SIC_Rocco_Gullo_eco_sco
-	SIC_Enrico_Mole_sec_sco
-}
-
 set_politics = {
 	ruling_party = social_conservative
 	last_election = "1932.5.5"
@@ -130,22 +116,3 @@ set_popularities = {
 	national_populist = 10
 }
 
-#Leaders
-recruit_character = SIC_ferdinando_borbone
-#Army Officers
-recruit_character = SIC_alessandro_pirzio_biroli
-recruit_character = SIC_giovanni_messe
-recruit_character = SIC_antonio_gualano
-recruit_character = SIC_giuseppe_izzo
-recruit_character = SIC_carlo_geloso
-recruit_character = SIC_achille_starace
-#Navy Officers
-recruit_character = SIC_giulio_ingianni
-recruit_character = SIC_salvatore_todaro
-recruit_character = SIC_antonino_toscano
-recruit_character = SIC_romeo_oliva
-recruit_character = SIC_luigi_rizzo
-
-# Decisions
-activate_targeted_decision = { target = THIS decision = SIC_declare_italian_empire }
-activate_targeted_decision = { target = THIS decision = SIC_form_italian_confed }

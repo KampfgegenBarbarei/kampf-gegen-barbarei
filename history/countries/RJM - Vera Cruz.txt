@@ -20,5 +20,3 @@ set_popularities = {
 	paternal_autocrat = 5
 	national_populist = 12
 }
-
-recruit_character = RJM_belisario_augusto_de_oliveira_penna

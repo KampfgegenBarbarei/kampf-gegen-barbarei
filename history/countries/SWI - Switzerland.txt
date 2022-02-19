@@ -22,20 +22,6 @@ set_technology = {
 
 set_stability = 0.6
 set_research_slots = 3
-
-add_ideas = {
-	SWI_Albert_Meyer_hog_mli
-	SWI_Marcel_Pilet_Golaz_for_mli
-	SWI_Friedrich_Traugott_Wahlen_eco_mli
-	SWI_Johannes_Baumann_sec_mli
-	extensive_conscription
-	free_trade
-	SWI_neutrality_idea
-	SWI_national_conscription
-	SWI_geneva_memories
-	SWI_field_marshal
-}
-
 set_war_support = 0.2
 
 set_politics = {
@@ -58,47 +44,6 @@ set_popularities = {
 	national_populist = 10
 }
 
-activate_mission = SWI_peace_mission_ongoing
-country_event = { #Romandie Crisis
-	days = 397 id = prewar.1
-}
 
-country_event = {
-	days = 2 id = swiss.41
-}
-country_event = { # Union Nationale Rally
-	days = 96 id = swiss.71
-}
-country_event = {
-	days = 70 id = swiss.143
-}
-country_event = { # Swiss National Day
-	days = 213 id = swiss.145
-}
-country_event = {
-	months = 10 id = swiss.146
-}
-country_event = { #motta death
-	days = 1482 id = swiss.196
-}
-country_event = { #fonjallaz death
-	days = 2943 id = swiss.195
-}
 
-### Leaders ###
-recruit_character = SWI_jakob_herzog
-recruit_character = SWI_federal_union_council
-recruit_character = SWI_geneva_council_of_state
-recruit_character = SWI_swiss_federal_council
 
-### Commanders ###
-recruit_character = SWI_eugen_bircher
-recruit_character = SWI_henri_guisan
-recruit_character = SWI_gustave_combe
-recruit_character = SWI_hermann_flueckiger
-recruit_character = SWI_jakob_labhardt
-recruit_character = SWI_jean_de_muralt
-recruit_character = SWI_jakob_huber
-recruit_character = SWI_louis_de_montmollin
-recruit_character = SWI_hans_bandi
-recruit_character = SWI_franz_prisi

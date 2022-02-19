@@ -61,4 +61,3 @@ set_popularities = {
 	national_populist = 6
 }
 
-recruit_character = ZZB_Khalifa_II_bin_Harub_Al_Said

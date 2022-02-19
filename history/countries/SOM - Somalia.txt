@@ -15,8 +15,6 @@ set_technology = {
 
 set_war_support = 0.32
 
-country_event = {id = som.1 days = 1 }
-
 set_politics = {
 	ruling_party = authoritarian_democrat
 	last_election = "1888.6.15"
@@ -37,28 +35,3 @@ set_popularities = {
 	national_populist = 14
 }
 set_convoys = 30
-add_ideas = {
-	SOM_iron_fist_of_warsangali
-	SOM_foodplease
-	extensive_conscription
-	SOM_Cismaan_III_Maxamuud_hog_ade
-	SOM_Abdullah_Mohamed_Fadil_for_ade
-	SOM_Mohamoud_Ghelle_Yusuf_eco_ade
-	SOM_Ismail_Ali_Abukar_sec_ade
-}
-
-### Country Leaders ###
-recruit_character = SOM_aden_abdulle_osman_daar
-recruit_character = SOM_haji_bashir_ismail_yusuf
-recruit_character = SOM_abdirashid_ali_shermarke
-recruit_character = SOM_jama_abdullahi_qalib
-recruit_character = SOM_maxamuud_cali_shiire
-recruit_character = SOM_haaji_mahammad_husseen
-
-### Generals ###
-recruit_character = SOM_ismail_mire_elmi
-recruit_character = SOM_cusmaan_yuusuf_keenadiid
-recruit_character = SOM_ughaz_abdi_ii_warfa
-
-### Admirals ###
-recruit_character = SOM_cismaan_iii_maxamuud

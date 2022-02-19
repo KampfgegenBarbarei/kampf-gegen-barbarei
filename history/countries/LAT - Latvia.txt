@@ -96,35 +96,6 @@ set_popularities = {
 	national_populist = 2
 }
 
-add_ideas = {
-	LAT_dualism
-	LAT_desesperate_situation
-	LAT_disorganised_economy
-	LAT_army_0
-	LAT_remember_riga
-	LAT_EST_roads_to_riga_1
-	limited_conscription
-	LAT_Pauls_Kalnins_hog_sco
-	LAT_Reinhold_K_Zarins_for_sco
-	LAT_Alfreds_Valdmanis_eco_pau
-	LAT_Hermanis_Apsitis_sec_pau
-}
 
-### Country Leaders ###
-#LAT_jekabs_peterss starts in BAT
-#LAT_ernests_morics starts in BAT
-#LAT_pauls_kalnins starts in BAT
-recruit_character = LAT_constitutional_assembly
-recruit_character = LAT_margers_skujenieks
-recruit_character = LAT_peteris_jurasevskis
-recruit_character = LAT_janis_kurelis
-recruit_character = LAT_karlis_ulmanis
-recruit_character = LAT_kristaps_upelnieks
-recruit_character = LAT_gustavs_celmins
 
-### Generals ###
-recruit_character = LAT_martins_penikis
-recruit_character = LAT_oskars_dankers
 
-### Admirals ###
-recruit_character = LAT_teodors_spade

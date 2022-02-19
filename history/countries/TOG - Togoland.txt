@@ -21,6 +21,5 @@ set_popularities = {
 	national_populist = 12
 }
 
-recruit_character = TOG_Sylvanus_Olympio
-recruit_character = TOG_Alhaji_Grunshi
+
 

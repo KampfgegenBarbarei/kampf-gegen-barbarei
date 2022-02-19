@@ -1,8 +1,5 @@
 ﻿capital = 114
 
-oob = "SRD"
-set_naval_oob= "SRD_naval"
-
 set_research_slots = 3
 
 ### Starting Technologies ###
@@ -95,12 +92,6 @@ if = {
 	}
 }
 
-country_event = { id = srd.0 days = 1 }
-
-set_convoys = 100
-set_stability = 0.55
-set_war_support = 0.20
-
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1918.11.9"
@@ -121,27 +112,4 @@ set_popularities = {
 	national_populist = 0
 }
 
-add_ideas = {
-	limited_conscription
 
-	SRD_Giorgio_Bardanzellu_hog_ade
-	SRD_Raffaele_Guariglia_for_pau
-	SRD_Mario_Ascione_eco_ade
-	SRD_Luigi_Arborio_Mella_di_Sant'Elia_sec_pau
-}
-
-# King Amedeo
-recruit_character = SRD_amedeo_aosta
-# Army Officers
-recruit_character = SRD_pietro_badoglio
-recruit_character = SRD_giuseppe_valle
-recruit_character = SRD_pietro_pintor
-recruit_character = SRD_umberto_carignano
-recruit_character = SRD_filiberto_pistoia
-recruit_character = SRD_amedeo_guillet
-recruit_character = SRD_giuseppe_montezemolo
-recruit_character = SRD_adalberto_genova
-# Navy Officers
-recruit_character = SRD_aimone_aosta
-recruit_character = SRD_domenico_cavagnari
-recruit_character = SRD_angelo_iachino

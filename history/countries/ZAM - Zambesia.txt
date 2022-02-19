@@ -25,6 +25,3 @@ set_popularities = {
 	paternal_autocrat = 47
 	national_populist = 12
 }
-
-recruit_character = ZAM_Kanyanta
-recruit_character = ZAM_Ronald_Storrs		#British leader

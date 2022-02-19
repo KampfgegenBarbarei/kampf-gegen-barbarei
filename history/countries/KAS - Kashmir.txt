@@ -25,5 +25,4 @@ set_popularities = {
 	national_populist = 8
 }
 
-# Hari Singh transferred from RAJ after capitulation
 
