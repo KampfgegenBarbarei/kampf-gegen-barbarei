@@ -1,20 +1,27 @@
-state = {
-	id = 1034
-	name = "STATE_1034"
-	history = {
+
+state={
+	id=1034
+	name="STATE_1034"
+
+	history={
 		owner = HND
 		add_core_of = HND
-		victory_points = { 7244 1 } #Mangalore
-		victory_points = { 7391 1 } #Calicut
+		victory_points = {
+			7244 1 
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-		}
-	}
-	provinces = {
-		7244 7391 7447 10190
-	}
-	manpower = 1356780
-	state_category = two
-}
 
+		}
+
+	}
+
+	provinces={
+		7244 7447 10190 
+	}
+	manpower=1356780
+	buildings_max_level_factor=1.000
+	state_category=two
+	local_supplies=0.000
+}

@@ -9,7 +9,6 @@ state={
 		add_core_of = GRE
 		buildings = {
 			infrastructure = 2
-			naval_base = 1
 		}
 
 	}

@@ -1,0 +1,18 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			AZR = {
+				give_resource_rights = { state = 229 receiver = GER }
+			}			
+			ROM = {
+				give_resource_rights = { state = 46 receiver = GER }
+			}
+			RUS = {
+				give_resource_rights = { state = 232 receiver = GER }
+			}
+			PER = {
+				give_resource_rights = { state = 413 receiver = TUR }
+			}
+		}
+	}	
+}
