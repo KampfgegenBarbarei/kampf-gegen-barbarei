@@ -7,20 +7,20 @@ focus_tree = {
 			tag = GER
 		}
 	}
-	shared_focus = GER_press_censorship
-	shared_focus = GER_expand_verpo
-	shared_focus = GER_aftermath_of_koln
-	shared_focus = GER_grand_coalition
-	shared_focus = GER_repair_wilhelmshaven
-	shared_focus = GER_reconstitute_verpo
-	shared_focus = GER_1951_election
-	shared_focus = GER_begin_the_reconstruction
-	shared_focus = GER_dealing_with_the_dreadnought
-	shared_focus = GER_the_red_barons_legacy
-	shared_focus = GER_implement_kesselring_doctrine
-	shared_focus = GER_maintain_orthodox_bewegungskrieg
-	shared_focus = GER_weltreich
-	shared_focus = GER_imperial_succesion_act
-	shared_focus = GER_bredows_vision_holds_2
+#	shared_focus = GER_press_censorship
+#	shared_focus = GER_expand_verpo
+#	shared_focus = GER_aftermath_of_koln
+#	shared_focus = GER_grand_coalition
+#	shared_focus = GER_repair_wilhelmshaven
+#	shared_focus = GER_reconstitute_verpo
+#	shared_focus = GER_1951_election
+#	shared_focus = GER_begin_the_reconstruction
+#	shared_focus = GER_dealing_with_the_dreadnought
+#	shared_focus = GER_the_red_barons_legacy
+#	shared_focus = GER_implement_kesselring_doctrine
+#	shared_focus = GER_maintain_orthodox_bewegungskrieg
+#	shared_focus = GER_weltreich
+#	shared_focus = GER_imperial_succesion_act
+#	shared_focus = GER_bredows_vision_holds_2
 	continuous_focus_position = { x = 175 y = 1475 }
 }
