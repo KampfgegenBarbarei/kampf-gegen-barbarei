@@ -6,10 +6,8 @@ state = {
 	local_supplies = 3.0
 
 	history = {
-		owner = SIB
+		owner = RUS
 		add_core_of = RUS
-		add_core_of = SIB
-		add_core_of = SOV
 		buildings = {
 			infrastructure = 1
 		}

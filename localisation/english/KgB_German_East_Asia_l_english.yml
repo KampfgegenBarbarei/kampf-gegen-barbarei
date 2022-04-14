@@ -1,0 +1,50 @@
+﻿l_english:
+
+### Country Names ###
+ GEA:0 "Deutsch-Ostasien"
+ GEA_DEF:0 "German East Asia"
+ GEA_ADJ:0 "German East Asian"
+
+### Events ###
+ Ostasien.1.t:0 "The Malayan Emergency"
+ Ostasien.1.d:0 "Chin Peng and his Malayan National Liberation Army have risen up in the jungles to liberate Malaya from our colonial rule. This must be dealt with swiftly."
+ Ostasien.1.a:0 "We must put them down immediately!"
+ 
+ Ostasien.2.t:0 "Indochinese Rebellion"
+ Ostasien.2.d:0 "As colonial garrisons begin to thin out in order to assist in Malaya, the Viet Minh have decided to launch a full scale revolt against our rule in Indochina."
+ Ostasien.2.a:0 "This is getting worse and worse"
+ 
+ Ostasien.3.t:0 "Defeat in Malaya"
+ Ostasien.3.d:0 "The unexpected has occurred. Malayan Partisans along with their benefactors in Chicago have driven us out of Malaya. We have to no choice but to recognise defeat and retreat to Singapore."
+ Ostasien.3.a:0 "Berlin will not be happy"
+ 
+ Ostasien.4.t:0 "Defeat in Indochina"
+ Ostasien.4.d:0 "The Viet Minh have captured Hanoi, Saigon and most of the major cities in Indochina. We must evacuate from Indochina immediately and cut our losses."
+ Ostasien.4.a:0 "The Red Wave spreads across Asia.."
+
+ Ostasien.5.t:0 "Victory in Malaya"
+ Ostasien.5.d:0 "Our garrisons have successfully put down the MNLA"
+ Ostasien.5.a:0 "No surprises there"
+
+ Ostasien.6.t:0 "Victory in Indochina"
+ Ostasien.6.d:0 "We have put down the Indochinese revolution"
+ Ostasien.6.a:0 "The dominoes will no longer continue to topple"
+ 
+ Ostasien.7.t:0 "Decolonising Malaysia"
+ Ostasien.7.d:0 "After the loss in Malaya, Berlin has decided to decolonise."
+ Ostasien.7.a:0 "Goodbye Malaysia"
+ 
+ Ostasien.8.t:0 "Decolonising Malaysia"
+ Ostasien.8.d:0 "After the victory in Malaya, Berlin has decided to decolonise for a large friendly Malaysia."
+ Ostasien.8.a:0 "Goodbye Malaysia"
+ 
+ Ostasien.9.t:0 "Decolonising Indochina"
+ Ostasien.9.d:0 "After the victory in Indochina, Berlin has decided to decolonise for a friendly states in Indochina."
+ Ostasien.9.a:0 "Goodbye Indochina"
+
+ Ostasien.10.t:0 "Singapore expelled"
+ Ostasien.10.d:0 "Following race riots and instability, Singapore has been expelled from Malaysia."
+ Ostasien.10.a:0 "Strange turns of events"
+ 
+
+

@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+		GEA_colonial_wars = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GEA_colonial_wars" }
+			allowed = { 
+				tag = GEA 
+			}
+			modifier = {
+				ai_call_ally_desire_factor = -10000.0
+			}
+		}
+	}
+}

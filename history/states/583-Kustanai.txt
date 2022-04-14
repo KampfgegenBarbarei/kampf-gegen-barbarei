@@ -5,10 +5,8 @@ state = {
 	state_category = three
 
 	history = {
-		owner = SIB
+		owner = RUS
 		add_core_of = RUS
-		add_core_of = SIB
-		add_core_of = SOV
 		victory_points = {
 			7874 3 #Petropavlovsk
 		}

@@ -328,15 +328,16 @@ GBP_england = {
 	color_ui = rgb { 152 129 123 }
 }
 
-LBA_libya = {
-	color = rgb { 38 100 38 }
-	color_ui = rgb { 38 100 38 }
+LBA_Puppet = {
+	color = rgb { 64 77 96 }
+	color_ui = rgb { 64 77 96 }
 }
 
 ASOS = {
 	color = rgb { 113 74 88 }
 	color_ui = rgb { 113 74 88 }
 }
+
 CHT = {
 	color = rgb { 20 20 20 }
 	color_ui = rgb { 20 20 20 }
@@ -468,6 +469,10 @@ MAL_malaysia = {
 	color_ui = rgb { 67 33 91 }
 }
 MAL_socialist = {
+	color = rgb { 235 0 0 }
+	color_ui = rgb { 235 0 0 }
+}
+MAL_MNLA = {
 	color = rgb { 235 0 0 }
 	color_ui = rgb { 235 0 0 }
 }

@@ -84,8 +84,15 @@ if = {
 	}
 }
 
+CSA = {
+	set_autonomy = {
+		target = WIF
+		autonomy_state = kr_default_puppet
+	}
+}
+
 set_politics = {
-	ruling_party = market_liberal
+	ruling_party = syndicalist
 	last_election = "1933.8.9"
 	election_frequency = 48
 	elections_allowed = yes
@@ -93,12 +100,12 @@ set_politics = {
 
 set_popularities = {
 	totalist = 2
-	syndicalist = 12
-	radical_socialist = 8
+	syndicalist = 32
+	radical_socialist = 18
 	social_democrat = 7
-	social_liberal = 10
-	market_liberal = 30
-	social_conservative = 21
+	social_liberal = 9
+	market_liberal = 11
+	social_conservative = 11
 	authoritarian_democrat = 8
 	paternal_autocrat = 2
 	national_populist = 0

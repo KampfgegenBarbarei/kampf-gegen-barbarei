@@ -1,15 +1,444 @@
-###########################
 # Deutsch-Ostasien Events
-###########################
 
 add_namespace = Ostasien
 
+country_event = { #Malayan Emergency
+	id = Ostasien.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event Ostasien.1 FROM = [From.GetName]" }
+	title = Ostasien.1.t
+	desc = Ostasien.1.d
+	picture = GFX_report_event_generic_towar
+
+	is_triggered_only = yes
+
+	option = { #Uh oh
+		name = Ostasien.1.a
+		hidden_effect = {
+			set_global_flag = GEA_Malaya_War
+			every_owned_state = {
+				limit = { region = 194 } #Malaya
+				remove_core_of = GEA
+				add_claim_by = GEA
+			}
+
+			MAL = {
+				set_politics = {
+					ruling_party = radical_socialist
+				}
+				add_popularity = {
+					ideology = radical_socialist
+					popularity = 0.5
+				}
+				set_cosmetic_tag = MAL_MNLA
+				add_manpower = 20000
+
+				#states
+				transfer_state = 846
+				transfer_state = 1095
+
+				GEA = {
+					declare_war_on = {
+						target = MAL
+						type = annex_everything
+					}
+				}
+
+				if = {
+					limit = { 1093 = { is_owned_and_controlled_by = GEA } }
+					set_province_controller = 7399
+				}
+			}
+
+			336 = {
+				add_core_of = GEA
+			}
+
+			news_event = {
+				id = worldnews.1
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #Indochina War
+	id = Ostasien.2
+	title = Ostasien.2.t
+	desc = Ostasien.2.d
+	picture = GFX_report_event_generic_towar
+
+	is_triggered_only = yes
+
+	option = { #We're screwed
+		name = Ostasien.2.a
+		hidden_effect = {
+			set_global_flag = GEA_Indochina_War
+			every_owned_state = {
+				limit = { region = 196 } #Indochina
+				remove_core_of = GEA
+				add_claim_by = GEA
+			}
+			every_state = {
+				limit = { region = 196 } #Indochina
+				add_core_of = INC
+			}
+
+			INC = {
+				add_manpower = 30000
+
+				#states
+				transfer_state = 671
+				transfer_state = 1099
+				transfer_state = 856
+				transfer_state = 670
+
+				GEA = {
+					declare_war_on = {
+						target = INC
+						type = annex_everything
+					}
+				}
+
+				if = {
+					limit = { 1100 = { is_owned_and_controlled_by = GEA } }
+					set_province_controller = 1362
+					set_province_controller = 1390
+				}
+
+				if = {
+					limit = { 286 = { is_owned_and_controlled_by = GEA } }
+					set_province_controller = 7347
+				}
+			}
+			news_event = {
+				id = worldnews.2
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #Retreat from Malaya
+	id = Ostasien.3
+	title = Ostasien.3.t
+	desc = Ostasien.3.d
+	picture = GFX_report_event_generic_conference1
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = GEA
+		has_war_with = MAL
+		MAL = {
+			controls_state = 846
+			controls_state = 1092
+			controls_state = 1093
+			controls_state = 1094
+			controls_state = 1095
+			controls_state = 1096
+			surrender_progress < 0.15
+		}
+	}
+
+	option = {
+		name = Ostasien.3.a #Malaya is lost
+		clr_global_flag = GEA_Malaya_War
+		add_political_power = -100
+		hidden_effect = {
+			MAL = {
+				set_cosmetic_tag = MAL_socialist
+				transfer_state = 1092
+				transfer_state = 1093
+				transfer_state = 1094
+				transfer_state = 1096
+				white_peace = GEA
+			}
+			country_event = {
+				id = Ostasien.7
+				days = 30
+			}
+			news_event = {
+				id = worldnews.3
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #Retreat from Indochina
+	id = Ostasien.4
+	title = Ostasien.4.t
+	desc = Ostasien.4.d
+	picture = GFX_report_event_generic_conference2
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = GEA
+		has_war_with = INC
+		INC = {
+			controls_state = 286
+			controls_state = 670
+			controls_state = 671
+			controls_state = 827
+			controls_state = 856
+			controls_state = 857
+			controls_state = 1097
+			controls_state = 1098
+			controls_state = 1099
+			surrender_progress < 0.20
+		}
+	}
+
+	option = {
+		name = Ostasien.4.a #Indochina is lost
+		clr_global_flag = GEA_Indochina_War
+		add_political_power = -200
+		hidden_effect = {
+			GEA = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							region = 196 #Indochina
+							region = 142 #Siam
+						}
+					}
+					remove_core_of = GEA
+					remove_claim_by = GEA
+					transfer_state_to = INC
+				}
+				white_peace = INC
+			}
+
+			news_event = {
+				id = worldnews.4
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #Victory in Malaya
+	id = Ostasien.5
+	title = Ostasien.5.t
+	desc = Ostasien.5.d
+	picture = GFX_report_event_generic_conference1
+
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = GEA_Malaya_War
+		GEA = {
+			controls_state = 846
+			controls_state = 1095
+		}
+		MAL = {
+			exists = no
+		}
+	}
+
+	option = {
+		name = Ostasien.5.a
+		hidden_effect = {
+			news_event = {
+				id = worldnews.5
+				days = 1
+			}
+			country_event = {
+				id = Ostasien.8
+				days = 30
+			}
+		}
+		clr_global_flag = GEA_Malaya_War
+	}
+}
+
+country_event = { #Victory in Indochina
+	id = Ostasien.6
+	title = Ostasien.6.t
+	desc = Ostasien.6.d
+	picture = GFX_report_event_generic_conference2
+
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = GEA_Indochina_War
+		GEA = {
+			controls_state = 670
+			controls_state = 671
+			controls_state = 856
+			controls_state = 1099
+		}
+		INC = {
+			exists = no
+		}
+	}
+
+	option = {
+		name = Ostasien.6.a
+		hidden_effect = {
+			news_event = {
+				id = worldnews.6
+				days = 1
+			}
+			country_event = {
+				id = Ostasien.9
+				days = 30
+			}
+		}
+		clr_global_flag = GEA_Indochina_War
+	}
+}
+
+country_event = { #Malaysia Decolonisation - GEA Loss
+	id = Ostasien.7
+	title = Ostasien.7.t
+	desc = Ostasien.7.d
+	picture = GFX_report_event_generic_diplomacy1
+
+	is_triggered_only = yes
+
+	option = {
+		name = Ostasien.7.a
+		hidden_effect = {
+			GEA = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 194 #Malaya
+							region = 159 #Borneo
+						}
+					}
+					remove_core_of = GEA
+					remove_claim_by = GEA
+				}
+			}
+			SIN = {
+				transfer_state = 336
+			}
+			BRU = {
+				transfer_state = 1091
+			}
+			SAR = {
+				transfer_state = 333
+				transfer_state = 828
+			}
+		}
+	}
+}
+
+country_event = { #Malaysia Decolonisation - GEA Win
+	id = Ostasien.8
+	title = Ostasien.8.t
+	desc = Ostasien.8.d
+	picture = GFX_report_event_generic_diplomacy2
+
+	is_triggered_only = yes
+
+	option = {
+		name = Ostasien.8.a
+		hidden_effect = {
+			GEA = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							region = 194 #Malaya
+							region = 159 #Borneo
+						}
+					}
+					remove_core_of = GEA
+					remove_claim_by = GEA
+					transfer_state_to = MAL
+					add_core_of = MAL
+				}
+			}
+			MAL = {
+				set_cosmetic_tag = MAL_malaysia
+				set_politics = {
+					ruling_party = authoritarian_democrat
+				}
+				add_popularity = {
+					ideology = radical_socialist
+					popularity = -0.5
+				}
+			}
+			BRU = {
+				transfer_state = 1091
+			}
+			country_event = {
+				id = Ostasien.10
+				days = 30
+			}
+		}
+	}
+}
+
+country_event = { #Indochina Decolonisation - GEA Win
+	id = Ostasien.9
+	title = Ostasien.9.t
+	desc = Ostasien.9.d
+	picture = GFX_report_event_generic_diplomacy3
+
+	is_triggered_only = yes
+
+	option = {
+		name = Ostasien.9.a
+		hidden_effect = {
+			GEA = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 196 #Indochina
+						}
+					}
+					remove_core_of = GEA
+					remove_claim_by = GEA
+				}
+			}
+			VIN = {
+				transfer_state = 286
+				transfer_state = 671
+				transfer_state = 827
+				transfer_state = 856
+				transfer_state = 857
+				transfer_state = 1097
+				transfer_state = 1098
+				transfer_state = 1099
+			}
+			LAO = {
+				transfer_state = 670
+				transfer_state = 1100
+			}
+			CAM = {
+				transfer_state = 826
+			}
+		}
+	}
+}
+
+country_event = { #SG breaks off from MAL
+	id = Ostasien.10
+	title = Ostasien.10.t
+	desc = Ostasien.10.d
+	picture = GFX_report_event_generic_diplomacy4
+
+	is_triggered_only = yes
+	
+	option = {
+		name = Ostasien.10.a
+		hidden_effect = {
+			SIN = {
+				transfer_state = 336
+			}
+		}
+	}
+}
+
 country_event = { #Debug decolonisation event
 	id = Ostasien.999
-	immediate = { log = "[GetDateText]: [Root.GetName]: event Ostasien.999 FROM = [From.GetName]" }
 	title = Ostasien.999.t
 	desc = Ostasien.999.d
-	picture = GFX_report_event_SIA_German_Economical_Dominance
+	picture = GFX_report_event_falkenhausen
 
 	is_triggered_only = yes
 
@@ -19,10 +448,10 @@ country_event = { #Debug decolonisation event
 
 	option = { #socialist indochina
 		name = Ostasien.999.a
-		INC = { 
+		INC = {
 			transfer_state = 286
 			transfer_state = 671
-			transfer_state = 827 
+			transfer_state = 827
 			transfer_state = 856
 			transfer_state = 857
 			transfer_state = 1097
@@ -42,43 +471,46 @@ country_event = { #Debug decolonisation event
 
 	option = { #puppet indochina kingdoms
 		name = Ostasien.999.b
-		VIN = { 
+		VIN = {
 			transfer_state = 286
 			transfer_state = 671
-			transfer_state = 827 
+			transfer_state = 827
 			transfer_state = 856
 			transfer_state = 857
 			transfer_state = 1097
 			transfer_state = 1098
 			transfer_state = 1099
 		}
-		LAO = { 
+		LAO = {
 			transfer_state = 670
 			transfer_state = 1100
 		}
-		CAM = { 
+		CAM = {
 			transfer_state = 826
 		}
 	}
 
 	option = { #malayan revolution
 		name = Ostasien.999.c
-		SIN = { 
+		SIN = {
 			transfer_state = 336
 		}
-		MAL = { 
+		MAL = {
 			transfer_state = 846
-			transfer_state = 1092 
+			transfer_state = 1092
 			transfer_state = 1093
 			transfer_state = 1094
 			transfer_state = 1095
 			transfer_state = 1096
 			set_cosmetic_tag = MAL_socialist
+			set_politics = {
+				ruling_party = radical_socialist
+			}
 		}
-		BRU = { 
+		BRU = {
 			transfer_state = 1091
 		}
-		SAR = { 
+		SAR = {
 			transfer_state = 333
 			transfer_state = 828
 		}
@@ -86,25 +518,25 @@ country_event = { #Debug decolonisation event
 
 	option = { #malaysia
 		name = Ostasien.999.d
-		MAL = { 
+		MAL = {
 			transfer_state = 336
 			transfer_state = 846
-			transfer_state = 1092 
+			transfer_state = 1092
 			transfer_state = 1093
 			transfer_state = 1094
 			transfer_state = 1095
 			transfer_state = 1096
 			transfer_state = 333
 			transfer_state = 828
-			every_state = {
-				limit = {
-					is_owned_by = MAL
-				}
+			every_owned_state = {
 				add_core_of = MAL
 			}
 			set_cosmetic_tag = MAL_malaysia
+			set_politics = {
+				ruling_party = authoritarian_democrat
+			}
 		}
-		BRU = { 
+		BRU = {
 			transfer_state = 1091
 		}
 	}
@@ -114,7 +546,7 @@ country_event = { #Debug decolonisation event
 		GEA = {
 			transfer_state = 336
 			transfer_state = 846
-			transfer_state = 1092 
+			transfer_state = 1092
 			transfer_state = 1093
 			transfer_state = 1094
 			transfer_state = 1095
@@ -124,7 +556,7 @@ country_event = { #Debug decolonisation event
 			transfer_state = 828
 			transfer_state = 286
 			transfer_state = 671
-			transfer_state = 827 
+			transfer_state = 827
 			transfer_state = 856
 			transfer_state = 857
 			transfer_state = 1097
@@ -147,6 +579,13 @@ country_event = { #Debug decolonisation event
 
 		MAL = {
 			set_cosmetic_tag = MAL_malaya
+			set_politics = {
+				ruling_party = authoritarian_democrat
+			}
+			add_popularity = {
+				ideology = radical_socialist
+				popularity = -0.5
+			}
 			333 = {
 				remove_core_of = MAL
 			}

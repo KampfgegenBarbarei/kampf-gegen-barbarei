@@ -1,0 +1,103 @@
+﻿add_namespace = worldnews
+
+# Malayan Emergency
+news_event = {
+	id = worldnews.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.1 FROM = [From.GetName]" }
+	title = worldnews.1.t
+	desc = worldnews.1.d
+	picture = GFX_news_event_malayan_emergency
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = worldnews.1.a
+	}
+}
+
+#Vietnam war
+news_event = {
+	id = worldnews.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.2 FROM = [From.GetName]" }
+	title = worldnews.2.t
+	desc = worldnews.2.d
+	picture = GFX_news_event_indochina_war
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = worldnews.2.a
+	}
+}
+
+#Germany loses in Malaya
+news_event = {
+	id = worldnews.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.3 FROM = [From.GetName]" }
+	title = worldnews.3.t
+	desc = worldnews.3.d
+	picture = GFX_news_event_generic_ruins
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = worldnews.3.a
+	}
+}
+
+#Germany loses in Indochina
+news_event = {
+	id = worldnews.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.4 FROM = [From.GetName]" }
+	title = worldnews.4.t
+	desc = worldnews.4.d
+	picture = GFX_news_event_generic_ruins
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = worldnews.4.a
+	}
+}
+
+#Germany wins in Malaya
+news_event = {
+	id = worldnews.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.5 FROM = [From.GetName]" }
+	title = worldnews.5.t
+	desc = worldnews.5.d
+	picture = GFX_news_event_generic_ruins
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = worldnews.5.a
+	}
+}
+
+#Germany wins in Indochina
+news_event = {
+	id = worldnews.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.6 FROM = [From.GetName]" }
+	title = worldnews.6.t
+	desc = worldnews.6.d
+	picture = GFX_news_event_generic_ruins
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = worldnews.6.a
+	}
+}

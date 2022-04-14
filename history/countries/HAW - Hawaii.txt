@@ -2,8 +2,15 @@
 set_research_slots = 2
 set_convoys = 40
 
+JAP = {
+	set_autonomy = {
+		target = HAW
+		autonomy_state = kr_default_puppet
+	}
+}
+
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = social_conservative
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no

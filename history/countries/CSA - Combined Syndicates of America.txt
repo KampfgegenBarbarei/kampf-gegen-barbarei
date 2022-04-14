@@ -25,6 +25,14 @@ set_popularities = {
 	national_populist = 0
 }
 
+create_faction = Third_International
+add_to_faction = MEX
+add_to_faction = WIF
+add_to_faction = VEN
+add_to_faction = NIC
+add_to_faction = FOP
+add_to_faction = CHL
+
 
 
 

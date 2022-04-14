@@ -4,5 +4,11 @@
  MAL_malaya:0 "Malayan Union"
  MAL_malaysia:0 "Malaysia"
  MAL_socialist:0 "Democratic Republic of Malaya"
+ MAL_radical_socialist_DEF:0 "the Democratic Republic of Malaya"
+ MAL_totalist_DEF:0 "the Democratic Republic of Malaya"
+ MAL_syndicalist_DEF:0 "the Democratic Republic of Malaya"
+ 
+ MAL_MNLA:0 "MNLA"
+ MAL_MNLA_DEF:0 "the Malayan National Liberation Army"
 
 

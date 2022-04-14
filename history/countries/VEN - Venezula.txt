@@ -55,19 +55,19 @@ if = {
 }
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = radical_socialist
 	last_election = "1934.5.15"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	totalist = 0
-	radical_socialist = 2
-	syndicalist = 8
-	social_democrat = 33
-	social_liberal = 24
-	market_liberal = 12
+	totalist = 6
+	radical_socialist = 32
+	syndicalist = 28
+	social_democrat = 3
+	social_liberal = 4
+	market_liberal = 6
 	social_conservative = 9
 	authoritarian_democrat = 5
 	paternal_autocrat = 5

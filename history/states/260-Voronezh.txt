@@ -1,24 +1,26 @@
-state = {
-	id = 260
-	name = "STATE_260"
-	manpower = 2567983
-	state_category = five
-	local_supplies = 9.0
 
-	history = {
+state={
+	id=260
+	name="STATE_260"
+
+	history={
 		owner = RUS
 		add_core_of = RUS
-		add_core_of = SOV
 		buildings = {
 			infrastructure = 2
+
 		}
 		victory_points = {
-			413 5
+			413 5 
 		}
+
 	}
 
-	provinces = {
-		413 437 510 3504 3527 3566 6428 6494 6553 6587 9448 9529 11540
+	provinces={
+		413 437 510 534 3504 3527 3566 6428 6477 6494 6553 6587 9448 9529 9552 9579 11396 11540 
 	}
+	manpower=2567983
+	buildings_max_level_factor=1.000
+	state_category=five
+	local_supplies=9.000
 }
-

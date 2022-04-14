@@ -6,9 +6,8 @@ state = {
 	local_supplies = 6.0
 
 	history = {
-		owner = SOV
+		owner = RUS
 		add_core_of = RUS
-		add_core_of = SOV
 		victory_points = {
 			121 5
 		}

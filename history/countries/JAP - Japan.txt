@@ -150,6 +150,9 @@ set_popularities = {
 	national_populist = 1
 }
 
+create_faction = co_prosperity_sphere
+add_to_faction = PHI
+add_to_faction = HAW
 
 if = {
 	limit = {
