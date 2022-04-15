@@ -5,6 +5,13 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+GER = {
+	set_autonomy = {
+		target = PAL
+		autonomy_state = kr_ottoman_international_zone
+	}
+}
+
 set_politics = {
 	ruling_party = authoritarian_democrat
 	last_election = "1888.6.15"

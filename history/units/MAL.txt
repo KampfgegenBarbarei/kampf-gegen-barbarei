@@ -1,0 +1,80 @@
+﻿division_template = {
+	name = "Melayu Infantry"
+	division_names_group = MAL_MLT_01
+	is_locked = yes
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+}
+division_template = {
+	name = "Melayu Partisans"
+	division_names_group = MAL_MLT_01
+	is_locked = yes
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division= {
+		name = "Malayan Partisans 1"
+		location = 12255
+		division_template = "Melayu Partisans"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division= {
+		name = "Malayan Partisans 2"
+		location = 1364
+		division_template = "Melayu Partisans"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division= {
+		name = "Malayan Partisans 3"
+		location = 1364
+		division_template = "Melayu Partisans"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division= {
+		name = "Malayan 1st Division"
+		location = 8155
+		division_template = "Melayu Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division= {
+		name = "Malayan 2nd Division"
+		location = 1392
+		division_template = "Melayu Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}
+
+instant_effect = {
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 1000
+		producer = GER
+	}
+	add_equipment_to_stockpile = {
+		type = artillery_equipment_1
+		amount = 50
+		producer = GER
+	}
+}
+

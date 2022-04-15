@@ -47,6 +47,7 @@ country_event = { #Malayan Emergency
 					limit = { 1093 = { is_owned_and_controlled_by = GEA } }
 					set_province_controller = 7399
 				}
+				load_oob = "MAL"
 			}
 
 			336 = {
@@ -109,6 +110,8 @@ country_event = { #Indochina War
 					limit = { 286 = { is_owned_and_controlled_by = GEA } }
 					set_province_controller = 7347
 				}
+				
+				load_oob = "INC"
 			}
 			news_event = {
 				id = worldnews.2
@@ -155,7 +158,7 @@ country_event = { #Retreat from Malaya
 			}
 			country_event = {
 				id = Ostasien.7
-				days = 30
+				days = 500
 			}
 			news_event = {
 				id = worldnews.3
@@ -209,7 +212,6 @@ country_event = { #Retreat from Indochina
 				}
 				white_peace = INC
 			}
-
 			news_event = {
 				id = worldnews.4
 				days = 1
@@ -246,7 +248,7 @@ country_event = { #Victory in Malaya
 			}
 			country_event = {
 				id = Ostasien.8
-				days = 30
+				days = 500
 			}
 		}
 		clr_global_flag = GEA_Malaya_War
@@ -283,7 +285,7 @@ country_event = { #Victory in Indochina
 			}
 			country_event = {
 				id = Ostasien.9
-				days = 30
+				days = 500
 			}
 		}
 		clr_global_flag = GEA_Indochina_War
@@ -367,7 +369,7 @@ country_event = { #Malaysia Decolonisation - GEA Win
 			}
 			country_event = {
 				id = Ostasien.10
-				days = 30
+				days = 300
 			}
 		}
 	}
