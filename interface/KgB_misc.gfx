@@ -1,0 +1,11 @@
+spriteTypes = {
+	progressbartype = {
+		name = "GFX_damage_bar_smaller"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/building_damage_bar.dds"
+		textureFile2 = "gfx/interface/building_damage_bar_bg.dds"
+		size = { x = 20 y = 3 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+}

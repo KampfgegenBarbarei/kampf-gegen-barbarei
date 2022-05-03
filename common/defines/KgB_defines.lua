@@ -2,7 +2,7 @@
 -- Vanilla is "http://www.hoi4wiki.com/"
 
 -- Game
-NDefines.NBuildings.MAX_SHARED_SLOTS = 81
+NDefines.NBuildings.MAX_SHARED_SLOTS = 100
 NDefines.NGame.START_DATE = "1945.1.1.1"
 NDefines.NGame.END_DATE = "1959.1.1.1"										-- Vanilla is 1949.1.1.1
 NDefines.NGame.HANDS_OFF_START_TAG = "BHU"									-- Vanilla is URG
