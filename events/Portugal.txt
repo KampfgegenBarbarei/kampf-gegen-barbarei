@@ -1,0 +1,246 @@
+# Deutsch-Portugal Events
+
+add_namespace = Portugal
+
+country_event = { #Colonial Instability
+	id = Portugal.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event Portugal.1 FROM = [From.GetName]" }
+	title = Portugal.1.t
+	desc = Portugal.1.d
+	picture = GFX_report_event_generic_towar
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = POR
+		date > 1953.02.02
+
+	}
+
+	option = { #Surely things will solve themselves
+		name = Portugal.1.a
+		hidden_effect = {
+			set_country_flag = POR_colonial_instability
+		}
+		add_stability = -0.05
+	}
+}
+
+country_event = { #Angola War
+	id = Portugal.2
+	title = Portugal.2.t
+	desc = Portugal.2.d
+	picture = GFX_report_event_generic_towar
+
+	is_triggered_only = yes
+
+	option = { #We'll crush them soon.
+		name = Portugal.2.a
+		hidden_effect = {
+			set_global_flag = POR_angola_war
+			
+
+			ANG = {
+				add_manpower = 50000
+
+				#states
+				transfer_state = 540
+
+
+				POR = {
+					declare_war_on = {
+						target = ANG
+						type = annex_everything
+					}
+				}
+				
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_1
+					amount = 5000
+					producer = CSA
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment_1
+					amount = 150
+					producer = CSA
+				}
+				
+				load_oob = "ANG"
+			}
+			POR = {
+				load_oob = "POR_angola"
+			}
+			news_event = {
+				id = worldnews.7
+				days = 1
+			}
+		}
+		add_manpower = -10000
+	}
+}
+
+country_event = { #Angolan Victory
+	id = Portugal.3
+	title = Portugal.3.t
+	desc = Portugal.3.d
+	picture = GFX_report_event_generic_towar
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = POR
+		ANG = {
+			controls_state = 917
+			controls_state = 959
+			controls_state = 540
+			controls_state = 916
+		}
+	}
+		
+	option = { #There was nothing good there anyway
+		name = Portugal.3.a
+		hidden_effect = {
+			clr_global_flag = POR_angola_war
+			white_peace	= ANG
+			news_event = {
+				id = worldnews.8
+				days = 1
+			}
+			ANG = {
+				transfer_state = 917
+				transfer_state = 959
+				transfer_state = 540
+				transfer_state = 916
+			}
+		}
+		add_stability = -0.1
+		add_war_support = -0.22
+
+	}
+}
+
+country_event = { #Angolan Defeat
+	id = Portugal.4
+	title = Portugal.4.t
+	desc = Portugal.4.d
+	picture = GFX_report_event_generic_towar
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = POR
+		ANG = {
+			exists = no
+		}
+		has_global_flag = POR_angola_war
+	}
+		
+	option = { #There was nothing good there anyway
+		name = Portugal.4.a
+		hidden_effect = {
+			clr_global_flag = POR_angola_war
+			white_peace	= ANG
+			news_event = {
+				id = worldnews.9
+				days = 1
+			}
+		}
+		add_stability = 0.1
+		add_war_support = 0.05
+
+	}
+}
+
+country_event = { #Mozambique Uprising
+	id = Portugal.5
+	title = Portugal.5.t
+	desc = Portugal.5.d
+	picture = GFX_report_event_generic_towar
+
+	is_triggered_only = yes
+		
+	option = { #Another one?
+		name = Portugal.5.a
+		hidden_effect = {
+			set_global_flag = POR_mozambique_war
+			news_event = {
+				id = worldnews.10
+				days = 1
+			}
+			MZB = {
+				transfer_state = 544
+				load_oob = "MZB"
+
+			}
+			POR = {
+				declare_war_on = {
+					target = MZB
+					type = annex_everything
+				}
+				load_oob = "POR_mozambique"
+			}
+		}
+	}
+}
+
+country_event = { #Mozambique Victory
+	id = Portugal.6
+	title = Portugal.6.t
+	desc = Portugal.6.d
+	picture = GFX_report_event_generic_towar
+
+	fire_only_once = yes
+	trigger = {
+		MZB = {
+			controls_state = 544
+			controls_state = 950
+			controls_state = 954
+		}
+	}
+	option = { #Our grip on Africa has slipped.
+		name = Portugal.6.a
+		hidden_effect = {
+			clr_global_flag = POR_mozambique_war
+			white_peace	= MZB
+			news_event = {
+				id = worldnews.11
+				days = 1
+			}
+			
+		}
+	}
+	add_stability = -0.12
+	add_war_support = -0.1
+}
+
+country_event = { #Mozambique Defeat
+	id = Portugal.7
+	title = Portugal.7.t
+	desc = Portugal.7.d
+	picture = GFX_report_event_generic_towar
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = POR
+		MZB = {
+			exists = no
+		}
+		has_global_flag = POR_mozambique_war
+	}
+		
+	option = { #There was nothing good there anyway
+		name = Portugal.7.a
+		hidden_effect = {
+			clr_global_flag = POR_mozambique_war
+			news_event = {
+				id = worldnews.12
+				days = 1
+			}
+		}
+		add_stability = 0.05
+		add_war_support = 0.05
+
+	}
+}
+
