@@ -1,0 +1,38 @@
+﻿units = {
+	division= {
+		name = "Portugese Garrison 3"
+		location = 2120
+		division_template = "Portugese Garrison"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+
+	division= {
+		name = "Portugese 3st Division"
+		location = 8245
+		division_template = "Portugese Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division= {
+		name = "Portugese 4nd Division"
+		location = 12935
+		division_template = "Portugese Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}
+
+instant_effect = {
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 1200
+		producer = GER
+	}
+	add_equipment_to_stockpile = {
+		type = artillery_equipment_1
+		amount = 180
+		producer = GER
+	}
+}
+

@@ -1,0 +1,91 @@
+﻿division_template = {
+	name = "Angolan Infantry"
+	division_names_group = ANG_REB_01
+	is_locked = yes
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4}
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+	}
+}
+division_template = {
+	name = "Angolan Rebels"
+	division_names_group = ANG_REB_01
+	is_locked = yes
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division= {
+		name = "Angolan Rebels 1"
+		location = 13758
+		division_template = "Angolan Rebels"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division= {
+		name = "Angolan Rebels 2"
+		location = 13757
+		division_template = "Angolan Rebels"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division= {
+		name = "Angolan Rebels 3"
+		location = 2126
+		division_template = "Angolan Rebels"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0 
+	}
+	division= {
+		name = "Angolan Rebels 4"
+		location = 5158
+		division_template = "Angolan Rebels"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+
+
+	division= {
+		name = "Angolan 1st Division"
+		location = 8248
+		division_template = "Angolan Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division= {
+		name = "Angolan 2nd Division"
+		location = 8248
+		division_template = "Angolan Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}
+
+instant_effect = {
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 5000
+		producer = CSA
+	}
+	add_equipment_to_stockpile = {
+		type = artillery_equipment_1
+		amount = 150
+		producer = CSA
+	}
+}
+
