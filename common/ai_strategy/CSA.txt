@@ -1,0 +1,30 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# send_volunteers_desire
+
+
+CSA_proxy_war_volunteers = {
+	enable = {
+		original_tag = CSA
+		is_historical_focus_on = yes
+	}
+
+	abort = {
+
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = ANG	
+		value = 200
+	}	
+}
