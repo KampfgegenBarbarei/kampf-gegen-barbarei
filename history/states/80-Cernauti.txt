@@ -6,15 +6,15 @@ state = {
 	state_category = one
 
 	history = {
-		owner = UKR
+		owner = ROM
 		victory_points = {
 			9548 2
 		}
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = UKR
-		add_claim_by = ROM
+		add_core_of = ROM
+		add_claim_by = UKR
 	}
 	provinces = {
 		577 9548

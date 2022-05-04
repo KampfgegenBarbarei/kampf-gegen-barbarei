@@ -250,6 +250,26 @@ units = {
 	division = {
 		division_name = {
 			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 12299 # Singapur
+		division_template = "Ostasiatische Schützendivision"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 12299 # Singapur
+		division_template = "Ostasiatische Schützendivision"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 12299 # Singapur
@@ -426,12 +446,6 @@ units = {
 
 ### GEA Air Force ###
 air_wings = {
-	286 = {
-		fighter_equipment_0 = { # Saigon tactical airforce
-			owner = "GEA"
-			amount = 20
-		}
-	}
 	336 = {
 		fighter_equipment_0 = { # Singapur naval airforce
 			owner = "GEA"

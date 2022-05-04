@@ -15,11 +15,6 @@ country_event = { #Malayan Emergency
 		name = Ostasien.1.a
 		hidden_effect = {
 			set_global_flag = GEA_Malaya_War
-			every_owned_state = {
-				limit = { region = 194 } #Malaya
-				remove_core_of = GEA
-				add_claim_by = GEA
-			}
 
 			MAL = {
 				set_politics = {
@@ -35,12 +30,18 @@ country_event = { #Malayan Emergency
 				#states
 				transfer_state = 846
 				transfer_state = 1095
+				
+				every_owned_state = {
+					remove_core_of = GEA
+					add_claim_by = GEA
+				}
 
 				GEA = {
 					declare_war_on = {
 						target = MAL
 						type = annex_everything
 					}
+					add_manpower = 20000
 				}
 
 				if = {
@@ -48,10 +49,6 @@ country_event = { #Malayan Emergency
 					set_province_controller = 7399
 				}
 				load_oob = "MAL"
-			}
-
-			336 = {
-				add_core_of = GEA
 			}
 
 			news_event = {
@@ -74,11 +71,6 @@ country_event = { #Indochina War
 		name = Ostasien.2.a
 		hidden_effect = {
 			set_global_flag = GEA_Indochina_War
-			every_owned_state = {
-				limit = { region = 196 } #Indochina
-				remove_core_of = GEA
-				add_claim_by = GEA
-			}
 			every_state = {
 				limit = { region = 196 } #Indochina
 				add_core_of = INC
@@ -92,6 +84,11 @@ country_event = { #Indochina War
 				transfer_state = 1099
 				transfer_state = 856
 				transfer_state = 670
+				
+				every_owned_state = {
+					remove_core_of = GEA
+					add_claim_by = GEA
+				}
 
 				GEA = {
 					declare_war_on = {
@@ -120,6 +117,7 @@ country_event = { #Indochina War
 		}
 	}
 }
+
 
 country_event = { #Retreat from Malaya
 	id = Ostasien.3
@@ -158,7 +156,7 @@ country_event = { #Retreat from Malaya
 			}
 			country_event = {
 				id = Ostasien.7
-				days = 500
+				days = 1000
 			}
 			news_event = {
 				id = worldnews.3
@@ -248,7 +246,7 @@ country_event = { #Victory in Malaya
 			}
 			country_event = {
 				id = Ostasien.8
-				days = 500
+				days = 1000
 			}
 		}
 		clr_global_flag = GEA_Malaya_War
@@ -285,7 +283,7 @@ country_event = { #Victory in Indochina
 			}
 			country_event = {
 				id = Ostasien.9
-				days = 500
+				days = 1000
 			}
 		}
 		clr_global_flag = GEA_Indochina_War
@@ -580,7 +578,7 @@ country_event = { #Debug decolonisation event
 		}
 
 		MAL = {
-			set_cosmetic_tag = MAL_malaya
+			set_cosmetic_tag = MAL
 			set_politics = {
 				ruling_party = authoritarian_democrat
 			}

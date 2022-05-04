@@ -32,22 +32,22 @@ units = {
 		name = "Malayan Partisans 1"
 		location = 12255
 		division_template = "Melayu Partisans"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
 	}
 	division= {
 		name = "Malayan Partisans 2"
 		location = 1364
 		division_template = "Melayu Partisans"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
 	}
 	division= {
 		name = "Malayan Partisans 3"
 		location = 1364
 		division_template = "Melayu Partisans"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
 	}
 	division= {
 		name = "Malayan 1st Division"
@@ -67,8 +67,8 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_equipment_1
-		amount = 1000
+		type = infantry_equipment_0
+		amount = 500
 		producer = GER
 	}
 	add_equipment_to_stockpile = {

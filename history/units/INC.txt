@@ -32,36 +32,36 @@ units = {
 		name = "Indochinese Partisans 1"
 		location = 12133
 		division_template = "Dan quan Du kich"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
 	}
 	division= {
 		name = "Indochinese Partisans 2"
 		location = 12133
 		division_template = "Dan quan Du kich"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
 	}
 	division= {
 		name = "Indochinese Partisans 3"
 		location = 4341
 		division_template = "Dan quan Du kich"
 		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.9
 	}
 	division= {
 		name = "Indochinese Partisans 4"
 		location = 1390
 		division_template = "Dan quan Du kich"
 		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.9
 	}
 	division= {
 		name = "Indochinese Partisans 5"
 		location = 1390
 		division_template = "Dan quan Du kich"
 		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.9
 	}
 	division= {
 		name = "Indochina 1st Division"
@@ -109,8 +109,8 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_equipment_1
-		amount = 1000
+		type = infantry_equipment_0
+		amount = 500
 		producer = GER
 	}
 	add_equipment_to_stockpile = {

@@ -56,5 +56,5 @@ version="1.11.*"
 tags={
 	"Alternative History"
 }
-name="KgB"
+name="kampf-gegen-barbarei"
 supported_version="1.11.*"
