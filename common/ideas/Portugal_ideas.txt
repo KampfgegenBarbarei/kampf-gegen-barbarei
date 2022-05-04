@@ -1,0 +1,50 @@
+ideas = {
+	country = {
+		POR_far_away_wars_1 = {
+			allowed = { 
+				tag = POR 
+			}
+			modifier = {
+				attrition = 0.1
+				breakthrough_factor = -0.1
+				army_defence_factor	= -0.1
+			}
+		}
+	}
+	country = {
+		POR_far_away_wars_2 = {
+			allowed = { 
+				tag = POR 
+			}
+			modifier = {
+				attrition = 0.2
+				breakthrough_factor = -0.2
+				army_defence_factor	= -0.2
+			}
+		}
+	}
+	country = {
+		POR_far_away_wars_3 = {
+			allowed = { 
+				tag = POR 
+			}
+			modifier = {
+				attrition = 0.3
+				breakthrough_factor = -0.3
+				army_defence_factor	= -0.3
+			}
+		}
+	}
+	country = {
+		POR_far_away_wars_4 = {
+			allowed = { 
+				tag = POR 
+			}
+			modifier = {
+				attrition = 0.4
+				breakthrough_factor = -0.4
+				army_defence_factor	= -0.4
+			}
+		}
+	}
+}
