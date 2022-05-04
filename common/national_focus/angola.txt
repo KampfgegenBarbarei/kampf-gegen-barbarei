@@ -1,0 +1,204 @@
+#angola focus tree
+
+focus_tree = {
+	id = angola_focus
+	
+	country = {
+		country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ANG
+		}
+	}
+	
+
+	focus = { #import equipment
+		id = ANG_import_equipment
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 5
+		y = 0
+		cost = 5
+		
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 10000
+				producer = CSA
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 400
+				producer = CSA
+			}
+		}
+	}
+	
+	focus = { #increase recruitment
+		id = ANG_increase_recruitment
+		icon = GFX_goal_generic_allies_build_infantry
+	
+		cost = 5
+		
+		prerequisite = { focus = ANG_import_equipment }
+		x = 0
+		y = 1
+		relative_position_id = ANG_import_equipment
+
+		completion_reward = {
+			add_manpower = 50000
+		}
+	}
+	
+	focus = { #more money
+		id = ANG_more_money
+		icon = GFX_goal_generic_allies_build_infantry
+	
+		cost = 5
+		
+		prerequisite = { focus = ANG_increase_recruitment }
+		
+		available = {
+			NOT = { has_war_with = POR }
+		}
+		x = -3
+		y = 1
+		relative_position_id = ANG_increase_recruitment
+
+		completion_reward = {
+			917 = {
+				add_extra_state_shared_building_slots = 1
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+
+		}
+	}
+	
+	focus = { #more guns
+		id = ANG_more_guns
+		icon = GFX_goal_generic_allies_build_infantry
+	
+		cost = 5
+		
+		prerequisite = { focus = ANG_increase_recruitment }
+		
+		available = {
+			NOT = { has_war_with = POR }
+		}
+		x = 0
+		y = 1
+		relative_position_id = ANG_increase_recruitment
+
+		completion_reward = {
+			540 = {
+				add_extra_state_shared_building_slots = 1
+
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				
+			}
+		}
+	}
+	
+	focus = { #more trade
+		id = ANG_more_trade
+		icon = GFX_goal_generic_allies_build_infantry
+	
+		cost = 5
+		
+		prerequisite = { focus = ANG_increase_recruitment }
+		
+		available = {
+			NOT = { has_war_with = POR }
+		}
+		x = 3
+		y = 1
+		relative_position_id = ANG_increase_recruitment
+
+		completion_reward = {
+			916 = {
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+					province = {
+						id = 8219
+					}
+				}
+			}
+			540 = {
+				add_extra_state_shared_building_slots = 1
+
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+
+				}
+
+			}
+			
+		}
+	}
+	
+	focus = { #develop the nation
+		id = ANG_develop_the_nation
+		icon = GFX_goal_generic_allies_build_infantry
+	
+		cost = 5
+		
+		prerequisite = { focus = ANG_more_guns }
+		prerequisite = { focus = ANG_more_money }
+		prerequisite = { focus = ANG_more_trade }
+
+		x = 0
+		y = 1
+		relative_position_id = ANG_more_guns
+
+		completion_reward = {
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+
+				}
+				
+
+			}
+		}
+	}
+	
+
+	
+	focus = { #align with the syndicalists
+		id = ANG_align_yndicalists
+		icon = GFX_goal_generic_allies_build_infantry
+	
+		cost = 5
+		
+		prerequisite = { focus = ANG_develop_the_nation }
+
+
+		x = 0
+		y = 1
+		relative_position_id = ANG_develop_the_nation
+
+		completion_reward = {
+			CSA = { add_to_faction = ANG }
+
+		}
+	}
+}

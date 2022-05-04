@@ -1,0 +1,184 @@
+#angola focus tree
+
+focus_tree = {
+	id = mozambique_focus
+	
+	country = {
+		country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = MZB
+		}
+	}
+	
+
+	focus = { #inrease rebel conscription
+		id = MZB_rebel_conscription
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 5
+		y = 0
+		cost = 5
+		
+
+		completion_reward = {
+			hidden_effect = {
+				544 = {
+					create_unit = {
+						division = "name = \"Mozambican Rebels 5\" division_template = \"Mozambican Rebels\" start_experience_factor = 0.1 start_equipment_factor = 0.9" owner = MZB
+					}
+				}
+			}
+		}
+	}
+	
+	focus = { #increase equipment production
+		id = MZB_increase_equipment_production
+		icon = GFX_goal_generic_allies_build_infantry
+	
+		cost = 5
+		
+		prerequisite = { focus = MZB_rebel_conscription }
+		x = 0
+		y = 1
+		relative_position_id = MZB_rebel_conscription
+
+		completion_reward = {
+			544 = {
+				add_extra_state_shared_building_slots = 1
+
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 3500
+				producer = CSA
+			}
+		}
+	}
+	
+	focus = { #uprising in the port
+		id = MZB_uprising_port
+		icon = GFX_goal_generic_allies_build_infantry
+	
+		cost = 5
+		
+		prerequisite = { focus = MZB_increase_equipment_production }
+		
+		x = 0
+		y = 1
+		relative_position_id = MZB_increase_equipment_production
+
+		completion_reward = {
+			hidden_effect = {
+				950 = {
+					create_unit = {
+						division = "name = \"Mozambican Rebels 6\" division_template = \"Mozambican Rebels\" prioritize_location = 8245 start_experience_factor = 0.2 start_equipment_factor = 0.9" owner = MZB allow_spawning_on_enemy_provs = yes 
+
+					}
+				}
+			}
+
+		}
+	}
+	
+	focus = { #build up capital
+		id = MZB_build_up_capital
+		icon = GFX_goal_generic_allies_build_infantry
+	
+		cost = 5
+		
+		prerequisite = { focus = MZB_uprising_port }
+		
+		available = {
+			NOT = { has_war_with = POR }
+		}
+		x = -1
+		y = 1
+		relative_position_id = MZB_uprising_port
+
+		completion_reward = {
+			950 = {
+				add_extra_state_shared_building_slots = 3
+
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				
+			}
+		}
+	}
+	
+
+	
+	focus = { #connect to asia
+		id = MZB_connect_to_asia
+		icon = GFX_goal_generic_allies_build_infantry
+	
+		cost = 5
+		
+		prerequisite = { focus = MZB_uprising_port }
+		
+		available = {
+			NOT = { has_war_with = POR }
+		}
+		x = 1
+		y = 1
+		relative_position_id = MZB_uprising_port
+
+		completion_reward = {
+			544 = {
+				add_extra_state_shared_building_slots = 1
+
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+
+				}
+
+			}
+			
+			950 = {
+				add_extra_state_shared_building_slots = 1
+
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+
+				}
+
+			}
+		}
+	}
+	
+	focus = { #liberatioin
+		id = MZB_liberation
+		icon = GFX_goal_generic_allies_build_infantry
+	
+		cost = 10
+		
+		prerequisite = { focus = MZB_build_up_capital }
+		prerequisite = { focus = MZB_connect_to_asia }
+
+		x = 1
+		y = 1
+		relative_position_id = MZB_build_up_capital
+
+		completion_reward = {
+			add_political_power = 200
+		}
+	}
+	
+
+	
+}
