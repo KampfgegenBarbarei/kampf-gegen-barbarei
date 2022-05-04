@@ -1,0 +1,15 @@
+#colonial instability
+
+POR_colonial_instability = {
+	icon = military_operation
+
+	picture = GFX_arabian_federation
+
+	allowed = {
+		original_tag = POR
+	}
+
+	visible = {
+		has_country_flag = POR_colonial_instability
+	}
+}
