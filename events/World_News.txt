@@ -101,3 +101,105 @@ news_event = {
 		name = worldnews.6.a
 	}
 }
+
+#Rebellion in Angola
+news_event = {
+	id = worldnews.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.7 FROM = [From.GetName]" }
+	title = worldnews.7.t
+	desc = worldnews.7.d
+	picture = GFX_news_event_generic_ruins
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = worldnews.7.a
+	}
+}
+
+#Angolan victory
+news_event = {
+	id = worldnews.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.8 FROM = [From.GetName]" }
+	title = worldnews.8.t
+	desc = worldnews.8.d
+	picture = GFX_news_event_generic_ruins
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = worldnews.8.a
+	}
+}
+
+#Angolan defeat
+news_event = {
+	id = worldnews.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.9 FROM = [From.GetName]" }
+	title = worldnews.9.t
+	desc = worldnews.9.d
+	picture = GFX_news_event_generic_ruins
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = worldnews.9.a
+	}
+}
+
+#Zimbabwe war
+news_event = {
+	id = worldnews.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.10 FROM = [From.GetName]" }
+	title = worldnews.10.t
+	desc = worldnews.10.d
+	picture = GFX_news_event_generic_ruins
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = worldnews.10.a
+	}
+}
+
+#Mozambique victory
+news_event = {
+	id = worldnews.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.11 FROM = [From.GetName]" }
+	title = worldnews.11.t
+	desc = worldnews.11.d
+	picture = GFX_news_event_generic_ruins
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = worldnews.11.a
+	}
+}
+
+#Mozambique defeat
+news_event = {
+	id = worldnews.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.12 FROM = [From.GetName]" }
+	title = worldnews.12.t
+	desc = worldnews.12.d
+	picture = GFX_news_event_generic_ruins
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = worldnews.12.a
+	}
+}
