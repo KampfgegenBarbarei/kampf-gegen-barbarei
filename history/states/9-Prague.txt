@@ -1,32 +1,38 @@
-state = {
-	id = 9
-	name = "STATE_9"
-	manpower = 4244748
-	state_category = eleven
 
-	resources = {
-		steel = 17
+state={
+	id=9
+	name="STATE_9"
+	resources={
+		steel=17.000
 	}
 
-	history = {
+	history={
 		owner = CZE
 		add_core_of = CZE
 		victory_points = {
-			11542 30 #Prague
+			11542 30 
 		}
 		victory_points = {
-			6418 5 #Plzen
+			6418 5 
+		}
+		victory_points = {
+			9541 3 
 		}
 		buildings = {
 			infrastructure = 4
 			arms_factory = 4
 			industrial_complex = 6
 			air_base = 5
+
 		}
+
 	}
 
-	provinces = {
-		445 494 583 3462 6418 6440 9414 9421 9429 9569 11414 11542 11556
+	provinces={
+		445 494 583 3462 6418 6440 6592 9414 9421 9429 9541 9569 11542 11556 
 	}
+	manpower=4244748
+	buildings_max_level_factor=1.000
+	state_category=eleven
+	local_supplies=0.000
 }
-

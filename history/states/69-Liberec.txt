@@ -1,29 +1,32 @@
-state = {
-	id = 69
-	name = "STATE_69"
-	manpower = 2345420
-	state_category = six
 
-	resources = {
-		tungsten = 4
-		steel = 3
+state={
+	id=69
+	name="STATE_69"
+	resources={
+		tungsten=4.000
+		steel=3.000
 	}
 
-	history = {
+	history={
 		owner = CZE
 		add_core_of = CZE
 		victory_points = {
-			11401 2 #Liberec
+			11401 2 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 1
+
 		}
+
 	}
 
-	provinces = {
-		424 469 3418 3585 6470 9555 11401 11432
+	provinces={
+		424 469 3418 3585 6470 9555 11401 11414 11432 
 	}
+	manpower=2345420
+	buildings_max_level_factor=1.000
+	state_category=six
+	local_supplies=0.000
 }
-
