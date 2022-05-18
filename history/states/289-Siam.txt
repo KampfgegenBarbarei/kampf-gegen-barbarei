@@ -2,7 +2,7 @@ state = {
 	id = 289 # Bangkok
 	name = "STATE_289"
 	manpower = 5522400
-	state_category = six
+	state_category = small_town
 
 	resources = {
 		steel = 10

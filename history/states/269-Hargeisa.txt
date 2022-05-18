@@ -3,7 +3,7 @@ state = {
 	name = "STATE_269"
 	manpower = 364700
 
-	state_category = two
+	state_category = pastoral
 	history = {
 		owner = SOM
 		add_core_of = SOM

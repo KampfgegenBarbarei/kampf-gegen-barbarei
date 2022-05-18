@@ -3,7 +3,7 @@ state = {
 	name = "STATE_196"
 	manpower = 874035
 
-	state_category = two
+	state_category = pastoral
 
 	resources = {
 		chromium = 18

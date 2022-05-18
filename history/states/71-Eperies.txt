@@ -4,7 +4,8 @@ state={
 	name="STATE_71"
 
 	history={
-		owner = HUN
+		owner = CZE
+		add_core_of = CZE
 		add_core_of = SLO
 		victory_points = {
 			3581 2 
@@ -12,7 +13,7 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-
+			arms_factory = 1
 		}
 
 	}
@@ -21,6 +22,6 @@ state={
 		555 581 3550 3581 6586 6604 11554 
 	}
 	manpower=1197800
-	state_category=three
+	state_category=rural
 	local_supplies=0.000
 }

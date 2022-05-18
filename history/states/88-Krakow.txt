@@ -13,9 +13,6 @@ state={
 		victory_points = {
 			9427 20 
 		}
-		victory_points = {
-			9412 1
-		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -31,6 +28,6 @@ state={
 	}
 	manpower=3392800
 	buildings_max_level_factor=1.000
-	state_category=eight
+	state_category=town
 	local_supplies=12.000
 }

@@ -6,11 +6,10 @@ state = {
 	local_supplies = 4.0
 
 	history = {
-		owner = ROM
-		add_core_of = ROM
+		owner = TRS
+		add_claim_by = ROM
 		add_core_of = TRS
 		add_core_of = HUN
-		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

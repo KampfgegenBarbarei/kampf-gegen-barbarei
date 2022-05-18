@@ -8,8 +8,9 @@ state={
 	}
 
 	history={
-		owner = CZE
-		add_core_of = CZE
+		owner = GER
+		add_core_of = GER
+		add_claim_by = CZE
 		victory_points = {
 			11401 2 
 		}
@@ -27,6 +28,6 @@ state={
 	}
 	manpower=2345420
 	buildings_max_level_factor=1.000
-	state_category=six
+	state_category=small_town
 	local_supplies=0.000
 }

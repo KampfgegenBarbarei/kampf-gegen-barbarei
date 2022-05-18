@@ -3,7 +3,7 @@ state = {
 	name = "STATE_278" # Pampas
 	manpower = 6255600
 
-	state_category = nine
+	state_category = large_town
 
 	history = {
 		owner = FOP	

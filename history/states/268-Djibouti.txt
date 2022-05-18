@@ -4,7 +4,7 @@ state = {
 	manpower = 85232
 
 
-	state_category = one
+	state_category = pastoral
 
 	history = {
 		owner = MAF

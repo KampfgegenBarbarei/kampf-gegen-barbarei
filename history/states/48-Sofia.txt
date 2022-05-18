@@ -7,7 +7,7 @@ state = {
 	}
 
 
-	state_category = six
+	state_category = small_town
 
 	history = {
 		owner = BUL

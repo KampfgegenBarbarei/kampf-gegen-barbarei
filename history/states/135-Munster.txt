@@ -3,7 +3,7 @@ state = {
 	name = "STATE_135" # Munster
 	manpower = 1030909
 
-	state_category = four
+	state_category = rural
 
 	history = {
 		owner = IRE
