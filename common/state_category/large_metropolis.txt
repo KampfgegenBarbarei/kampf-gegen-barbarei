@@ -1,0 +1,9 @@
+state_categories={
+	large_metropolis = {
+		local_building_slots = 22
+		
+		
+		
+		color = { 0 255 255 }
+	}
+}
