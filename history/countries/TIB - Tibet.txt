@@ -14,6 +14,13 @@ add_offsite_building = {
 	level = 3
 }
 
+CHI = {
+	set_autonomy = {
+		target = TIB
+		autonomy_state = kr_default_puppet
+	}
+}
+
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1888.6.15"

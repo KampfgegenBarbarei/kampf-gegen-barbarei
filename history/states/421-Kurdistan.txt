@@ -18,6 +18,6 @@ state = {
 		1043 4943 5050 5098 7985 8040 8125 9816 12773 12861
 	}
 	manpower = 1749528
-	state_category = three
+	state_category = rural
 }
 

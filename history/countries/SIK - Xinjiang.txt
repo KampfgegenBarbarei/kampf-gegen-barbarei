@@ -7,6 +7,13 @@ set_technology = {
 	tech_mountaineers = 1
 }
 
+CHI = {
+	set_autonomy = {
+		target = SIK
+		autonomy_state = kr_default_puppet
+	}
+}
+
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1888.6.15"

@@ -13,6 +13,13 @@ set_technology = {
 set_stability = 0.35
 set_war_support = 0.60
 
+CHI = {
+	set_autonomy = {
+		target = MON
+		autonomy_state = kr_default_puppet
+	}
+}
+
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1888.6.15"

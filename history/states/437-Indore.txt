@@ -3,7 +3,7 @@ state = {
 	name = "STATE_437" # Indore
 	manpower = 5444700
 
-	state_category = two
+	state_category = pastoral
 
 	history = {
 		owner = HND

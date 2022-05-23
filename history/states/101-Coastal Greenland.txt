@@ -4,6 +4,7 @@ state = {
 
 	history = {
 		owner = CSA
+		add_claim_by = DEN
 		victory_points = {
 			13601 1
 		}

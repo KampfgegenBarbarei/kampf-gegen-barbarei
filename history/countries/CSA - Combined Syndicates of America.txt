@@ -3,7 +3,6 @@ set_research_slots = 4
 set_convoys = 50
 set_stability = 0.55
 set_war_support = 0.65
-set_cosmetic_tag = CSA_commonwealth_america
 
 set_politics = {
 	ruling_party = syndicalist

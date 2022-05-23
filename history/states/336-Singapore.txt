@@ -28,6 +28,6 @@ state = {
 		12299
 	}
 	manpower = 1160000
-	state_category = seven
+	state_category = town
 }
 

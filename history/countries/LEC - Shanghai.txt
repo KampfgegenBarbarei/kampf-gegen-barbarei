@@ -51,44 +51,31 @@ set_popularities = {
 ### Legation Council ###
 
 BEL = {
-	LEC_add_to_legation_council = yes
-	add_to_array = { LEC.guarantor_array = THIS }
+	give_guarantee = LEC
 }
 
 JAP = {
-	LEC_add_to_legation_council = yes
-	add_to_array = { LEC.guarantor_array = THIS }
-	activate_targeted_decision = { decision = LEC_JAP_take_tianjin target = LEC }
+	give_guarantee = LEC
 }
 
 GER = {
-	LEC_add_to_legation_council = yes
-	add_to_array = { LEC.guarantor_array = THIS }
+	give_guarantee = LEC
 }
 
 ENG = {
-	LEC_add_to_legation_council_observer = yes
 	give_guarantee = LEC
-	add_to_array = { LEC.guarantor_array = THIS }
 }
 
 FRA = {
-	LEC_add_to_legation_council_observer = yes
 	give_guarantee = LEC
-	add_to_array = { LEC.guarantor_array = THIS }
 }
 
-ITA= {
-	LEC_add_to_legation_council_observer = yes
+ITA = {
 	give_guarantee = LEC
-	add_to_array = { LEC.guarantor_array = THIS }
 }
 
-GEA = {
-	LEC_add_to_legation_council_observer = yes
+JAP = {
 	give_guarantee = LEC
-	add_to_array = { LEC.guarantor_array = THIS }
 }
 
-FNG = { LEC_add_to_legation_council_observer = yes }
 

@@ -2,7 +2,7 @@ state = {
 	id = 371
 	name = "STATE_371"
 	manpower = 1008905
-	state_category = six
+	state_category = town
 
 	resources = {
 		oil = 65
@@ -10,7 +10,8 @@ state = {
 
 	history = {
 		owner = CSA
-		add_core_of = CSA
+		add_claim_by = CSA
+		add_core_of = TEX
 		victory_points = {
 			7552 20 #New Orleans
 		}

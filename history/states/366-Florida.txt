@@ -2,12 +2,13 @@ state = {
 	id = 366
 	name = "STATE_366"
 	manpower = 1651000
-	state_category = five
+	state_category = small_town
 	local_supplies = 10.0
 
 	history = {
 		owner = CSA
-		add_core_of = CSA
+		add_claim_by = CSA
+		add_core_of = TEX
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 4

@@ -3,7 +3,7 @@ state = {
 	name = "STATE_415" # Herat
 	manpower = 1632860
 
-	state_category = two
+	state_category = pastoral
 
 	history = {
 		owner = AFG

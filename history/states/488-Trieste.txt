@@ -2,7 +2,7 @@ state = {
 	id = 488
 	name = "STATE_488"
 	manpower = 351600
-	state_category = six
+	state_category = small_town
 
 	history = {
 		owner = GER

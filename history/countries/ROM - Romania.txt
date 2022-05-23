@@ -81,7 +81,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = national_populist
+	ruling_party = paternal_autocrat
 	last_election = "1933.11.9"
 	election_frequency = 48
 	elections_allowed = yes
@@ -95,7 +95,7 @@ set_popularities = {
 	social_liberal = 11
 	market_liberal = 16
 	social_conservative = 3
-	authoritarian_democrat = 0
-	paternal_autocrat = 18
-	national_populist = 44
+	authoritarian_democrat = 10
+	paternal_autocrat = 48
+	national_populist = 4
 }

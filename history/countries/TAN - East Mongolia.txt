@@ -7,6 +7,13 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+FNG = {
+	set_autonomy = {
+		target = TAN
+		autonomy_state = kr_integrated_puppet
+	}
+}
+
 set_politics = {
 	ruling_party = authoritarian_democrat
 	last_election = "1888.6.15"

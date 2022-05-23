@@ -17,6 +17,7 @@ state = {
 		}
 		add_core_of = SLV
 		add_claim_by = SER
+		add_claim_by = GER
 	}
 
 	provinces = {

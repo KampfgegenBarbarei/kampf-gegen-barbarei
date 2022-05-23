@@ -6,7 +6,7 @@ state = {
 		chromium = 1
 	}
 
-	state_category = four
+	state_category = rural
 
 	history = {
 		owner = ELS

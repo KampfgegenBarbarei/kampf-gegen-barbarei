@@ -56,22 +56,22 @@ GER = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = social_conservative
 	last_election = "1933.1.18"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	totalist = 4
-	syndicalist = 15
-	radical_socialist = 8
+	totalist = 0
+	syndicalist = 0
+	radical_socialist = 7
 	social_democrat = 12
 	social_liberal = 14
 	market_liberal = 10
-	social_conservative = 10
-	authoritarian_democrat = 4
-	paternal_autocrat = 13
-	national_populist = 10
+	social_conservative = 34
+	authoritarian_democrat = 14
+	paternal_autocrat = 3
+	national_populist = 6
 }
 
 
