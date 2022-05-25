@@ -1,6 +1,4 @@
 ﻿capital = 965
-oob = "MAF"
-set_naval_oob = "MAF_naval"
 set_research_slots = 3
 set_convoys = 50
 set_stability = 0.55

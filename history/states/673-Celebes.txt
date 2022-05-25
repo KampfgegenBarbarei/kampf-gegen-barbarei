@@ -6,7 +6,7 @@ state = {
 		rubber = 45
 	}
 
-	state_category = four
+	state_category = rural
 
 
 	history = {

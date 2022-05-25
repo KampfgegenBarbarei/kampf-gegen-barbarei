@@ -18,6 +18,6 @@ state = {
 		4171
 	}
 	manpower = 365248
-	state_category = one
+	state_category = pastoral
 }
 

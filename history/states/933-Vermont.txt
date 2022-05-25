@@ -20,6 +20,6 @@ state = {
 	}
 
 	manpower = 357000
-	state_category = three
+	state_category = rural
 }
 

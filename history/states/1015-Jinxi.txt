@@ -1,7 +1,7 @@
 state = { #Jinxi #Western Shanxi
 	id = 1015
 	name = "STATE_1015"
-	state_category = two
+	state_category = pastoral
 	history = {
 		owner = SHX
 		add_claim_by = CHI

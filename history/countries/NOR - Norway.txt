@@ -1,7 +1,5 @@
 ﻿capital = 110
 
-OOB = "NOR"
-set_naval_oob= "NOR_naval"
 
 set_technology = {
 	### Infantry ###
@@ -95,6 +93,13 @@ set_research_slots = 3
 set_convoys = 500 
 
 set_war_support = 0.10
+
+GER = {
+	set_autonomy = {
+		target = NOR
+		autonomy_state = kr_default_puppet
+	}
+}
 
 set_politics = {
 	ruling_party = market_liberal

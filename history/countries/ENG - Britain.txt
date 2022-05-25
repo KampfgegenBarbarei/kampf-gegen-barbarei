@@ -1,6 +1,4 @@
 ﻿capital = 126
-oob = "ENG"
-set_naval_oob = "ENG_naval"
 set_convoys = 350
 set_stability = 0.5
 set_war_support = 0.3
@@ -120,6 +118,13 @@ if = {
 
 		### Transport ###
 		transport = 1
+	}
+}
+
+GER = {
+	set_autonomy = {
+		target = ENG
+		autonomy_state = kr_default_puppet
 	}
 }
 

@@ -40,7 +40,7 @@ if = {
 GER = {
 	set_autonomy = {
 		target = WHR
-		autonomy_state = kr_oststaat
+		autonomy_state = kr_oststaat_autonomous
 	}
 }
 

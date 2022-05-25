@@ -405,49 +405,11 @@ OTT_federation = {
 	color = rgb { 123 0 0 }
 	color_ui = rgb { 123 0 0 }
 }
-
 WHR_SOV = {
 	color = rgb { 195 8 8 }
 	color_ui = rgb { 195 8 8 }
 }
-
-FNG_KMT = {
-	color = rgb { 222 41 16 }
-	color_ui = rgb { 222 41 16 }
-}
-SHX_KMT = {
-	color = rgb { 222 41 16 }
-	color_ui = rgb { 222 41 16 }
-}
-YUN_KMT = {
-	color = rgb { 222 41 16 }
-	color_ui = rgb { 222 41 16 }
-}
-GXC_KMT = {
-	color = rgb { 222 41 16 }
-	color_ui = rgb { 222 41 16 }
-}
 GXC_KMT_guangxi = {
-	color = rgb { 222 41 16 }
-	color_ui = rgb { 222 41 16 }
-}
-HNN_KMT = {
-	color = rgb { 222 41 16 }
-	color_ui = rgb { 222 41 16 }
-}
-SZC_KMT = {
-	color = rgb { 222 41 16 }
-	color_ui = rgb { 222 41 16 }
-}
-XSM_KMT = {
-	color = rgb { 222 41 16 }
-	color_ui = rgb { 222 41 16 }
-}
-TIB_KMT = {
-	color = rgb { 222 41 16 }
-	color_ui = rgb { 222 41 16 }
-}
-MON_KMT = {
 	color = rgb { 222 41 16 }
 	color_ui = rgb { 222 41 16 }
 }
@@ -470,4 +432,8 @@ MAL_socialist = {
 MAL_MNLA = {
 	color = rgb { 235 0 0 }
 	color_ui = rgb { 235 0 0 }
+}
+LBA_ottos = {
+	color = rgb { 123 31 52 }
+	color_ui = rgb { 123 31 52 }
 }

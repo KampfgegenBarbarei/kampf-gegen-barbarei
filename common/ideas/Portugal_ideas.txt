@@ -47,4 +47,14 @@ ideas = {
 			}
 		}
 	}
+	country = {
+		POR_colonial_wars = {
+			allowed = {
+				tag = POR
+			}
+			modifier = {
+				ai_call_ally_desire_factor = -10000.0
+			}
+		}
+	}
 }

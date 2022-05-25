@@ -2,7 +2,7 @@ state = { #Chongqing
 	id = 650
 	name = "STATE_650"
 	manpower = 18228256
-	state_category = four
+	state_category = town
 
 	history = {
 		owner = CHI

@@ -15,7 +15,7 @@ state = {
 		1993 11012 13599
 	}
 	manpower = 720964
-	state_category = one
+	state_category = pastoral
 }
 #Chad-Kamerun population. 466000
 #CAR-Kamerun population. 254964

@@ -1,11 +1,12 @@
 ﻿capital = 629
 set_research_slots = 2
 set_convoys = 40
+set_cosmetic_tag = HAW_kingdom
 
 JAP = {
 	set_autonomy = {
 		target = HAW
-		autonomy_state = kr_default_puppet
+		autonomy_state = kr_special_autonomous_dependency
 	}
 }
 

@@ -21,6 +21,6 @@ state = {
 		2224 2407 4761 7869 7891 8195 10944 10965 11001 11047 12530 13075 13548
 	}
 	manpower = 391400
-	state_category = two
+	state_category = pastoral
 }
 

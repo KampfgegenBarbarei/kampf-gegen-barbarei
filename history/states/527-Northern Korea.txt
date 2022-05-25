@@ -2,7 +2,7 @@ state = {
 	id = 527
 	name = "STATE_527"
 	manpower = 6774200
-	state_category = four
+	state_category = rural
 
 	resources = {
 		steel = 26
@@ -12,8 +12,6 @@ state = {
 	history = {
 		owner = JAP
 		add_core_of = KOR
-		add_core_of = JAP
-		add_dynamic_modifier = { modifier = JAP_korean_military_administration }
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

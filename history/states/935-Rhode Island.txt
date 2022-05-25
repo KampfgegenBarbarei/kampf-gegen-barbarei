@@ -24,6 +24,6 @@ state = {
 	}
 
 	manpower = 686000
-	state_category = six
+	state_category = small_town
 }
 

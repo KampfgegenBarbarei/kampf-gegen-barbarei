@@ -96,7 +96,7 @@ set_research_slots = 3
 GER = {
 	set_autonomy = {
 		target = UKR
-		autonomy_state = kr_oststaat
+		autonomy_state = kr_oststaat_autonomous
 	}
 }
 

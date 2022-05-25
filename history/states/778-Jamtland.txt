@@ -16,6 +16,6 @@ state = {
 	}
 
 	manpower = 135922
-	state_category = two
+	state_category = pastoral
 }
 

@@ -2,7 +2,7 @@ state={
 	id=1090
 	name="STATE_1090"
 	manpower = 20342
-	state_category = one_island
+	state_category = small_island
 
 	history={
 		owner = GRE

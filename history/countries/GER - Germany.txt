@@ -1,6 +1,4 @@
 ﻿capital = 64
-oob = "GER"
-set_naval_oob= "GER_naval"
 set_research_slots = 4
 set_convoys = 400
 set_stability = 0.6
@@ -130,22 +128,11 @@ if = {
 	}
 }
 
-GEO = { give_military_access = GER }
-AZR = { give_military_access = GER }
 TUR = { give_military_access = GER }
 ETH = { give_military_access = GER }
 
-give_guarantee = GEO
-give_guarantee = AZR
-add_to_array = { AZR.guarantor_array = GER }
-add_to_array = { GEO.guarantor_array = GER }
-
-
-diplomatic_relation = { country = AUS relation = non_aggression_pact }
-
-add_opinion_modifier = { target = MAF modifier = colonial_master }
-add_opinion_modifier = { target = GEA modifier = colonial_master }
-add_opinion_modifier = { target = HAI modifier = HAI_foreign_council }
+give_guarantee = COS
+give_guarantee = DOM
 
 set_politics = {
 	ruling_party = authoritarian_democrat
@@ -190,6 +177,8 @@ add_to_faction = HOL
 add_to_faction = DEI
 add_to_faction = GEO
 add_to_faction = AZR
+add_to_faction = POR
+add_to_faction = ICE
 
 # Mitteleuropa
 every_country = {

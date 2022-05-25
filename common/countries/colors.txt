@@ -179,8 +179,8 @@ CEY = {
 	color_ui = rgb { 252 186 3 }
 }
 CHA = {
-	color = rgb { 176 97 77 }
-	color_ui = rgb { 176 97 77 }
+	color = rgb { 47 97 176 }
+	color_ui = rgb { 47 97 176 }
 }
 CHI = {
 	color = rgb { 0 42 177 }

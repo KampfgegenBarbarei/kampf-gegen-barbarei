@@ -34,6 +34,6 @@ state={
 		1513 4647 7245 10254 10440 13607 13621
 	}
 	manpower=62160
-	state_category=zero_island
+	state_category=tiny_island
 }
 

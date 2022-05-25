@@ -2,7 +2,7 @@ state = {
 	id = 1068
 	name = "STATE_1068"
 	manpower = 5565500
-	state_category = four
+	state_category = rural
 
 	history = {
 		owner = LEP

@@ -1,7 +1,7 @@
 state = {
 	id = 566
 	name = "STATE_566" #Irkutsk
-	state_category = four
+	state_category = rural
 
 	resources = {
 		steel = 23

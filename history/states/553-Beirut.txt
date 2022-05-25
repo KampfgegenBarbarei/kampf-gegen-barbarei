@@ -27,6 +27,6 @@ state={
 		792
 	}
 	manpower=860132
-	state_category=four
+	state_category=rural
 }
 

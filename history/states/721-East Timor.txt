@@ -2,7 +2,7 @@ state = {
 	id = 721
 	name = "STATE_721"
 	manpower = 419078
-	state_category = one
+	state_category = pastoral
 
 	history = {
 		owner = POR

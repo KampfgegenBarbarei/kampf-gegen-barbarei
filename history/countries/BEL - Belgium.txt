@@ -1,6 +1,4 @@
 ﻿capital = 925
-OOB = "BEL"
-set_naval_oob = "BEL_naval"
 set_research_slots = 3
 set_stability = 0.40
 set_war_support = 0.20
@@ -97,18 +95,8 @@ if = {
 	}
 }
 
-
-
-
-GER = {
-	set_autonomy = {
-		target = BEL
-		autonomy_state = kr_default_puppet
-	}
-}
-
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = market_liberal
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no
@@ -120,9 +108,9 @@ set_popularities = {
 	syndicalist = 5
 	social_democrat = 17
 	social_liberal = 2
-	market_liberal = 9
+	market_liberal = 39
 	social_conservative = 23
-	authoritarian_democrat = 39
+	authoritarian_democrat = 9
 	paternal_autocrat = 4
 	national_populist = 1
 }

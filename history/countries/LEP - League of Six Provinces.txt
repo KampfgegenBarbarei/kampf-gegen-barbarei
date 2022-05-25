@@ -78,6 +78,13 @@ if = {
 	}
 }
 
+FNG = {
+	set_autonomy = {
+		target = LEP
+		autonomy_state = kr_nominal_puppet
+	}
+}
+
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1888.6.15"

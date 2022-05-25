@@ -2,7 +2,7 @@ state = {
 	id = 598
 	name = "STATE_598" #Yangzhou
 	manpower = 7321900
-	state_category = four
+	state_category = rural
 
 	history = {
 		owner = LEP

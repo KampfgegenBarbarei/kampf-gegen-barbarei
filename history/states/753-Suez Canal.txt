@@ -2,7 +2,7 @@ state = {
 	id = 753
 	name = "STATE_753"
 	manpower = 88123
-	state_category = zero
+	state_category = wasteland
 
 	history = {
 		owner = PAL

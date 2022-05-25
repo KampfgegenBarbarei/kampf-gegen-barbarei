@@ -20,6 +20,6 @@ state={
 		1033 2027 2033 2095 4115 8092 10835 11976 12101 13668
 	}
 	manpower=234510
-	state_category=one
+	state_category=pastoral
 }
 

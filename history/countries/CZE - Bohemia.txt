@@ -1,5 +1,4 @@
 ﻿capital = 9
-oob = "CZE"
 set_stability = 0.60
 set_research_slots = 3
 starting_train_buffer = 1

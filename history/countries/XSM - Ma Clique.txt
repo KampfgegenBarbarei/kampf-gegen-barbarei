@@ -1,6 +1,7 @@
 ﻿capital = 604
 OOB = "XSM"
 set_research_slots = 2
+set_cosmetic_tag = XSM_KMT
 
 set_technology = {
 	### Infantry ###

@@ -13,6 +13,19 @@ on_actions = {
 			PER = {
 				give_resource_rights = { state = 413 receiver = TUR }
 			}
+			GEA = {
+				give_resource_rights = { state = 826 receiver = JAP }
+				give_resource_rights = { state = 827 receiver = JAP }
+				give_resource_rights = { state = 828 receiver = JAP }
+				give_resource_rights = { state = 1093 receiver = JAP }
+				give_resource_rights = { state = 1095 receiver = JAP }
+			}
+			DEI = {
+				give_resource_rights = { state = 1016 receiver = JAP }
+				give_resource_rights = { state = 1019 receiver = JAP }
+				give_resource_rights = { state = 1021 receiver = JAP }
+				give_resource_rights = { state = 1022 receiver = JAP }
+			}
 		}
 	}	
 }

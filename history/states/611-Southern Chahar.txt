@@ -29,6 +29,6 @@ state={
 		828 881 952 1137 1590 3955 6904 9768 9776 10397
 	}
 	manpower=1470000
-	state_category=two
+	state_category=pastoral
 }
 

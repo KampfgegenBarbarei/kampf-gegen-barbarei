@@ -1,6 +1,4 @@
 ﻿capital = 500
-OOB = "BRA"
-set_naval_oob = "BRA_naval"
 set_war_support = 0.3
 set_convoys = 50
 set_research_slots = 3

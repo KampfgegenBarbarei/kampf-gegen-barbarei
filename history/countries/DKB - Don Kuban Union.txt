@@ -1,6 +1,4 @@
 ﻿capital = 234
-oob = "DKB"
-set_naval_oob = "DKB_naval"
 
 set_technology = {
 	### General ###
