@@ -423,8 +423,8 @@ HON = {
 	color_ui = rgb { 161 76 65 }
 }
 HUN = {
-	color = rgb { 173 109 116 }
-	color_ui = rgb { 173 109 116 }
+	color = rgb { 103 153 106 }
+	color_ui = rgb { 103 153 106 }
 }
 HYD = {
 	color = rgb { 220 129 63 }
@@ -555,8 +555,8 @@ MAD = {
 	color_ui = rgb { 189 113 112 }
 }
 MAF = {
-	color = rgb { 135 169 107 }
-	color_ui = rgb { 135 169 107 }
+	color = rgb { 136 104 60 }
+	color_ui = rgb { 136 104 60 }
 }
 MDR = {
 	color = rgb { 43 43 186 }
@@ -931,8 +931,8 @@ TRP = {
 	color_ui = rgb { 0 153 0 }
 }
 TRS = {
-	color = rgb { 173 109 116 }
-	color_ui = rgb { 173 109 116 }
+	color = rgb { 103 153 106 }
+	color_ui = rgb { 103 153 106 }
 }
 TRU = {
 	color = rgb { 144 169 90 }

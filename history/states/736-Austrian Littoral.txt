@@ -1,31 +1,25 @@
-state = {
+
+state={
 	id=736
 	name="STATE_736"
-	manpower = 557500
-	state_category = rural
 
-	history = {
+	history={
 		owner = GER
 		add_claim_by = GER
 		add_claim_by = SER
 		add_core_of = SLV
-		victory_points = {
-			11735 5
-		}
 		buildings = {
 			infrastructure = 3
 			air_base = 3
-			dockyard = 1
-			11735 = {
-				naval_base = 8
-				bunker = 1
-				coastal_bunker = 3
-			}
 		}
+
 	}
 
-	provinces = {
-		599 11595 11735
+	provinces={
+		599 11595 
 	}
+	manpower=357500
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }
-
