@@ -1,0 +1,644 @@
+#csa starting focus
+
+focus_tree = {
+	id = csa_base_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CSA
+		}
+	}
+	default = no
+	
+	focus = {
+		id = CSA_the_second_phase_of_reconstruction
+		icon = GFX_
+		prerequisite = { focus =  }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 15
+		y = 0
+		relative_position_id = 
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = CSA_the_council_system
+		icon = GFX_
+		prerequisite = { focus = CSA_the_second_phase_of_reconstruction }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 4
+		y = 1
+		relative_position_id = CSA_the_second_phase_of_reconstruction
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = CSA_depower_the_state_councils
+		icon = GFX_
+		prerequisite = { focus = CSA_the_council_system }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 1
+		y = 1
+		relative_position_id = CSA_the_council_system
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = CSA_the_food_shortages
+		icon = GFX_
+		prerequisite = { focus = CSA_the_second_phase_of_reconstruction }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 2
+		y = 1
+		relative_position_id = CSA_the_second_phase_of_reconstruction
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = CSA_establish_the_interntional_food_council
+		icon = GFX_
+		prerequisite = { focus = CSA_the_food_shortages }
+		prerequisite = { focus = CSA_the_council_system }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 1
+		y = 1
+		relative_position_id = CSA_the_food_shortages
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = CSA_reditribute_the_surpluces
+		icon = GFX_
+		prerequisite = { focus = CSA_the_food_shortages }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = -1
+		y = 1
+		relative_position_id = CSA_the_food_shortages
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = CSA_rebuild_the_american_giant
+		icon = GFX_
+		prerequisite = { focus = CSA_reditribute_the_surpluces }
+		prerequisite = { focus = CSA_establish_the_interntional_food_council }
+		mutually_exclusive = { focus = CSA_a_truly_international_internationale }
+		cost = 5
+		x = -1
+		y = 1
+		relative_position_id = CSA_establish_the_interntional_food_council
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = CSA_a_truly_international_internationale
+		icon = GFX_
+		prerequisite = { focus = CSA_depower_the_state_councils }
+		prerequisite = { focus = CSA_establish_the_interntional_food_council }
+		mutually_exclusive = { focus = CSA_rebuild_the_american_giant }
+		cost = 5
+		x = 1
+		y = 1
+		relative_position_id = CSA_establish_the_interntional_food_council
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = CSA_the_autonomous_districts
+		icon = GFX_
+		prerequisite = { focus = CSA_the_second_phase_of_reconstruction }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = -4
+		y = 1
+		relative_position_id = CSA_the_second_phase_of_reconstruction
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = CSA_degrade_the_american_identity
+		icon = GFX_
+		prerequisite = { focus = CSA_the_autonomous_districts }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = -1
+		y = 1
+		relative_position_id = CSA_the_autonomous_districts
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = CSA_the_loyalists
+		icon = GFX_
+		prerequisite = { focus = CSA_the_second_phase_of_reconstruction }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = -2
+		y = 1
+		relative_position_id = CSA_the_second_phase_of_reconstruction
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = CSA_release_the_prisoners
+		icon = GFX_
+		prerequisite = { focus = CSA_the_loyalists }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = 1
+		y = 1
+		relative_position_id = CSA_the_loyalists
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = CSA_armed_desegrigation
+		icon = GFX_
+		prerequisite = { focus = CSA_the_loyalists }
+		prerequisite = { focus = CSA_the_autonomous_districts }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = -1
+		y = 1
+		relative_position_id = CSA_the_loyalists
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = CSA_cut_ties_with_the_past
+		icon = GFX_
+		prerequisite = { focus = CSA_armed_desegrigation }
+		prerequisite = { focus = CSA_degrade_the_american_identity }
+		mutually_exclusive = { focus = CSA_the_true_american_dream }
+		cost = 5
+		x = -1
+		y = 1
+		relative_position_id = CSA_armed_desegrigation
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = CSA_the_true_american_dream
+		icon = GFX_
+		prerequisite = { focus = CSA_armed_desegrigation }
+		prerequisite = { focus = CSA_release_the_prisoners }
+		mutually_exclusive = { focus = CSA_cut_ties_with_the_past }
+		cost = 5
+		x = 1
+		y = 1
+		relative_position_id = CSA_armed_desegrigation
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = CSA_the_second_phase_complete
+		icon = GFX_
+		prerequisite = { focus = CSA_the_true_american_dream focus = CSA_cut_ties_with_the_past }
+		prerequisite = { focus = CSA_a_truly_international_internationale focus = CSA_rebuild_the_american_giant }
+		mutually_exclusive = { focus = CSA_cut_ties_with_the_past }
+		cost = 5
+		x = 2
+		y = 1
+		relative_position_id = CSA_the_true_american_dream
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		
+		
+		complete_tooltip = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+}
