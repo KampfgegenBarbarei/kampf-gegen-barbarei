@@ -1,0 +1,15 @@
+characters={
+	CSA_elizabeth_gurley_flynn = {
+		name = "Elizabeth Gurley Flynn"
+		portraits = {
+			civilian = {
+				large = GFX_
+			}
+		}
+		country_leader = {
+			expire = "1964.9.5"
+			traits={ }
+			ideology = syndicalist_subtype
+		}
+	}
+}

@@ -12,6 +12,7 @@ state = {
 		owner = CSA
 		add_claim_by = CSA
 		add_core_of = TEX
+		set_demilitarized_zone = yes
 		victory_points = {
 			7552 20 #New Orleans
 		}

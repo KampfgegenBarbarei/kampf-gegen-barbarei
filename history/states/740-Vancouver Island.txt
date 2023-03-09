@@ -16,6 +16,7 @@ state = {
 			}
 		}
 		add_core_of = CAN
+		set_demilitarized_zone = yes
 		victory_points = {
 			7259 5
 		}

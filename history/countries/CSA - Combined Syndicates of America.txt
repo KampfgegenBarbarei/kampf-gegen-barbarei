@@ -39,6 +39,9 @@ add_ideas = {
 	CSA_the_last_bastion_of_revoltion
 }
 
+recruit_character = CSA_elizabeth_gurley_flynn
+
+
 
 
 
