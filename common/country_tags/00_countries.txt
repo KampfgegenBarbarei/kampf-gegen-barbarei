@@ -105,7 +105,6 @@ CAM = "countries/Asian.txt"
 CHI = "countries/Asian.txt" #Kuomintang
 ETS = "countries/Asian.txt" #East Turkestan
 FNG = "countries/Asian.txt"
-GEA = "countries/Asian.txt" #German East Asia
 GXC = "countries/Asian.txt" #Liangguang
 HNN = "countries/Asian.txt" #Hunan Clique
 INC = "countries/Asian.txt"

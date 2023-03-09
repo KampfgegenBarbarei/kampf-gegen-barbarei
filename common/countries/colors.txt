@@ -338,10 +338,6 @@ GBR = {
 	color = rgb { 150 0 24 }
 	color_ui = rgb { 150 0 24 }
 }
-GEA = {
-	color = rgb { 1 44 123 }
-	color_ui = rgb { 1 44 123 }
-}
 GEO = {
 	color = rgb { 247 133 98 }
 	color_ui = rgb { 247 133 98 }

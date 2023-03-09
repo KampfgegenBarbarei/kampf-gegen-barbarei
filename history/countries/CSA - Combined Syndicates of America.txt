@@ -14,14 +14,14 @@ set_politics = {
 set_popularities = {
 	totalist = 12
 	radical_socialist = 14
-	syndicalist = 62
+	syndicalist = 60
 	social_democrat = 12
 	social_liberal = 0
 	market_liberal = 0
 	social_conservative = 0
 	authoritarian_democrat = 0
 	paternal_autocrat = 0
-	national_populist = 0
+	national_populist = 2
 }
 
 create_faction = Third_International
@@ -32,7 +32,12 @@ add_to_faction = NIC
 add_to_faction = FOP
 add_to_faction = CHL
 
-
+add_ideas = {
+	CSA_the_echos_of_war_1
+	CSA_the_pacific_states_1
+	CSA_the_council_system_idea
+	CSA_the_last_bastion_of_revoltion
+}
 
 
 

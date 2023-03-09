@@ -1,0 +1,92 @@
+ideas = {
+	country = { 
+		
+		CSA_the_echos_of_war_1 = {
+			
+			picture = GFX_
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				offensive_war_stability_factor = -0.5
+				political_power_cost = 0.2
+				stability_factor = -0.25
+				war_support_factor = -0.25
+				production_factory_max_efficiency_factor = -0.25
+			}
+		}
+		
+		CSA_the_pacific_states_1 = {
+			
+			picture = GFX_
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = -0.05
+				political_power_cost = 0.25
+				stability_weekly = -0.005
+			}
+		}
+		
+		CSA_the_council_system_idea = {
+			
+			picture = GFX_
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.15
+				stability_weekly = 0.0025
+			}
+		}
+		
+		CSA_the_last_bastion_of_revoltion = {
+			
+			picture = GFX_
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {		
+				research_speed_factor = 0.15
+				radical_socialist_acceptance = 50
+				syndicalist_acceptance = 50
+				totalist_acceptance = 50
+				war_support_factor = 0.05
+			}
+		}
+	}
+}
