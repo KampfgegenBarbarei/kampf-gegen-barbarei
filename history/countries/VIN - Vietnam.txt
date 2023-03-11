@@ -1,5 +1,6 @@
 ﻿capital = 827
 set_research_slots = 1
+set_cosmetic_tag = VIN_monarchy
 
 set_politics = {
 	ruling_party = paternal_autocrat

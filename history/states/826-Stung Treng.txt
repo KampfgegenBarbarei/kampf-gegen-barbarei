@@ -5,8 +5,7 @@ state = {
 		rubber = 32
 	}
 	history = {
-		owner = GEA
-		add_core_of = GEA
+		owner = CAM
 		add_core_of = CAM
 		victory_points = {
 			7645 1 # Stung Treng
