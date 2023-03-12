@@ -10,9 +10,9 @@ state={
 	}
 
 	history = {
-		owner = GEA
-		add_core_of = GEA
+		owner = SAR
 		add_core_of = BRU
+		add_core_of = SAR
 		victory_points = {
 			7371 1
 		}

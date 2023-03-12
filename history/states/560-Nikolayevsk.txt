@@ -9,7 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = RUS
+		owner = TRM
+		add_core_of = TRM
 		buildings = {
 			infrastructure = 1
 			12559 = {

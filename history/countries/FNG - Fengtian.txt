@@ -102,6 +102,7 @@ set_popularities = {
 	paternal_autocrat = 28
 	national_populist = 0
 }
+diplomatic_relation = { country = JAP relation = non_aggression_pact }
 give_military_access = JAP
 
 

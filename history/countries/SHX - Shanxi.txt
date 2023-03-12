@@ -21,6 +21,13 @@ add_offsite_building = {
 
 set_research_slots = 2
 
+FNG = {
+	set_autonomy = {
+		target = SHX
+		autonomy_state = kr_default_puppet
+	}
+}
+
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1888.6.15"

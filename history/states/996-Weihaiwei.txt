@@ -6,10 +6,9 @@ state = {
 	state_category = pastoral
 
 	history = {
-		owner = GEA
-		add_core_of = GEA
+		owner = JAP
+		add_core_of = FNG
 		add_claim_by = CHI
-		add_claim_by = FNG
 		buildings = {
 			dockyard = 2
 			infrastructure = 2

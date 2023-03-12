@@ -5,7 +5,8 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = POR
+		owner = LEP
+		add_core_of = LEP
 		add_claim_by = CHI
 		add_claim_by = FNG
 		victory_points = {

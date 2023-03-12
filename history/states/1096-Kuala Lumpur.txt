@@ -8,8 +8,7 @@ state={
 	}
 
 	history={
-		owner = GEA
-		add_core_of = GEA
+		owner = MAL
 		add_core_of = MAL
 		victory_points = {
 			10297 10 

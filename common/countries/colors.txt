@@ -443,8 +443,8 @@ INR = {
 	color_ui = rgb { 216 100 50 }
 }
 INS = {
-	color = rgb { 25 0 168 }
-	color_ui = rgb { 25 0 168 }
+	color = rgb { 78 54 138 }
+	color_ui = rgb { 78 54 138 }
 }
 IRE = {
 	color = rgb { 107 172 99 }
@@ -531,8 +531,8 @@ LEC = {
 	color_ui = rgb { 0 148 255 }
 }
 LEP = {
-	color = rgb { 248 198 0 }
-	color_ui = rgb { 255 198 0 }
+	color = rgb { 189 113 33 }
+	color_ui = rgb { 189 113 33 }
 }
 LIB = {
 	color = rgb { 129 169 177 }
@@ -591,8 +591,8 @@ MNT = {
 	color_ui = rgb { 73 111 155 }
 }
 MON = {
-	color = rgb { 110 138 201 }
-	color_ui = rgb { 110 138 201 }
+	color = rgb { 108 140 42 }
+	color_ui = rgb { 108 140 42 }
 }
 MOR = {
 	color = rgb { 181 130 95 }
@@ -799,12 +799,12 @@ SHA = {
 	color_ui = rgb { 204 204 0 }
 }
 SHX = {
-	color = rgb { 42 96 59 }
-	color_ui = rgb { 42 96 59 }
+	color = rgb { 189 113 33 }
+	color_ui = rgb { 189 113 33 }
 }
 SIA = {
-	color = rgb { 128 145 65 }
-	color_ui = rgb { 128 145 65 }
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 171 190 152 }
 }
 SIB = {
 	color = rgb { 182 107 88 }
@@ -819,8 +819,8 @@ SIE = {
 	color_ui = rgb { 70 206 81 }
 }
 SIK = {
-	color = rgb { 187 184 45 }
-	color_ui = rgb { 187 184 45 }
+	color = rgb { 0 42 177 }
+	color_ui = rgb { 0 42 177 }
 }
 SIN = {
 	color = rgb { 255 200 255 }
@@ -899,8 +899,8 @@ TEX = {
 	color_ui = rgb { 60 59 110 }
 }
 TIB = {
-	color = rgb { 162 197 215 }
-	color_ui = rgb { 162 197 215 }
+	color = rgb { 0 42 177 }
+	color_ui = rgb { 0 42 177 }
 }
 TZN = {
 	color = rgb { 153 210 135 }
@@ -1007,8 +1007,8 @@ WLL = {
 	color_ui = rgb { 144 0 32 }
 }
 XSM = {
-	color = rgb { 65 118 150 }
-	color_ui = rgb { 65 118 150 }
+	color = rgb { 0 42 177 }
+	color_ui = rgb { 0 42 177 }
 }
 XXA = {
 	color = rgb { 125 125 125 }

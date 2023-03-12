@@ -81,7 +81,7 @@ if = {
 FNG = {
 	set_autonomy = {
 		target = LEP
-		autonomy_state = kr_nominal_puppet
+		autonomy_state = kr_default_puppet
 	}
 }
 

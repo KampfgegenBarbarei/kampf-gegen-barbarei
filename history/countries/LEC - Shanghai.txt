@@ -27,8 +27,15 @@ set_convoys = 247
 set_stability = 0.57
 set_war_support = 0.10
 
+JAP = {
+	set_autonomy = {
+		target = LEC
+		autonomy_state = kr_default_puppet
+	}
+}
+
 set_politics = {
-	ruling_party = market_liberal
+	ruling_party = national_populist
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -40,42 +47,13 @@ set_popularities = {
 	syndicalist = 0
 	social_democrat = 1
 	social_liberal = 4
-	market_liberal = 46
+	market_liberal = 6
 	social_conservative = 11
 	authoritarian_democrat = 5
 	paternal_autocrat = 19
-	national_populist = 14
+	national_populist = 54
 }
 
 
 ### Legation Council ###
-
-BEL = {
-	give_guarantee = LEC
-}
-
-JAP = {
-	give_guarantee = LEC
-}
-
-GER = {
-	give_guarantee = LEC
-}
-
-ENG = {
-	give_guarantee = LEC
-}
-
-FRA = {
-	give_guarantee = LEC
-}
-
-ITA = {
-	give_guarantee = LEC
-}
-
-JAP = {
-	give_guarantee = LEC
-}
-
 

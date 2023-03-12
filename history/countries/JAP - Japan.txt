@@ -153,6 +153,13 @@ set_popularities = {
 create_faction = Co_Prosperity_Sphere
 add_to_faction = PHI
 add_to_faction = HAW
+add_to_faction = VIN
+add_to_faction = LAO
+add_to_faction = CAM
+add_to_faction = MAL
+add_to_faction = SAR
+add_to_faction = INS
+add_to_faction = SIA
 
 if = {
 	limit = {

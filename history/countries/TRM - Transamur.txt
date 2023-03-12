@@ -83,8 +83,6 @@ if = {
 }
 
 ### Diplomacy
-diplomatic_relation = { country = FNG relation = non_aggression_pact }
-
 diplomatic_relation = { country = JAP relation = non_aggression_pact }
 give_military_access = JAP
 JAP = { give_guarantee = TRM }

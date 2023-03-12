@@ -6,7 +6,8 @@ state = {
 	state_category = pastoral
 
 	history = {
-		owner = KEN
+		owner = MAF
+		
 		add_core_of = SOM
 		add_core_of = KEN
 		buildings = {
