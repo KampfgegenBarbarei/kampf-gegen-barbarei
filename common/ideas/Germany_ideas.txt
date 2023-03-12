@@ -1,0 +1,105 @@
+ideas = {
+	country = {
+		GER_place_in_the_sun = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = 0.05
+				political_power_gain = 0.15
+			}
+		}
+		GER_kalterkrieg = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				radical_socialist_acceptance = -50
+				syndicalist_acceptance = -50
+				totalist_acceptance = -50
+			}
+		}
+		GER_second_parliamentarisation_wave = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.10
+				stability_weekly = 0.0025
+			}
+		}
+		GER_protestant_plurality = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				political_power_gain = -0.05
+			}
+		}
+		GER_reconstruction_1 = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.20
+				industrial_capacity_factory = -0.20
+				war_support_factor = -0.10
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		GER_general_staff = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_Factor = 0.05
+				planning_speed = 0.25
+			}
+		}
+	}
+}

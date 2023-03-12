@@ -135,21 +135,21 @@ give_guarantee = COS
 give_guarantee = DOM
 
 set_politics = {
-	ruling_party = authoritarian_democrat
-	last_election = "1932.3.8"
+	ruling_party = social_democrat
+	last_election = "1947.3.8"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	totalist = 1
-	radical_socialist = 3
-	syndicalist = 2
-	social_democrat = 22
-	social_liberal = 6
+	totalist = 0
+	radical_socialist = 0
+	syndicalist = 0
+	social_democrat = 45
+	social_liberal = 11
 	market_liberal = 3
-	social_conservative = 12
-	authoritarian_democrat = 42
+	social_conservative = 25
+	authoritarian_democrat = 7
 	paternal_autocrat = 7
 	national_populist = 2
 }
@@ -244,4 +244,15 @@ if = {
 		available_to_spy_master = yes
 		nationalities = { GER }
 	}
+}
+
+recruit_character = GER_wilhelm_iii
+
+add_ideas = {
+	GER_place_in_the_sun
+	GER_kalterkrieg
+	GER_second_parliamentarisation_wave
+	GER_protestant_plurality
+	GER_reconstruction_1
+	GER_general_staff
 }

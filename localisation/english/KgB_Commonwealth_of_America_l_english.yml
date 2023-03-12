@@ -10,11 +10,11 @@
     CSA_syndicalist_party:0 "Unionist Concord"
     CSA_radical_socialist_party:0 "Marxist Concord"
     CSA_social_democrat_party:0 "Moderate Concord"
-    CSA_social_liberal_party:0 "--"
-    CSA_market_liberal_party:0 "--"
-    CSA_social_conservative_party:0 "--"
-    CSA_authoritarian_democrat_party:0 "--"
-    CSA_paternal_autocrat_party:0 "--"
+    CSA_social_liberal_party:0 "Republican Party"
+    CSA_market_liberal_party:0 "Republican Party"
+    CSA_social_conservative_party:0 "Democratic Party"
+    CSA_authoritarian_democrat_party:0 "American First Party"
+    CSA_paternal_autocrat_party:0 "American First Party"
     CSA_national_populist_party:0 "Expetionalist Concord"
  
  ### Focuses ###
