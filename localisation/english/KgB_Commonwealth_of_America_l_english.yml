@@ -47,4 +47,18 @@
  radical_socialist_acceptance:0 "Radical Socialist Acceptance"
  totalist_acceptance:0 "Totalist Acceptance"
  syndicalist_acceptance:0 "Syndicalist Acceptance"
+ 
+ ### Events ###
+    america.1.desc:0 "The Council System is perhaps the biggest, and most important change that has occured under Flynn's leadership and has created a system of direct democracy that the CSA was fighting for throughout the war. The council system similar to that in France works with a series of council that decrease in power, with the most powerful being the local council that organizes neighborhoods and small towns town, then going onto the municipal council, then to the regional council then the state council then after that the interstate council and finally the executive council. Each of these decreases in power with the executive council being the lest powerful and the local council having the most power creating a bottom up system of direct democracy. This system has been the backbone of the Commonwealth of America, but still needs fine tuning with the state council's having been empowered during phase one of reconstruction creating a temporary unequal institution which must be corrected whould the dream of freedom and democracy continue."
+    america.1.title:0 "The Council System"
+    america.1.a:0 "A True Accomplishment"
+    america.2.title:0 "The Food Shortages"
+    america.2.desc:0 "The second revolution came at many costs, many lives were lost, and the nation was devistated. What was once a unitied nation became a bloody battleground that destroyed most of everything in the way, and that includes the farms. With such destruction and loss of life the farms have either been destroyed or are missing those who used to work them, this has caused untold devistation, and a great famine. These food shortages have gripped the entire nation from shore to shinging shore and although much work has already been done by Flynn and the executive council on mending these shortages and ending the famine, there is still work to do. Should action not be taken quickly then more lives will end, more people will go to bed hungry and the popularity of the revolution drop."
+    america.2.a:0 "A Terrible Truth"
+    america.3.title:0 "The Autonomous Districts"
+    america.3.desc:0 ""
+    america.3.a:0 "A Facinating, But Flawed Solution"
+    america.4.title:0 "The Loyalists"
+    america.4.desc:0 ""
+    america.4.a:0 "Revolutionary Counter Revolutionaries?"
 

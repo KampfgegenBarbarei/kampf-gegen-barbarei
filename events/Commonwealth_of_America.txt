@@ -1,0 +1,77 @@
+add_namespace = america
+
+country_event = { # The Council System
+	id = america.1 
+	title = america.1.title
+	desc = america.1.desc
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { # A True Accomplishment
+		name = america.1.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			
+		}
+	}
+}
+
+country_event = { # The Food Shortages
+	id = america.2
+	title = america.2.title
+	desc = america.2.desc
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { # A Terrible Truth
+		name = america.2.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			
+		}
+	}
+}
+
+country_event = { # The Autonomous Districts
+	id = america.3
+	title = america.3.title
+	desc = america.3.desc
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { # A Facinating, But Flawed Solution
+		name = america.3.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			
+		}
+	}
+}
+
+country_event = { # The Loyalists
+	id = america.4
+	title = america.4.title
+	desc = america.4.desc
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { # Revolutionary Counter Revolutionaries?
+		name = america.4.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			
+		}
+	}
+}

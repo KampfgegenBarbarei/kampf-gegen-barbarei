@@ -1,0 +1,103 @@
+add_namespace = africa
+
+news_event = { # Pan-African Liberation Front Forms
+	id = africa.1 
+	title = africa.1.title
+	desc = africa.1.desc
+	picture = GFX_
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	immediate = { 
+		ANG = { add_to_faction = GAB add_to_faction = CAR add_to_faction = KEN }
+			GAB = { declare_war_on = { target = MAF type = annex_everything } }
+			CAR = { declare_war_on = { target = MAF type = annex_everything } }
+			KEN = { declare_war_on = { target = MAF type = annex_everything } }
+			news_event = {
+				id - africa.2
+				days = 15
+			}
+	}
+	
+	is_triggered_only = yes
+	
+	option = { # The Great War of Liberation Has Begun
+		name = africa.1.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			
+		}
+	}
+}
+
+news_event = { # The Great African War
+	id = africa.2 
+	title = africa.2.title
+	desc = africa.2.desc
+	picture = GFX_
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	immediate = { 
+			UGA = { transfer_state = 548 }
+			MLW = { transfer_state = 871 }
+			MAD = { transfer_state = 543 }
+			COG = { transfer_state = 976 }
+			COG = { transfer_state = 538 }
+			CMR = { transfer_state = 927 }
+			CMR = { transfer_state = 952 }
+			CMR = { transfer_state = 962 }
+			CMR = { transfer_state = 971 }
+			XXA = { 
+				country_event = {
+					id = africa.3
+					days = 0
+				}
+			}
+	}
+	
+	is_triggered_only = yes
+	
+	option = { # The Age of Colonialism is Ending
+		name = africa.2.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			
+		}
+	}
+}
+
+country_event = { # african war declaring
+	id = africa.3
+	title = africa.3.title
+	desc = africa.3.desc
+	picture = GFX_
+	
+	fire_only_once = yes
+	
+	immediate = { 
+			ANG = { add_to_faction = UGA add_to_faction = MLW add_to_faction = MAD add_to_faction = CMR add_to_faction = COG }
+			UGA = { declare_war_on = { target = MAF type = annex_everything } }
+			MLW = { declare_war_on = { target = MAF type = annex_everything } }
+			MAD = { declare_war_on = { target = MAF type = annex_everything } }
+			COG = { declare_war_on = { target = MAF type = annex_everything } }
+			CMR = { declare_war_on = { target = MAF type = annex_everything } }
+			}
+	}
+	
+	is_triggered_only = yes
+	
+	
+	
+	option = { # 
+		name = africa.3.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			
+		}
+	}
+}

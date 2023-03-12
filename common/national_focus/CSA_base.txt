@@ -46,7 +46,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			add_political_power = 150
 		}
 	}
 	
@@ -85,7 +85,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = america.1
+				days = 0
+			}
 		}
 	}
 	
@@ -163,7 +166,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = america.2
+				days = 0
+			}
 		}
 	}
 	
@@ -361,7 +367,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = america.3
+				days = 0
+			}
 		}
 	}
 	
@@ -439,7 +448,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = america.4
+				days = 0
+			}
 		}
 	}
 	
