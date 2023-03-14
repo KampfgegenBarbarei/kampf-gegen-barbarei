@@ -52,9 +52,9 @@ replace_path="history/units"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 replace_path="portraits"
-version="1.11.*"
+version="1.12.*"
 tags={
 	"Alternative History"
 }
 name="kampf-gegen-barbarei"
-supported_version="1.11.*"
+supported_version="1.12.*"

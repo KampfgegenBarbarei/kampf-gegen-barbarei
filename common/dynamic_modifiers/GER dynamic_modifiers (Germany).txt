@@ -1,0 +1,9 @@
+GER_Trieste_autonomous_region = {
+	icon = "GFX_"
+	remove_trigger = {
+		NOT = { is_owned_by = GER }
+	}
+	local_building_slots_factor = -0.25
+	local_manpower = -0.25
+}
+

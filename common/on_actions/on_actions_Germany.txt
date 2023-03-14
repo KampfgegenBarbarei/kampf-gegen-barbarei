@@ -1,0 +1,9 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			488 = { #Trieste
+				add_dynamic_modifier = { modifier = GER_Trieste_autonomous_region }
+			}
+		}
+	}
+)
