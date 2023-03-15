@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	#GER
+	spriteType = {
+		name = "GFX_idea_GER_Trieste_Autonomy"
+		texturefile = "gfx/interface/ideas/GER_Trieste_Autonomy.png"
+	}
+}
