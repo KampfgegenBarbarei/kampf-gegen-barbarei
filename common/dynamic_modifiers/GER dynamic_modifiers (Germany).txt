@@ -1,5 +1,5 @@
 GER_Trieste_autonomous_region = {
-	icon = "GFX_"
+	icon = "GFX_idea_GER_Trieste_Autonomy"
 	remove_trigger = {
 		NOT = { is_owned_by = GER }
 	}
