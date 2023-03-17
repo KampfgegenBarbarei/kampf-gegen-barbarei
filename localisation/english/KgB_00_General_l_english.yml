@@ -82,7 +82,7 @@
 
 ### Autonomy Levels ###
  kr_integrated_puppet:0 "Integrated Puppet"
- kr_occupied_puppet:0 "Occupied Puppet"
+ kr_occupied_puppet:0 "Military Occupation Regime"
  kr_default_puppet:0 "Puppet"
  kr_autonomous_puppet:0 "Autonomous Puppet"
  kr_colonial_government:0 "Colonial Government"

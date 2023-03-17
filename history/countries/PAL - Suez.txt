@@ -61,15 +61,6 @@ FRA = {
 	}
 }
 
-ENG = {
-	give_guarantee = PAL
-	diplomatic_relation = {
-		country = PAL
-		relation = military_access
-		active = yes
-	}
-}
-
 HOL = {
 	give_guarantee = PAL
 	diplomatic_relation = {

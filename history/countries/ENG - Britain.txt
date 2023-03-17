@@ -125,7 +125,7 @@ if = {
 GER = {
 	set_autonomy = {
 		target = ENG
-		autonomy_state = kr_default_puppet
+		autonomy_state = kr_occupied_puppet
 	}
 }
 
