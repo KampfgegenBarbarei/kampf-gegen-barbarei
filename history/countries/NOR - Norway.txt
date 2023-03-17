@@ -94,13 +94,6 @@ set_convoys = 500
 
 set_war_support = 0.10
 
-GER = {
-	set_autonomy = {
-		target = NOR
-		autonomy_state = kr_default_puppet
-	}
-}
-
 set_politics = {
 	ruling_party = market_liberal
 	last_election = "1933.10.16"

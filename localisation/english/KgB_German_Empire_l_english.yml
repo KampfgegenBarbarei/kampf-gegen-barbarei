@@ -44,14 +44,14 @@
  GER_protestant_plurality_desc:0 "As the Habsburg Empire tore itself apart with infighting in 1937, the dream of a Greater Germany was realised with the integration of the Archduchy of Austria and the German Bohemians into the Empire. Despite this glorious news, it has led to the introduction of millions of Catholic Citizens into the voting bloc, diluting the Protestant Dominance of Germany and Prussia."
  GER_reconstruction_1:0 "Reconstruction of Europe"
  GER_reconstruction_1_desc:0 "As Europe recovers from its scars of war, it is up to Germany to lead the way in its reconstruction. We will attempt to rebuild the war-torn regions of France, Britain, Italy and Eastern Europe, modernise and de-syndicalise the industries of the continent, improve prosperity and prevent the tide of socialism from re-emerging."
- GER_general_staff:0 "German General Staff"
- GER_general_staff_desc:0 "Strongest in Europe"
+ GER_general_staff:0 "The Great General Staff"
+ GER_general_staff_desc:0 "Our Great General Staff, established in 1814, is unparalleled in the world. Slaying the French Beasts thrice in 1871, 1919 and 1941, putting the Perfidious Albion to rest in 1943, our General Staff has been the mastermind of it all. \n\nAdditionally, the General Staff is constitutionally enshrined to be autonomous and free from political interfering by the Reichstag. Many Conservative elements in the Army, especially the Aristocratic Junker Officers, have felt that the Parliamentarisation of Germany by the SPD has gone a step too far, and they may be working behind our backs to undermine our hard-earned reforms.."
  
  ### Ideology ###
  radical_socialist_acceptance:0 "Radical Socialist Acceptance"
  totalist_acceptance:0 "Totalist Acceptance"
  syndicalist_acceptance:0 "Syndicalist Acceptance"
- social_conservative_drift:0 "Daily Social Conservative Support"
+ social_conservative_drift:0 "Daily Zentrumspartei Support"
 
  ### Tooltips ###
  GER_Trieste_autonomous_region: "Autonomous Free City of Trieste\n§WA byproduct of German-Italian negotiations in 1943 regarding the status of the Archduchy of Austria, Trentino and lands up to the Isonzo Line were ceded to Italy while Trieste was declared an autonomous Free City for the Italian population residing there. In exchange, Italy would be re-united under the Savoyard Monarchy once more, join the Reichspakt and permanently cease all further territorial claims on German Austria."

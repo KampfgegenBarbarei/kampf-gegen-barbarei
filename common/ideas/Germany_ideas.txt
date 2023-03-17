@@ -1,6 +1,7 @@
 ideas = {
 	country = {
 		GER_place_in_the_sun = {
+			picture = GFX_idea_GER_place_in_the_sun
 			allowed = {
 				always = no
 			}
@@ -18,6 +19,7 @@ ideas = {
 			}
 		}
 		GER_kalterkrieg = {
+			picture = GFX_idea_GER_kalterkrieg
 			allowed = {
 				always = no
 			}
@@ -35,6 +37,7 @@ ideas = {
 			}
 		}
 		GER_second_parliamentarisation_wave = {
+			picture = GFX_idea_GER_second_parliamentarisation_wave
 			allowed = {
 				always = no
 			}
@@ -52,6 +55,7 @@ ideas = {
 			}
 		}
 		GER_protestant_plurality = {
+			picture = GFX_idea_GER_protestant_plurality
 			allowed = {
 				always = no
 			}
@@ -70,6 +74,7 @@ ideas = {
 			}
 		}
 		GER_reconstruction_1 = {
+			picture = GFX_idea_GER_reconstruction_1
 			allowed = {
 				always = no
 			}
@@ -88,6 +93,7 @@ ideas = {
 			}
 		}
 		GER_general_staff = {
+			picture = GFX_idea_GER_general_staff
 			allowed = {
 				always = no
 			}
@@ -99,8 +105,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				army_org_Factor = 0.05
-				planning_speed = 0.25
+				army_armor_attack_factor = 0.05
+				army_morale_factor = 0.10
+				command_power_gain_mult	= 0.10
+				stability_factor = -0.05
 			}
 		}
 	}

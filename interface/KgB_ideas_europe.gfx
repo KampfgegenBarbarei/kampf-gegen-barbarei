@@ -5,4 +5,28 @@ spriteTypes = {
 		name = "GFX_idea_GER_Trieste_Autonomy"
 		texturefile = "gfx/interface/ideas/GER_Trieste_Autonomy.png"
 	}
+	spriteType = {
+		name = "GFX_idea_GER_place_in_the_sun"
+		texturefile = "gfx/interface/ideas/GER_place_in_the_sun.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_kalterkrieg"
+		texturefile = "gfx/interface/ideas/GER_kalterkrieg.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_second_parliamentarisation_wave"
+		texturefile = "gfx/interface/ideas/GER_Reichsamt_idea.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_protestant_plurality"
+		texturefile = "gfx/interface/ideas/GER_protestant_plurality.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_reconstruction_1"
+		texturefile = "gfx/interface/ideas/GER_reconstruction.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_general_staff"
+		texturefile = "gfx/interface/ideas/GER_general_staff.png"
+	}
 }

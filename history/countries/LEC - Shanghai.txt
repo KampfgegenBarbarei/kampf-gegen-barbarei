@@ -30,7 +30,7 @@ set_war_support = 0.10
 JAP = {
 	set_autonomy = {
 		target = LEC
-		autonomy_state = kr_default_puppet
+		autonomy_state = kr_ottoman_international_zone
 	}
 }
 

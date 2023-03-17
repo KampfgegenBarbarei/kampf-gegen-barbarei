@@ -136,7 +136,7 @@ give_guarantee = DOM
 
 set_politics = {
 	ruling_party = social_democrat
-	last_election = "1947.3.8"
+	last_election = "1945.3.8"
 	election_frequency = 60
 	elections_allowed = yes
 }
