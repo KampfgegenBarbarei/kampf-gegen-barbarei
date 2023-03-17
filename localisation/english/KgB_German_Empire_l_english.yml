@@ -41,7 +41,7 @@
  GER_second_parliamentarisation_wave:0 "The Second Parliamentarisation Wave"
  GER_second_parliamentarisation_wave_desc:0 "Following the victorious conclusion to the Second Weltkrieg, the Social Democratic Party and its coalition will aim to complete the Parliamentarisation of the German Empire by abolishing the Three-Class voting system and ensuring the Chancellor is responsible to the Reichstag rather than the Kaiser. At last, Germany will be a representative Constitutional Monarchy with liberties for all its people."
  GER_protestant_plurality:0 "A Religious Plurality"
- GER_protestant_plurality_desc:0 "As the Habsburg Empire tore itself apart with infighting in 1937, the dream of a Greater Germany was realised with the integration of the Archduchy of Austria and the Kingdom of Bohemia into the Empire. Despite this glorious news, it has led to the introduction of millions of Catholic Citizens into the voting bloc, diluting the Protestant Dominance of Germany and Prussia."
+ GER_protestant_plurality_desc:0 "As the Habsburg Empire tore itself apart with infighting in 1937, the dream of a Greater Germany was realised with the integration of the Archduchy of Austria and the German Bohemians into the Empire. Despite this glorious news, it has led to the introduction of millions of Catholic Citizens into the voting bloc, diluting the Protestant Dominance of Germany and Prussia."
  GER_reconstruction_1:0 "Reconstruction of Europe"
  GER_reconstruction_1_desc:0 "As Europe recovers from its scars of war, it is up to Germany to lead the way in its reconstruction. We will attempt to rebuild the war-torn regions of France, Britain, Italy and Eastern Europe, modernise and de-syndicalise the industries of the continent, improve prosperity and prevent the tide of socialism from re-emerging."
  GER_general_staff:0 "German General Staff"
@@ -51,6 +51,7 @@
  radical_socialist_acceptance:0 "Radical Socialist Acceptance"
  totalist_acceptance:0 "Totalist Acceptance"
  syndicalist_acceptance:0 "Syndicalist Acceptance"
+ social_conservative_drift:0 "Daily Social Conservative Support"
 
  ### Tooltips ###
- GER_Trieste_autonomous_region: "Autonomous City of Trieste\n§WA byproduct of German-Italian negotiations in 1943 regarding the status of the Archduchy of Austria, Trentino and lands up to the Isonzo Line were ceded to Italy while Trieste was declared an autonomous Free City for the Italian population residing there. In exchange, Italy would be re-united under the Savoyard Monarchy once more, join the Reichspakt and permanently cease all further territorial claims on German Austria."
+ GER_Trieste_autonomous_region: "Autonomous Free City of Trieste\n§WA byproduct of German-Italian negotiations in 1943 regarding the status of the Archduchy of Austria, Trentino and lands up to the Isonzo Line were ceded to Italy while Trieste was declared an autonomous Free City for the Italian population residing there. In exchange, Italy would be re-united under the Savoyard Monarchy once more, join the Reichspakt and permanently cease all further territorial claims on German Austria."

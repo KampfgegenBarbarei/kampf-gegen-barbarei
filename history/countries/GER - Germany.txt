@@ -182,6 +182,7 @@ add_to_faction = GEO
 add_to_faction = AZR
 add_to_faction = POR
 add_to_faction = ICE
+add_to_faction = CZE
 
 # Mitteleuropa
 every_country = {
