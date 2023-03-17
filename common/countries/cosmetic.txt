@@ -437,3 +437,7 @@ LBA_ottos = {
 	color = rgb { 123 31 52 }
 	color_ui = rgb { 123 31 52 }
 }
+ENG_occupied = {
+	color = rgb { 141 131 137 }
+	color_ui = rgb { 141 131 137 }
+}
