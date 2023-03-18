@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_Germany_Kaiser_Wilhelm_III"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Kaiser_Wilhelm_III.png"
+	}
+}
