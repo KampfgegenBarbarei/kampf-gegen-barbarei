@@ -2,7 +2,6 @@
 set_research_slots = 3
 oob = "SER"
 set_war_support = 0.4
-set_cosmetic_tag = YUG_fed
 
 set_technology = {
 	### General ###
@@ -23,10 +22,10 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_liberal
+	ruling_party = paternal_autocrat
 	last_election = "1931.10.5"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
@@ -34,10 +33,10 @@ set_popularities = {
 	syndicalist = 2
 	radical_socialist = 15
 	social_democrat = 5
-	social_liberal = 31
-	market_liberal = 21
+	social_liberal = 11
+	market_liberal = 16
 	social_conservative = 4
 	authoritarian_democrat = 3
-	paternal_autocrat = 7
+	paternal_autocrat = 32
 	national_populist = 11
 }

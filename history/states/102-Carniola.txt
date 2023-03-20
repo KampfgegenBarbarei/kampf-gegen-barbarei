@@ -6,7 +6,7 @@ state = {
 	local_supplies = 5.0
 
 	history = {
-		owner = SER
+		owner = CRO
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -16,7 +16,7 @@ state = {
 			9627 10
 		}
 		add_core_of = SLV
-		add_core_of = SER
+		add_core_of = CRO
 		add_claim_by = GER
 	}
 
@@ -24,4 +24,3 @@ state = {
 		596 3631 6650 9596 9627
 	}
 }
-

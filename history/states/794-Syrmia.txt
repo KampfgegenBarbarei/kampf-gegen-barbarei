@@ -1,26 +1,29 @@
-state = {
-	id = 794
-	name = "STATE_794"
-	manpower = 246400
 
-	state_category = pastoral
+state={
+	id=794
+	name="STATE_794"
 
-	history = {
+	history={
 		owner = SER
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			11580 = {
 				bunker = 1
-			}
-		}
 
+			}
+
+		}
 		add_core_of = CRO
 		add_core_of = SER
+
 	}
 
-	provinces = {
-		11577 11580
+	provinces={
+		11580 
 	}
+	manpower=246400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }
-
