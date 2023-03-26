@@ -78,6 +78,10 @@ country_event = { #Angola War
 				id = Portugal.5
 				days = 47
 			}
+			country_event = {
+				id = africa.1
+				days = 4
+			}
 			ANG = { create_faction = PAN_AFRICAN_LIBERATION_FRONT }
 		}
 		add_manpower = -10000

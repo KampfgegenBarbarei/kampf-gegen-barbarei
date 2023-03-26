@@ -11,12 +11,11 @@ news_event = { # Pan-African Liberation Front Forms
 	fire_only_once = yes
 	
 	immediate = { 
-		ANG = { add_to_faction = GAB add_to_faction = CAR add_to_faction = KEN }
+		ANG = { add_to_faction = GAB }
 			GAB = { declare_war_on = { target = MAF type = annex_everything } }
-			CAR = { declare_war_on = { target = MAF type = annex_everything } }
-			KEN = { declare_war_on = { target = MAF type = annex_everything } }
+			GAB = { transfer_state = 539 }
 			news_event = {
-				id - africa.2
+				id = africa.2
 				days = 15
 			}
 	}
@@ -86,8 +85,13 @@ country_event = { # african war declaring
 			MAD = { declare_war_on = { target = MAF type = annex_everything } }
 			COG = { declare_war_on = { target = MAF type = annex_everything } }
 			CMR = { declare_war_on = { target = MAF type = annex_everything } }
+			XXA = { country_event = {
+					id = africa.4
+					days = 17
 			}
-	}
+			}
+			
+		}
 	
 	is_triggered_only = yes
 	
@@ -95,6 +99,34 @@ country_event = { # african war declaring
 	
 	option = { # 
 		name = africa.3.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			
+		}
+	}
+}
+
+country_event = { # release more countries
+	id = africa.4
+	title = africa.4.title
+	desc = africa.4.desc
+	picture = GFX_
+	
+	fire_only_once = yes
+	
+	immediate = { 
+			ANG = { add_to_faction = CAR add_to_faction = KEN }
+			CAR = { transfer_state = 660 }
+			KEN = { transfer_state = 892 }
+			}
+		
+	
+	is_triggered_only = yes
+	
+	
+	
+	option = { # 
+		name = africa.4.a
 		ai_chance = { factor = 100 }
 		hidden_effect = {
 			
