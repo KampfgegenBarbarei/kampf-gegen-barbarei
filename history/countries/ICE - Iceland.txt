@@ -32,6 +32,13 @@ if = {
 	}
 }
 
+DEN = {
+	set_autonomy = {
+		target = ICE
+		autonomy_state = kr_autonomous_puppet
+	}
+}
+
 set_politics = {
 	ruling_party = social_democrat
 	last_election = "1934.6.24"

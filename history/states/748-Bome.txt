@@ -6,9 +6,9 @@ state={
 	local_supplies = 0.5
 
 	history={
-		owner = CHI
+		owner = TIB
 		add_core_of = TIB
-		add_core_of = CHI
+		add_claim_by = CHI
 		add_claim_by = FNG
 		buildings = {
 			infrastructure = 1
